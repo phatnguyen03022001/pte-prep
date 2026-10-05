@@ -1,0 +1,46 @@
+{
+  "id": "retell-lecture-002",
+  "type": "retell-lecture",
+  "difficulty": "easy",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "pending-human-review"
+  },
+  "source": {
+    "provider": "original-authoring+piper-tts",
+    "url": null,
+    "license": "operator-owned original text; synthetic audio generated locally with Piper",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {
+    "audio": "audio.mp3"
+  },
+  "generation": {
+    "synthetic": true,
+    "method": "Piper TTS",
+    "model": "en_US-libritts-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/libritts/high",
+    "model_repository_license": "MIT",
+    "training_dataset": "LibriTTS train-clean-360",
+    "training_dataset_license": "CC BY 4.0"
+  },
+  "curation": {
+    "status": "pending-listening-review",
+    "note": "Synthetic audio passed machine integrity checks but still requires a human listening check for intelligibility and transcript alignment."
+  },
+  "content": {
+    "transcript": "Coastal wetlands can reduce flood damage by slowing waves and storing water during storms. They also provide habitat for fish and birds. However, roads and buildings can prevent wetlands from moving inland as sea levels rise. The speaker argues that protecting existing wetlands and leaving room for them to migrate are both important parts of coastal planning."
+  },
+  "answer": {
+    "key_points": [
+      "wetlands reduce flood damage",
+      "provide habitat",
+      "development can block inland migration",
+      "protection and migration space are both needed"
+    ],
+    "guidance": "Retell the topic, the main explanation, and the conclusion using your own connected sentences."
+  }
+}

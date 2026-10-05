@@ -1,0 +1,37 @@
+{
+  "id": "describe-image-009",
+  "type": "describe-image",
+  "difficulty": "hard",
+  "split": "mock-a",
+  "review": {
+    "content": "machine-validated",
+    "media": "pending-human-review"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {
+    "image": "image.svg"
+  },
+  "content": {
+    "prompt": "Describe the image.",
+    "reference_facts": [
+      "Illustration of a city park.",
+      "Three trees, a bench and a person are visible.",
+      "The scene suggests an outdoor public space."
+    ],
+    "image_kind": "original-svg"
+  },
+  "answer": {
+    "guidance": "State the image type or scene, identify the main pattern, and support it with two or three visible details. Do not invent causes or hidden information."
+  },
+  "curation": {
+    "status": "pending-visual-review",
+    "note": "Original SVG passed XML/file integrity checks but still requires human visual review."
+  }
+}

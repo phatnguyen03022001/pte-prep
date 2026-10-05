@@ -1,0 +1,45 @@
+{
+  "id": "summarize-spoken-text-002",
+  "type": "summarize-spoken-text",
+  "difficulty": "easy",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "pending-human-review"
+  },
+  "source": {
+    "provider": "original-authoring+piper-tts",
+    "url": null,
+    "license": "operator-owned original text; synthetic audio generated locally with Piper",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {
+    "audio": "audio.mp3"
+  },
+  "generation": {
+    "synthetic": true,
+    "method": "Piper TTS",
+    "model": "en_US-libritts-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/libritts/high",
+    "model_repository_license": "MIT",
+    "training_dataset": "LibriTTS train-clean-360",
+    "training_dataset_license": "CC BY 4.0"
+  },
+  "curation": {
+    "status": "pending-listening-review",
+    "note": "Synthetic audio passed machine integrity checks but still requires a human listening check for intelligibility and transcript alignment."
+  },
+  "content": {
+    "transcript": "Urban farming can bring food production closer to consumers and make unused spaces productive. Rooftops, balconies, and small community plots can all contribute, but yields are limited by space, sunlight, water, and maintenance. The speaker argues that urban farming is best viewed as a useful supplement to regional agriculture rather than a complete replacement for it."
+  },
+  "answer": {
+    "key_points": [
+      "urban farming uses city spaces",
+      "space and resources limit yield",
+      "it supplements rather than replaces wider agriculture"
+    ],
+    "guidance": "Write 50–70 words that preserve the topic, main relationships and conclusion without adding outside information."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "read-aloud-008",
+  "type": "read-aloud",
+  "difficulty": "hard",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "prompt": "Climate records become more useful when observations are collected consistently over long periods. A single hot afternoon cannot establish a long-term trend, but decades of temperature, rainfall, and ocean measurements allow scientists to compare patterns and test explanations for environmental change."
+  },
+  "answer": {
+    "guidance": "Read the prompt exactly. Preserve the words and phrasing; pronunciation and oral fluency require an actual learner recording for evaluation."
+  }
+}

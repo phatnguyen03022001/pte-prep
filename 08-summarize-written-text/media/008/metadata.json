@@ -1,0 +1,25 @@
+{
+  "id": "summarize-written-text-008",
+  "type": "summarize-written-text",
+  "difficulty": "hard",
+  "split": "mock-b",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "Scientific replication involves repeating or independently testing earlier work to see whether findings remain consistent. Differences do not automatically prove that the original study was wrong because methods, samples, and conditions may vary. Replication is valuable because it reveals which findings are robust and where explanations need refinement."
+  },
+  "answer": {
+    "illustrative_response": "Replication tests whether scientific findings remain consistent, and although differences may reflect methods or conditions rather than simple error, repeated studies help identify robust results and improve explanations."
+  }
+}

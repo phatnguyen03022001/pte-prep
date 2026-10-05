@@ -1,0 +1,35 @@
+{
+  "id": "reading-multiple-choice-multiple-answers-001",
+  "type": "reading-multiple-choice-multiple-answers",
+  "difficulty": "medium",
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "The city library will open one study room until 9 pm on weekdays. Weekend hours will remain unchanged. Students can use desks and computers, but book borrowing will stop at 6 pm.",
+    "question": "Which statements are supported by the passage?",
+    "options": {
+      "A": "A study room will be available until 9 pm on weekdays.",
+      "B": "Weekend opening hours will be extended.",
+      "C": "Book borrowing ends before study-room access.",
+      "D": "All library services will operate until 9 pm."
+    }
+  },
+  "answer": {
+    "keys": [
+      "A",
+      "C"
+    ]
+  },
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  }
+}

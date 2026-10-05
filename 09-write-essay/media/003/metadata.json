@@ -1,0 +1,25 @@
+{
+  "id": "write-essay-003",
+  "type": "write-essay",
+  "difficulty": "easy",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "prompt": "Many cities are considering restrictions on private cars in busy central areas. Discuss the advantages and disadvantages of this approach."
+  },
+  "answer": {
+    "guidance": "Write 200–300 words, answer every part of the prompt, develop a clear position with relevant reasons and examples, and check grammar, vocabulary, spelling and coherence."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "write-essay-005",
+  "type": "write-essay",
+  "difficulty": "medium",
+  "split": "mock-b",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "prompt": "Governments should spend more money preventing health problems rather than treating illness after it occurs. Do you agree or disagree?"
+  },
+  "answer": {
+    "guidance": "Write 200–300 words, answer every part of the prompt, develop a clear position with relevant reasons and examples, and check grammar, vocabulary, spelling and coherence."
+  }
+}

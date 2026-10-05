@@ -1,0 +1,47 @@
+{
+  "id": "highlight-incorrect-words-010",
+  "type": "highlight-incorrect-words",
+  "difficulty": "medium",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "pending-human-review"
+  },
+  "source": {
+    "provider": "original-authoring+piper-tts",
+    "url": null,
+    "license": "operator-owned original text; synthetic audio generated locally with Piper",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {
+    "audio": "audio.mp3"
+  },
+  "content": {
+    "transcript": "Students should submit the form before the end of Friday.",
+    "displayed_text": "Students should submit the form before the end of Monday."
+  },
+  "answer": {
+    "incorrect_displayed_words": [
+      {
+        "token_index": 9,
+        "displayed": "monday",
+        "heard": "friday"
+      }
+    ]
+  },
+  "generation": {
+    "synthetic": true,
+    "method": "Piper TTS",
+    "model": "en_US-libritts-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/libritts/high",
+    "model_repository_license": "MIT",
+    "training_dataset": "LibriTTS train-clean-360",
+    "training_dataset_license": "CC BY 4.0"
+  },
+  "curation": {
+    "status": "pending-listening-review",
+    "note": "Synthetic audio passed machine integrity/timing checks but still requires a human listening check for intelligibility and transcript alignment."
+  }
+}

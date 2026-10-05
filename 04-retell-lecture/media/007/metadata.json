@@ -1,0 +1,46 @@
+{
+  "id": "retell-lecture-007",
+  "type": "retell-lecture",
+  "difficulty": "medium",
+  "split": "mock-a",
+  "review": {
+    "content": "machine-validated",
+    "media": "pending-human-review"
+  },
+  "source": {
+    "provider": "original-authoring+piper-tts",
+    "url": null,
+    "license": "operator-owned original text; synthetic audio generated locally with Piper",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {
+    "audio": "audio.mp3"
+  },
+  "generation": {
+    "synthetic": true,
+    "method": "Piper TTS",
+    "model": "en_US-libritts-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/libritts/high",
+    "model_repository_license": "MIT",
+    "training_dataset": "LibriTTS train-clean-360",
+    "training_dataset_license": "CC BY 4.0"
+  },
+  "curation": {
+    "status": "pending-listening-review",
+    "note": "Synthetic audio passed machine integrity checks but still requires a human listening check for intelligibility and transcript alignment."
+  },
+  "content": {
+    "transcript": "Public spaces influence how people move and interact in cities. Wide pavements, seating, shade, and safe crossings can make streets more comfortable for walking. The lecture notes that successful public space design must consider children, older adults, and people with disabilities rather than assuming one typical user."
+  },
+  "answer": {
+    "key_points": [
+      "public space affects movement and interaction",
+      "design features support walking",
+      "multiple user groups must be considered",
+      "accessibility matters"
+    ],
+    "guidance": "Retell the topic, the main explanation, and the conclusion using your own connected sentences."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "respond-to-a-situation-008",
+  "type": "respond-to-a-situation",
+  "difficulty": "hard",
+  "split": "mock-b",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "prompt": "You booked a study room for four people, but two additional classmates now need to join. Speak to library staff, explain the change, and ask whether a larger room is available."
+  },
+  "answer": {
+    "guidance": "Address the correct person directly, cover every requested action, preserve factual constraints, and use an appropriate level of politeness."
+  }
+}

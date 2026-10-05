@@ -1,0 +1,25 @@
+{
+  "id": "read-aloud-018",
+  "type": "read-aloud",
+  "difficulty": "hard",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "prompt": "Water conservation includes both reducing unnecessary use and improving the efficiency of essential activities. Households can repair leaks, industries can reuse water, and farms can adopt more precise irrigation. The best approach depends on local climate, infrastructure, and the needs of different users."
+  },
+  "answer": {
+    "guidance": "Read the prompt exactly. Preserve the words and phrasing; pronunciation and oral fluency require an actual learner recording for evaluation."
+  }
+}

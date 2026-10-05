@@ -1,0 +1,25 @@
+{
+  "id": "respond-to-a-situation-005",
+  "type": "respond-to-a-situation",
+  "difficulty": "medium",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "prompt": "You borrowed a laboratory coat from a classmate and accidentally left it at home. Speak to your classmate, apologise, and explain how you will return it before the next lab."
+  },
+  "answer": {
+    "guidance": "Address the correct person directly, cover every requested action, preserve factual constraints, and use an appropriate level of politeness."
+  }
+}

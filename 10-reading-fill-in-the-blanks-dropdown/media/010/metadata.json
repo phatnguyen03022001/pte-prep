@@ -1,0 +1,46 @@
+{
+  "id": "reading-fill-in-the-blanks-dropdown-010",
+  "type": "reading-fill-in-the-blanks-dropdown",
+  "difficulty": "medium",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "Clear instructions help participants ___ the task and avoid unnecessary ___.",
+    "gaps": [
+      {
+        "id": "g1",
+        "options": [
+          "understand",
+          "understanding",
+          "understood",
+          "understandable"
+        ]
+      },
+      {
+        "id": "g2",
+        "options": [
+          "errors",
+          "erroneous",
+          "err",
+          "erroring"
+        ]
+      }
+    ]
+  },
+  "answer": {
+    "g1": "understand",
+    "g2": "errors"
+  }
+}

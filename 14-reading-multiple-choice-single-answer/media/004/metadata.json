@@ -1,0 +1,32 @@
+{
+  "id": "reading-multiple-choice-single-answer-004",
+  "type": "reading-multiple-choice-single-answer",
+  "difficulty": "medium",
+  "split": "mock-b",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "A university shortened some administrative forms after students reported that instructions were repetitive and difficult to follow. Completion errors fell during the following semester.",
+    "question": "What was the result of simplifying the forms?",
+    "options": {
+      "A": "More completion errors.",
+      "B": "Fewer completion errors.",
+      "C": "Longer instructions.",
+      "D": "Higher tuition fees."
+    }
+  },
+  "answer": {
+    "key": "B"
+  }
+}

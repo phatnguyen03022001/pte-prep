@@ -1,0 +1,25 @@
+{
+  "id": "read-aloud-013",
+  "type": "read-aloud",
+  "difficulty": "easy",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "prompt": "Small businesses often operate with limited staff and budgets, so simple processes can have a large effect on productivity. Clear records, predictable routines, and reliable communication reduce avoidable mistakes. Technology is most useful when it solves a specific problem instead of adding unnecessary complexity."
+  },
+  "answer": {
+    "guidance": "Read the prompt exactly. Preserve the words and phrasing; pronunciation and oral fluency require an actual learner recording for evaluation."
+  }
+}

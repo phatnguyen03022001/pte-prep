@@ -1,0 +1,46 @@
+{
+  "id": "retell-lecture-005",
+  "type": "retell-lecture",
+  "difficulty": "medium",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "pending-human-review"
+  },
+  "source": {
+    "provider": "original-authoring+piper-tts",
+    "url": null,
+    "license": "operator-owned original text; synthetic audio generated locally with Piper",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {
+    "audio": "audio.mp3"
+  },
+  "generation": {
+    "synthetic": true,
+    "method": "Piper TTS",
+    "model": "en_US-libritts-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/libritts/high",
+    "model_repository_license": "MIT",
+    "training_dataset": "LibriTTS train-clean-360",
+    "training_dataset_license": "CC BY 4.0"
+  },
+  "curation": {
+    "status": "pending-listening-review",
+    "note": "Synthetic audio passed machine integrity checks but still requires a human listening check for intelligibility and transcript alignment."
+  },
+  "content": {
+    "transcript": "Food waste occurs at farms, shops, restaurants, and homes. Some losses are caused by poor storage, while others happen because edible food is rejected for appearance or bought in excessive quantities. The lecture argues that reducing waste requires different solutions at each stage rather than one universal policy."
+  },
+  "answer": {
+    "key_points": [
+      "food waste occurs across supply chain",
+      "storage causes some losses",
+      "appearance and overbuying also matter",
+      "solutions must vary by stage"
+    ],
+    "guidance": "Retell the topic, the main explanation, and the conclusion using your own connected sentences."
+  }
+}

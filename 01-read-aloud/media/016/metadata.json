@@ -1,0 +1,25 @@
+{
+  "id": "read-aloud-016",
+  "type": "read-aloud",
+  "difficulty": "medium",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "prompt": "Universities increasingly encourage collaboration between different academic fields. Complex problems such as climate adaptation, public health, and artificial intelligence may require technical knowledge as well as social, legal, and economic perspectives. Interdisciplinary work can therefore reveal solutions that one field might overlook."
+  },
+  "answer": {
+    "guidance": "Read the prompt exactly. Preserve the words and phrasing; pronunciation and oral fluency require an actual learner recording for evaluation."
+  }
+}

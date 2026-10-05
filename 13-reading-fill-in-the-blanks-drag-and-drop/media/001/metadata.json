@@ -1,0 +1,34 @@
+{
+  "id": "reading-fill-in-the-blanks-drag-and-drop-001",
+  "type": "reading-fill-in-the-blanks-drag-and-drop",
+  "difficulty": "medium",
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "Yesterday, the team ___ a survey to ___ customer needs.",
+    "word_bank": [
+      "conducted",
+      "identify",
+      "conduct",
+      "identification"
+    ]
+  },
+  "answer": {
+    "gaps": [
+      "conducted",
+      "identify"
+    ]
+  },
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  }
+}

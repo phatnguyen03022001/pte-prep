@@ -1,0 +1,35 @@
+{
+  "id": "reorder-paragraph-012",
+  "type": "reorder-paragraph",
+  "difficulty": "easy",
+  "split": "mock-b",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "blocks": {
+      "A": "The archive team created a high-resolution digital copy of each page.",
+      "B": "Fragile documents were first examined for damage.",
+      "C": "The digital files were then named and linked to catalogue records.",
+      "D": "Only documents safe enough to handle were moved to the scanning station."
+    }
+  },
+  "answer": {
+    "order": [
+      "B",
+      "D",
+      "A",
+      "C"
+    ]
+  }
+}

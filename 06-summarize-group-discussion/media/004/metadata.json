@@ -1,0 +1,58 @@
+{
+  "id": "summarize-group-discussion-004",
+  "type": "summarize-group-discussion",
+  "difficulty": "medium",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "pending-human-review"
+  },
+  "source": {
+    "provider": "original-authoring+piper-tts",
+    "url": null,
+    "license": "operator-owned original text; synthetic audio generated locally with Piper",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {
+    "audio": "audio.mp3"
+  },
+  "generation": {
+    "synthetic": true,
+    "method": "Piper TTS",
+    "model": "en_US-libritts-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/libritts/high",
+    "model_repository_license": "MIT",
+    "training_dataset": "LibriTTS train-clean-360",
+    "training_dataset_license": "CC BY 4.0"
+  },
+  "curation": {
+    "status": "pending-listening-review",
+    "note": "Synthetic audio passed machine integrity checks but still requires a human listening check for intelligibility and transcript alignment."
+  },
+  "content": {
+    "speakers": [
+      {
+        "speaker": 1,
+        "text": "Recorded lectures are useful when students miss class or need to review difficult material."
+      },
+      {
+        "speaker": 2,
+        "text": "They help with review, but students may participate less if they think attendance is optional."
+      },
+      {
+        "speaker": 3,
+        "text": "We should keep recordings while designing classes that still reward discussion and active participation."
+      }
+    ]
+  },
+  "answer": {
+    "key_points": [
+      "recordings help review",
+      "possible attendance/participation downside",
+      "keep recordings with active-class design"
+    ],
+    "guidance": "Summarise the shared topic, attribute each main view correctly, and explain agreement or disagreement where present."
+  }
+}

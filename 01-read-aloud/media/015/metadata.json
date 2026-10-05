@@ -1,0 +1,25 @@
+{
+  "id": "read-aloud-015",
+  "type": "read-aloud",
+  "difficulty": "medium",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "prompt": "Regular physical activity benefits the heart, muscles, and overall health. Exercise does not need to be extreme to be useful; walking, cycling, swimming, and other moderate activities can contribute to fitness. A sustainable routine is often more valuable than an intense programme that quickly stops."
+  },
+  "answer": {
+    "guidance": "Read the prompt exactly. Preserve the words and phrasing; pronunciation and oral fluency require an actual learner recording for evaluation."
+  }
+}

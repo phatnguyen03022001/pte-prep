@@ -1,0 +1,25 @@
+{
+  "id": "summarize-written-text-002",
+  "type": "summarize-written-text",
+  "difficulty": "easy",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "Urban heat can be intensified by dark roofs, paved surfaces, and limited vegetation. Trees and shaded areas may reduce local temperatures, while reflective materials can reduce heat absorption. However, no single measure works equally well everywhere, so cities need to combine design choices with local climate data and maintenance capacity."
+  },
+  "answer": {
+    "illustrative_response": "Cities can reduce urban heat through vegetation, shade and reflective materials, but effective strategies should combine several measures and account for local climate and maintenance capacity."
+  }
+}

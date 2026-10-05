@@ -1,0 +1,46 @@
+{
+  "id": "reading-fill-in-the-blanks-dropdown-002",
+  "type": "reading-fill-in-the-blanks-dropdown",
+  "difficulty": "easy",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "The committee decided to ___ the proposal before making a final ___.",
+    "gaps": [
+      {
+        "id": "g1",
+        "options": [
+          "review",
+          "reviewed",
+          "reviewing",
+          "revision"
+        ]
+      },
+      {
+        "id": "g2",
+        "options": [
+          "decision",
+          "decide",
+          "decisive",
+          "deciding"
+        ]
+      }
+    ]
+  },
+  "answer": {
+    "g1": "review",
+    "g2": "decision"
+  }
+}

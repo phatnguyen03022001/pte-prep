@@ -1,0 +1,34 @@
+{
+  "id": "reading-fill-in-the-blanks-drag-and-drop-025",
+  "type": "reading-fill-in-the-blanks-drag-and-drop",
+  "difficulty": "medium",
+  "split": "mock-b",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "The project must ___ within budget and ___ all safety requirements.",
+    "word_bank": [
+      "remain",
+      "meet",
+      "remainder",
+      "meeting"
+    ]
+  },
+  "answer": {
+    "gaps": [
+      "remain",
+      "meet"
+    ]
+  }
+}

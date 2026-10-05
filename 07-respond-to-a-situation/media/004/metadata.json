@@ -1,0 +1,25 @@
+{
+  "id": "respond-to-a-situation-004",
+  "type": "respond-to-a-situation",
+  "difficulty": "medium",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "prompt": "Your neighbour is playing loud music late at night and you have an early exam tomorrow. Speak to your neighbour politely, explain the situation, and ask for a practical change."
+  },
+  "answer": {
+    "guidance": "Address the correct person directly, cover every requested action, preserve factual constraints, and use an appropriate level of politeness."
+  }
+}

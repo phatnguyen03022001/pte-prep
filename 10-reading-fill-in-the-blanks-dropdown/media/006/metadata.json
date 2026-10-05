@@ -1,0 +1,46 @@
+{
+  "id": "reading-fill-in-the-blanks-dropdown-006",
+  "type": "reading-fill-in-the-blanks-dropdown",
+  "difficulty": "medium",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "The museum uses controlled lighting to ___ fragile objects from unnecessary ___.",
+    "gaps": [
+      {
+        "id": "g1",
+        "options": [
+          "protect",
+          "protection",
+          "protective",
+          "protected"
+        ]
+      },
+      {
+        "id": "g2",
+        "options": [
+          "exposure",
+          "expose",
+          "exposed",
+          "exposing"
+        ]
+      }
+    ]
+  },
+  "answer": {
+    "g1": "protect",
+    "g2": "exposure"
+  }
+}

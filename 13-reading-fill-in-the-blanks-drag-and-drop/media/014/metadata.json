@@ -1,0 +1,34 @@
+{
+  "id": "reading-fill-in-the-blanks-drag-and-drop-014",
+  "type": "reading-fill-in-the-blanks-drag-and-drop",
+  "difficulty": "medium",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "Students can ___ vocabulary more effectively when they ___ new words in context.",
+    "word_bank": [
+      "remember",
+      "encounter",
+      "memory",
+      "encountered"
+    ]
+  },
+  "answer": {
+    "gaps": [
+      "remember",
+      "encounter"
+    ]
+  }
+}

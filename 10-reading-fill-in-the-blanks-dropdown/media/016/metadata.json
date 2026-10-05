@@ -1,0 +1,46 @@
+{
+  "id": "reading-fill-in-the-blanks-dropdown-016",
+  "type": "reading-fill-in-the-blanks-dropdown",
+  "difficulty": "medium",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "Farmers can ___ soil erosion by keeping the ground ___ with vegetation.",
+    "gaps": [
+      {
+        "id": "g1",
+        "options": [
+          "limit",
+          "limitation",
+          "limited",
+          "limiting"
+        ]
+      },
+      {
+        "id": "g2",
+        "options": [
+          "covered",
+          "cover",
+          "covering",
+          "coverage"
+        ]
+      }
+    ]
+  },
+  "answer": {
+    "g1": "limit",
+    "g2": "covered"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "retell-lecture-008",
+  "type": "retell-lecture",
+  "difficulty": "hard",
+  "split": "mock-b",
+  "review": {
+    "content": "machine-validated",
+    "media": "pending-human-review"
+  },
+  "source": {
+    "provider": "original-authoring+piper-tts",
+    "url": null,
+    "license": "operator-owned original text; synthetic audio generated locally with Piper",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {
+    "audio": "audio.mp3"
+  },
+  "generation": {
+    "synthetic": true,
+    "method": "Piper TTS",
+    "model": "en_US-libritts-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/libritts/high",
+    "model_repository_license": "MIT",
+    "training_dataset": "LibriTTS train-clean-360",
+    "training_dataset_license": "CC BY 4.0"
+  },
+  "curation": {
+    "status": "pending-listening-review",
+    "note": "Synthetic audio passed machine integrity checks but still requires a human listening check for intelligibility and transcript alignment."
+  },
+  "content": {
+    "transcript": "Language changes as communities adopt new technologies, social habits, and cultural influences. New words may spread quickly, while older expressions can change meaning or become less common. The speaker explains that change is a normal feature of living languages and does not necessarily indicate declining quality."
+  },
+  "answer": {
+    "key_points": [
+      "languages change over time",
+      "technology and culture influence vocabulary",
+      "meanings can shift",
+      "change is normal rather than decline"
+    ],
+    "guidance": "Retell the topic, the main explanation, and the conclusion using your own connected sentences."
+  }
+}

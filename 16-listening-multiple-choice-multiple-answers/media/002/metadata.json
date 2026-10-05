@@ -1,0 +1,50 @@
+{
+  "id": "listening-multiple-choice-multiple-answers-002",
+  "type": "listening-multiple-choice-multiple-answers",
+  "difficulty": "easy",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "pending-human-review"
+  },
+  "source": {
+    "provider": "original-authoring+piper-tts",
+    "url": null,
+    "license": "operator-owned original text; synthetic audio generated locally with Piper",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {
+    "audio": "audio.mp3"
+  },
+  "generation": {
+    "synthetic": true,
+    "method": "Piper TTS",
+    "model": "en_US-libritts-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/libritts/high",
+    "model_repository_license": "MIT",
+    "training_dataset": "LibriTTS train-clean-360",
+    "training_dataset_license": "CC BY 4.0"
+  },
+  "curation": {
+    "status": "pending-listening-review",
+    "note": "Synthetic audio passed machine integrity checks but still requires a human listening check for intelligibility and transcript alignment."
+  },
+  "content": {
+    "transcript": "The department will offer two statistics workshops next week. The Tuesday session is for beginners, while Thursday assumes previous experience. Both require advance registration, and neither has an attendance fee.",
+    "question": "Which statements are announced?",
+    "options": {
+      "A": "There are two workshops.",
+      "B": "Both sessions are for beginners.",
+      "C": "Registration is required.",
+      "D": "Students must pay an attendance fee."
+    }
+  },
+  "answer": {
+    "keys": [
+      "A",
+      "C"
+    ]
+  }
+}

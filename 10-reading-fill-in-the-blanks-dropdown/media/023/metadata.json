@@ -1,0 +1,46 @@
+{
+  "id": "reading-fill-in-the-blanks-dropdown-023",
+  "type": "reading-fill-in-the-blanks-dropdown",
+  "difficulty": "easy",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "Good insulation can ___ heat loss and make buildings more energy ___.",
+    "gaps": [
+      {
+        "id": "g1",
+        "options": [
+          "reduce",
+          "reduction",
+          "reduced",
+          "reducing"
+        ]
+      },
+      {
+        "id": "g2",
+        "options": [
+          "efficient",
+          "efficiency",
+          "efficiently",
+          "efficiencies"
+        ]
+      }
+    ]
+  },
+  "answer": {
+    "g1": "reduce",
+    "g2": "efficient"
+  }
+}

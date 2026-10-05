@@ -1,0 +1,46 @@
+{
+  "id": "reading-fill-in-the-blanks-dropdown-004",
+  "type": "reading-fill-in-the-blanks-dropdown",
+  "difficulty": "medium",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "The new policy aims to ___ energy use without ___ essential services.",
+    "gaps": [
+      {
+        "id": "g1",
+        "options": [
+          "reduce",
+          "reduction",
+          "reduced",
+          "reducing"
+        ]
+      },
+      {
+        "id": "g2",
+        "options": [
+          "affecting",
+          "affected",
+          "effect",
+          "affection"
+        ]
+      }
+    ]
+  },
+  "answer": {
+    "g1": "reduce",
+    "g2": "affecting"
+  }
+}

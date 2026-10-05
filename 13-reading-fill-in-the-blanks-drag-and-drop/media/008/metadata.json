@@ -1,0 +1,34 @@
+{
+  "id": "reading-fill-in-the-blanks-drag-and-drop-008",
+  "type": "reading-fill-in-the-blanks-drag-and-drop",
+  "difficulty": "hard",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "Farmers can ___ water by using sensors to ___ soil moisture.",
+    "word_bank": [
+      "save",
+      "monitor",
+      "saving",
+      "monitoring"
+    ]
+  },
+  "answer": {
+    "gaps": [
+      "save",
+      "monitor"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "reading-multiple-choice-multiple-answers-004",
+  "type": "reading-multiple-choice-multiple-answers",
+  "difficulty": "medium",
+  "split": "mock-b",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "Researchers compared two study groups using the same material. One group took short breaks every forty minutes, while the other studied continuously. The break group remembered more information the next day, although the experiment was small.",
+    "question": "Which statements are supported?",
+    "options": {
+      "A": "Both groups used the same material.",
+      "B": "The continuous group remembered more.",
+      "C": "The break group performed better the next day.",
+      "D": "The study proves breaks help every learner."
+    }
+  },
+  "answer": {
+    "keys": [
+      "A",
+      "C"
+    ]
+  }
+}

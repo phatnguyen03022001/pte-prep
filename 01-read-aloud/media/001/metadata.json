@@ -1,0 +1,25 @@
+{
+  "id": "read-aloud-001",
+  "type": "read-aloud",
+  "difficulty": "medium",
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "prompt": "Public transport can reduce traffic congestion when services are frequent, reliable, and easy to reach. Cities that connect buses and trains effectively can also improve access to education and employment."
+  },
+  "answer": {
+    "guidance": "Read the prompt exactly. Preserve words and phrasing; pronunciation and oral fluency require an actual recording for review."
+  },
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  }
+}

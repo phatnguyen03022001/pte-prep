@@ -1,0 +1,35 @@
+{
+  "id": "reading-multiple-choice-multiple-answers-002",
+  "type": "reading-multiple-choice-multiple-answers",
+  "difficulty": "easy",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "A university trialled later library opening during exams. Attendance after 8 pm was highest from Monday to Thursday, while Friday demand remained low. Students mainly used quiet study areas rather than borrowing services.",
+    "question": "Which statements are supported?",
+    "options": {
+      "A": "Late-night attendance was strongest early in the working week.",
+      "B": "Friday had the highest demand.",
+      "C": "Quiet study areas were heavily used.",
+      "D": "Borrowing services were the main reason students stayed late."
+    }
+  },
+  "answer": {
+    "keys": [
+      "A",
+      "C"
+    ]
+  }
+}

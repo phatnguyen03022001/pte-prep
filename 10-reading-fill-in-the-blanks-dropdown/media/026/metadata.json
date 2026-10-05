@@ -1,0 +1,46 @@
+{
+  "id": "reading-fill-in-the-blanks-dropdown-026",
+  "type": "reading-fill-in-the-blanks-dropdown",
+  "difficulty": "medium",
+  "split": "mock-a",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "Students can ___ their understanding by applying the theory to practical ___.",
+    "gaps": [
+      {
+        "id": "g1",
+        "options": [
+          "strengthen",
+          "strength",
+          "strong",
+          "strongly"
+        ]
+      },
+      {
+        "id": "g2",
+        "options": [
+          "examples",
+          "exampled",
+          "exemplify",
+          "exemplary"
+        ]
+      }
+    ]
+  },
+  "answer": {
+    "g1": "strengthen",
+    "g2": "examples"
+  }
+}

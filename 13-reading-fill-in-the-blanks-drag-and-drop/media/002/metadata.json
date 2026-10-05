@@ -1,0 +1,34 @@
+{
+  "id": "reading-fill-in-the-blanks-drag-and-drop-002",
+  "type": "reading-fill-in-the-blanks-drag-and-drop",
+  "difficulty": "easy",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "The university plans to ___ its recycling programme and ___ clearer signs near collection points.",
+    "word_bank": [
+      "expand",
+      "install",
+      "expansion",
+      "installed"
+    ]
+  },
+  "answer": {
+    "gaps": [
+      "expand",
+      "install"
+    ]
+  }
+}

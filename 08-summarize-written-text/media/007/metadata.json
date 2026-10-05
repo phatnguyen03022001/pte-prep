@@ -1,0 +1,25 @@
+{
+  "id": "summarize-written-text-007",
+  "type": "summarize-written-text",
+  "difficulty": "medium",
+  "split": "mock-a",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "Electric bicycles can make longer trips or steep routes easier for people who might not use a conventional bicycle. They still require safe infrastructure, secure parking, and appropriate rules for speed and shared paths. Their benefits therefore depend partly on the wider transport environment in which they are used."
+  },
+  "answer": {
+    "illustrative_response": "Electric bicycles can make cycling accessible for longer or steeper trips, but their benefits depend on safe infrastructure, secure parking and suitable rules within the wider transport system."
+  }
+}

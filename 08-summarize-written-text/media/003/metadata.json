@@ -1,0 +1,25 @@
+{
+  "id": "summarize-written-text-003",
+  "type": "summarize-written-text",
+  "difficulty": "easy",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "Universities increasingly provide digital textbooks because they are easy to distribute and search. Students can carry many texts on one device, but long screen time may be uncomfortable and access depends on reliable hardware. Many institutions therefore keep both digital and printed options rather than replacing one format completely."
+  },
+  "answer": {
+    "illustrative_response": "Digital textbooks offer portability and search advantages, but because screen comfort and device access remain concerns, many universities retain both digital and printed options."
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "select-missing-word-001",
+  "type": "select-missing-word",
+  "difficulty": "medium",
+  "source": {
+    "provider": "original-authoring+piper-tts",
+    "url": null,
+    "license": "original prompt/transcript; synthetic audio pending human listening review",
+    "usage": "reference-only",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {
+    "audio": "audio.mp3"
+  },
+  "content": {
+    "transcript_full": "Several early studies used very small samples. Their results should therefore be treated cautiously. Larger studies are needed, so final decisions should be based on reliable evidence.",
+    "audio_text_before_beep": "Several early studies used very small samples. Their results should therefore be treated cautiously. Larger studies are needed, so final decisions should be based on",
+    "options": [
+      "reliable evidence",
+      "personal preference",
+      "outdated equipment",
+      "physical distance"
+    ]
+  },
+  "answer": {
+    "key": "reliable evidence"
+  },
+  "generation": {
+    "synthetic": true,
+    "method": "Piper TTS",
+    "model": "en_US-libritts-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/libritts/high",
+    "model_repository_license": "MIT",
+    "training_dataset": "LibriTTS train-clean-360",
+    "training_dataset_license": "CC BY 4.0"
+  },
+  "curation": {
+    "status": "pending-listening-review",
+    "note": "Do not promote this item to the reusable application dataset until a human verifies audio intelligibility and transcript alignment."
+  },
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "pending-human-review"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "reading-multiple-choice-single-answer-002",
+  "type": "reading-multiple-choice-single-answer",
+  "difficulty": "easy",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "The city introduced a booking system for public sports courts because users had complained that they could not tell when facilities were available. The new website shows free time slots and sends confirmation immediately.",
+    "question": "Why was the booking system introduced?",
+    "options": {
+      "A": "To reduce the number of sports courts.",
+      "B": "To make availability easier to see.",
+      "C": "To replace all public websites.",
+      "D": "To increase membership fees."
+    }
+  },
+  "answer": {
+    "key": "B"
+  }
+}

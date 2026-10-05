@@ -1,0 +1,47 @@
+{
+  "id": "listening-multiple-choice-single-answer-001",
+  "type": "listening-multiple-choice-single-answer",
+  "difficulty": "medium",
+  "source": {
+    "provider": "original-authoring+piper-tts",
+    "url": null,
+    "license": "original prompt/transcript; synthetic audio pending human listening review",
+    "usage": "reference-only",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {
+    "audio": "audio.mp3"
+  },
+  "content": {
+    "transcript": "Tomorrow's seminar will move from Room Twelve to the main lecture hall because more students have registered than expected. The starting time and speaker will remain unchanged.",
+    "question": "Why has the seminar location changed?",
+    "options": {
+      "A": "The original speaker cancelled.",
+      "B": "A larger space is needed for the students.",
+      "C": "The seminar will begin later.",
+      "D": "Room Twelve is being permanently closed."
+    }
+  },
+  "answer": {
+    "key": "B"
+  },
+  "generation": {
+    "synthetic": true,
+    "method": "Piper TTS",
+    "model": "en_US-libritts-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/libritts/high",
+    "model_repository_license": "MIT",
+    "training_dataset": "LibriTTS train-clean-360",
+    "training_dataset_license": "CC BY 4.0"
+  },
+  "curation": {
+    "status": "pending-listening-review",
+    "note": "Do not promote this item to the reusable application dataset until a human verifies audio intelligibility and transcript alignment."
+  },
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "pending-human-review"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "reading-multiple-choice-single-answer-001",
+  "type": "reading-multiple-choice-single-answer",
+  "difficulty": "medium",
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "The university has added bicycle parking near the main entrance. It hopes the change will encourage students to cycle instead of driving. The existing car park will remain open.",
+    "question": "What is the main purpose of the new bicycle parking?",
+    "options": {
+      "A": "To close the existing car park.",
+      "B": "To encourage cycling to campus.",
+      "C": "To reduce the size of the main entrance.",
+      "D": "To provide parking only for staff."
+    }
+  },
+  "answer": {
+    "key": "B"
+  },
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  }
+}

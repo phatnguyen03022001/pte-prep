@@ -1,0 +1,46 @@
+{
+  "id": "retell-lecture-004",
+  "type": "retell-lecture",
+  "difficulty": "medium",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "pending-human-review"
+  },
+  "source": {
+    "provider": "original-authoring+piper-tts",
+    "url": null,
+    "license": "operator-owned original text; synthetic audio generated locally with Piper",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {
+    "audio": "audio.mp3"
+  },
+  "generation": {
+    "synthetic": true,
+    "method": "Piper TTS",
+    "model": "en_US-libritts-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/libritts/high",
+    "model_repository_license": "MIT",
+    "training_dataset": "LibriTTS train-clean-360",
+    "training_dataset_license": "CC BY 4.0"
+  },
+  "curation": {
+    "status": "pending-listening-review",
+    "note": "Synthetic audio passed machine integrity checks but still requires a human listening check for intelligibility and transcript alignment."
+  },
+  "content": {
+    "transcript": "Cities often promote cycling because it can reduce congestion and air pollution. Yet people are less likely to cycle when routes feel unsafe or disconnected. The speaker explains that protected lanes, secure parking, and links to public transport can make cycling more practical for a wider range of residents."
+  },
+  "answer": {
+    "key_points": [
+      "cycling can reduce congestion and pollution",
+      "unsafe routes discourage cycling",
+      "protected lanes and parking help",
+      "connections to transit matter"
+    ],
+    "guidance": "Retell the topic, the main explanation, and the conclusion using your own connected sentences."
+  }
+}

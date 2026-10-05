@@ -1,0 +1,35 @@
+{
+  "id": "reorder-paragraph-010",
+  "type": "reorder-paragraph",
+  "difficulty": "medium",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "blocks": {
+      "A": "These interviews revealed that confusing signs were a common problem.",
+      "B": "The station manager wanted to understand why visitors often missed the correct platform.",
+      "C": "New signs were installed and tested during the following month.",
+      "D": "Staff interviewed passengers who had asked for directions."
+    }
+  },
+  "answer": {
+    "order": [
+      "B",
+      "D",
+      "A",
+      "C"
+    ]
+  }
+}

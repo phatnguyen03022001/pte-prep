@@ -1,0 +1,45 @@
+{
+  "id": "highlight-correct-summary-002",
+  "type": "highlight-correct-summary",
+  "difficulty": "easy",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "pending-human-review"
+  },
+  "source": {
+    "provider": "original-authoring+piper-tts",
+    "url": null,
+    "license": "operator-owned original text; synthetic audio generated locally with Piper",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {
+    "audio": "audio.mp3"
+  },
+  "generation": {
+    "synthetic": true,
+    "method": "Piper TTS",
+    "model": "en_US-libritts-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/libritts/high",
+    "model_repository_license": "MIT",
+    "training_dataset": "LibriTTS train-clean-360",
+    "training_dataset_license": "CC BY 4.0"
+  },
+  "curation": {
+    "status": "pending-listening-review",
+    "note": "Synthetic audio passed machine integrity checks but still requires a human listening check for intelligibility and transcript alignment."
+  },
+  "content": {
+    "transcript": "Solar panels generate electricity without direct fuel combustion, but their output changes with sunlight. Electricity systems therefore combine solar generation with forecasting, storage, flexible demand, or other power sources to maintain reliable supply.",
+    "options": {
+      "A": "Solar power has variable output, so grids use forecasting and other balancing tools to maintain reliability.",
+      "B": "Solar panels produce exactly the same amount of electricity at all times.",
+      "C": "The speaker argues that electricity storage is unnecessary."
+    }
+  },
+  "answer": {
+    "key": "A"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "read-aloud-010",
+  "type": "read-aloud",
+  "difficulty": "medium",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "prompt": "Museums preserve objects so future visitors can study and understand them. Conservation involves controlling light, temperature, humidity, and physical handling. Some materials are extremely sensitive, which means an object may spend limited time on display even when public interest in it is high."
+  },
+  "answer": {
+    "guidance": "Read the prompt exactly. Preserve the words and phrasing; pronunciation and oral fluency require an actual learner recording for evaluation."
+  }
+}

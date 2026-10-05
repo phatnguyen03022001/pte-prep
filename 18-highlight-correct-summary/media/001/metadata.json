@@ -1,0 +1,45 @@
+{
+  "id": "highlight-correct-summary-001",
+  "type": "highlight-correct-summary",
+  "difficulty": "medium",
+  "source": {
+    "provider": "original-authoring+piper-tts",
+    "url": null,
+    "license": "original prompt/transcript; synthetic audio pending human listening review",
+    "usage": "reference-only",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {
+    "audio": "audio.mp3"
+  },
+  "content": {
+    "transcript": "Electric buses can reduce street noise and lower operating costs over time. However, buying the vehicles and building charging facilities requires substantial initial investment. The speaker recommends a gradual transition so cities can manage those costs while gaining experience with the new technology.",
+    "options": {
+      "A": "Electric buses can reduce noise and long-term operating costs, but cities should introduce them gradually because initial investment is high.",
+      "B": "Electric buses have no purchase or operating costs and should replace all vehicles immediately.",
+      "C": "The speaker mainly argues that cities should reduce the number of people using buses."
+    }
+  },
+  "answer": {
+    "key": "A"
+  },
+  "generation": {
+    "synthetic": true,
+    "method": "Piper TTS",
+    "model": "en_US-libritts-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/libritts/high",
+    "model_repository_license": "MIT",
+    "training_dataset": "LibriTTS train-clean-360",
+    "training_dataset_license": "CC BY 4.0"
+  },
+  "curation": {
+    "status": "pending-listening-review",
+    "note": "Do not promote this item to the reusable application dataset until a human verifies audio intelligibility and transcript alignment."
+  },
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "pending-human-review"
+  }
+}

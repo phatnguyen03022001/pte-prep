@@ -1,0 +1,46 @@
+{
+  "id": "reading-fill-in-the-blanks-dropdown-017",
+  "type": "reading-fill-in-the-blanks-dropdown",
+  "difficulty": "medium",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "The lecturer used several examples to ___ a difficult concept and make it easier to ___.",
+    "gaps": [
+      {
+        "id": "g1",
+        "options": [
+          "illustrate",
+          "illustration",
+          "illustrated",
+          "illustrative"
+        ]
+      },
+      {
+        "id": "g2",
+        "options": [
+          "understand",
+          "understood",
+          "understanding",
+          "understandable"
+        ]
+      }
+    ]
+  },
+  "answer": {
+    "g1": "illustrate",
+    "g2": "understand"
+  }
+}

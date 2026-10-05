@@ -1,0 +1,34 @@
+{
+  "id": "reading-fill-in-the-blanks-drag-and-drop-019",
+  "type": "reading-fill-in-the-blanks-drag-and-drop",
+  "difficulty": "hard",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "Engineers must ___ local conditions before they ___ a suitable design.",
+    "word_bank": [
+      "assess",
+      "select",
+      "assessment",
+      "selection"
+    ]
+  },
+  "answer": {
+    "gaps": [
+      "assess",
+      "select"
+    ]
+  }
+}

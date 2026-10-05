@@ -1,0 +1,25 @@
+{
+  "id": "respond-to-a-situation-007",
+  "type": "respond-to-a-situation",
+  "difficulty": "medium",
+  "split": "mock-a",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "prompt": "A group presentation is due tomorrow, but one shared file has been deleted accidentally. Speak to your teammates, explain what happened, and propose how to recover or rebuild the missing work."
+  },
+  "answer": {
+    "guidance": "Address the correct person directly, cover every requested action, preserve factual constraints, and use an appropriate level of politeness."
+  }
+}

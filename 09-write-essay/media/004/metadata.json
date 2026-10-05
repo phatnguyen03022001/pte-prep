@@ -1,0 +1,25 @@
+{
+  "id": "write-essay-004",
+  "type": "write-essay",
+  "difficulty": "medium",
+  "split": "mock-a",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "prompt": "Some employers allow staff to work from home several days each week. To what extent do you think this is beneficial for employees and organisations?"
+  },
+  "answer": {
+    "guidance": "Write 200–300 words, answer every part of the prompt, develop a clear position with relevant reasons and examples, and check grammar, vocabulary, spelling and coherence."
+  }
+}

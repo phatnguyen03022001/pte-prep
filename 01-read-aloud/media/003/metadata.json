@@ -1,0 +1,25 @@
+{
+  "id": "read-aloud-003",
+  "type": "read-aloud",
+  "difficulty": "easy",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "prompt": "Sleep supports memory by helping the brain organise information gathered during the day. Researchers have found that regular sleep schedules are often more useful than occasional long periods of rest. Students therefore benefit from planning study time early enough to protect a consistent bedtime."
+  },
+  "answer": {
+    "guidance": "Read the prompt exactly. Preserve the words and phrasing; pronunciation and oral fluency require an actual learner recording for evaluation."
+  }
+}

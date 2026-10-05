@@ -1,0 +1,25 @@
+{
+  "id": "respond-to-a-situation-002",
+  "type": "respond-to-a-situation",
+  "difficulty": "easy",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "prompt": "You arranged to meet a project partner this afternoon, but a medical appointment is taking longer than expected. Call your partner, apologise, explain the delay, and suggest a new meeting time."
+  },
+  "answer": {
+    "guidance": "Address the correct person directly, cover every requested action, preserve factual constraints, and use an appropriate level of politeness."
+  }
+}

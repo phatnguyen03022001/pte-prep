@@ -1,0 +1,50 @@
+{
+  "id": "listening-multiple-choice-multiple-answers-001",
+  "type": "listening-multiple-choice-multiple-answers",
+  "difficulty": "medium",
+  "source": {
+    "provider": "original-authoring+piper-tts",
+    "url": null,
+    "license": "original prompt/transcript; synthetic audio pending human listening review",
+    "usage": "reference-only",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {
+    "audio": "audio.mp3"
+  },
+  "content": {
+    "transcript": "From next month, the museum will offer guided tours twice a day instead of once. Visitors must book a tour in advance. The entrance fee will stay the same, and students will continue to receive a discount.",
+    "question": "Which arrangements are announced?",
+    "options": {
+      "A": "Guided tours will run twice daily.",
+      "B": "Museum entry will become free for everyone.",
+      "C": "Tours require advance booking.",
+      "D": "The student discount will end."
+    }
+  },
+  "answer": {
+    "keys": [
+      "A",
+      "C"
+    ]
+  },
+  "generation": {
+    "synthetic": true,
+    "method": "Piper TTS",
+    "model": "en_US-libritts-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/libritts/high",
+    "model_repository_license": "MIT",
+    "training_dataset": "LibriTTS train-clean-360",
+    "training_dataset_license": "CC BY 4.0"
+  },
+  "curation": {
+    "status": "pending-listening-review",
+    "note": "Do not promote this item to the reusable application dataset until a human verifies audio intelligibility and transcript alignment."
+  },
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "pending-human-review"
+  }
+}

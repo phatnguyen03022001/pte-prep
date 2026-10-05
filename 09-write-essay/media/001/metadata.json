@@ -1,0 +1,25 @@
+{
+  "id": "write-essay-001",
+  "type": "write-essay",
+  "difficulty": "medium",
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "prompt": "Some people believe universities should require every student to complete a period of work experience before graduation. Do you agree or disagree?"
+  },
+  "answer": {
+    "guidance": "Take a clear position, develop relevant reasons and examples, and write 200–300 words. The response is open; no single wording is required."
+  },
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "highlight-incorrect-words-004",
+  "type": "highlight-incorrect-words",
+  "difficulty": "medium",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "pending-human-review"
+  },
+  "source": {
+    "provider": "original-authoring+piper-tts",
+    "url": null,
+    "license": "operator-owned original text; synthetic audio generated locally with Piper",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {
+    "audio": "audio.mp3"
+  },
+  "content": {
+    "transcript": "The lecture begins at nine in the main auditorium.",
+    "displayed_text": "The lecture begins at ten in the main auditorium."
+  },
+  "answer": {
+    "incorrect_displayed_words": [
+      {
+        "token_index": 4,
+        "displayed": "ten",
+        "heard": "nine"
+      }
+    ]
+  },
+  "generation": {
+    "synthetic": true,
+    "method": "Piper TTS",
+    "model": "en_US-libritts-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/libritts/high",
+    "model_repository_license": "MIT",
+    "training_dataset": "LibriTTS train-clean-360",
+    "training_dataset_license": "CC BY 4.0"
+  },
+  "curation": {
+    "status": "pending-listening-review",
+    "note": "Synthetic audio passed machine integrity/timing checks but still requires a human listening check for intelligibility and transcript alignment."
+  }
+}

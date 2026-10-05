@@ -1,0 +1,47 @@
+{
+  "id": "select-missing-word-003",
+  "type": "select-missing-word",
+  "difficulty": "easy",
+  "split": "mock-a",
+  "review": {
+    "content": "machine-validated",
+    "media": "pending-human-review"
+  },
+  "source": {
+    "provider": "original-authoring+piper-tts",
+    "url": null,
+    "license": "operator-owned original text; synthetic audio generated locally with Piper",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {
+    "audio": "audio.mp3"
+  },
+  "generation": {
+    "synthetic": true,
+    "method": "Piper TTS",
+    "model": "en_US-libritts-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/libritts/high",
+    "model_repository_license": "MIT",
+    "training_dataset": "LibriTTS train-clean-360",
+    "training_dataset_license": "CC BY 4.0"
+  },
+  "curation": {
+    "status": "pending-listening-review",
+    "note": "Synthetic audio passed machine integrity checks but still requires a human listening check for intelligibility and transcript alignment."
+  },
+  "content": {
+    "transcript_full": "The bus route currently ends outside the town centre, but a new interchange will open beside the railway station next month. From then on, passengers will be able to transfer more easily.",
+    "audio_text_before_beep": "The bus route currently ends outside the town centre, but a new interchange will open beside the railway station next month. From then on, passengers will be able to transfer more",
+    "options": [
+      "easily",
+      "silently",
+      "historically",
+      "wooden"
+    ]
+  },
+  "answer": {
+    "key": "easily"
+  }
+}

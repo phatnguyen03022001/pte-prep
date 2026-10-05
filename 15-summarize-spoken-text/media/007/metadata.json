@@ -1,0 +1,45 @@
+{
+  "id": "summarize-spoken-text-007",
+  "type": "summarize-spoken-text",
+  "difficulty": "medium",
+  "split": "mock-b",
+  "review": {
+    "content": "machine-validated",
+    "media": "pending-human-review"
+  },
+  "source": {
+    "provider": "original-authoring+piper-tts",
+    "url": null,
+    "license": "operator-owned original text; synthetic audio generated locally with Piper",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {
+    "audio": "audio.mp3"
+  },
+  "generation": {
+    "synthetic": true,
+    "method": "Piper TTS",
+    "model": "en_US-libritts-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/libritts/high",
+    "model_repository_license": "MIT",
+    "training_dataset": "LibriTTS train-clean-360",
+    "training_dataset_license": "CC BY 4.0"
+  },
+  "curation": {
+    "status": "pending-listening-review",
+    "note": "Synthetic audio passed machine integrity checks but still requires a human listening check for intelligibility and transcript alignment."
+  },
+  "content": {
+    "transcript": "Battery storage can help electricity grids balance variable renewable generation. Batteries can respond quickly when demand or supply changes, but they have costs, limited storage duration, and environmental impacts from materials. The lecture presents batteries as one tool among several, alongside grid connections, demand management, and other forms of storage."
+  },
+  "answer": {
+    "key_points": [
+      "batteries help balance renewables",
+      "have cost/duration/material limits",
+      "they are one tool among several"
+    ],
+    "guidance": "Write 50–70 words that preserve the topic, main relationships and conclusion without adding outside information."
+  }
+}

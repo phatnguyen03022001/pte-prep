@@ -1,0 +1,35 @@
+{
+  "id": "reorder-paragraph-001",
+  "type": "reorder-paragraph",
+  "difficulty": "medium",
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "blocks": {
+      "A": "The researchers then compared the scores of the two groups.",
+      "B": "Researchers wanted to know whether background music affected memory.",
+      "C": "To investigate this, they asked one group to study with music and another to study in silence.",
+      "D": "The results showed that the group studying in silence remembered more words."
+    }
+  },
+  "answer": {
+    "order": [
+      "B",
+      "C",
+      "A",
+      "D"
+    ]
+  },
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  }
+}

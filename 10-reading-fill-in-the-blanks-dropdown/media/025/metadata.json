@@ -1,0 +1,46 @@
+{
+  "id": "reading-fill-in-the-blanks-dropdown-025",
+  "type": "reading-fill-in-the-blanks-dropdown",
+  "difficulty": "medium",
+  "split": "mock-a",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "The article attempts to ___ why demand changed so ___ during the year.",
+    "gaps": [
+      {
+        "id": "g1",
+        "options": [
+          "explain",
+          "explanation",
+          "explanatory",
+          "explained"
+        ]
+      },
+      {
+        "id": "g2",
+        "options": [
+          "rapidly",
+          "rapid",
+          "rapidity",
+          "rapids"
+        ]
+      }
+    ]
+  },
+  "answer": {
+    "g1": "explain",
+    "g2": "rapidly"
+  }
+}

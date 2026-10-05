@@ -1,0 +1,25 @@
+{
+  "id": "summarize-written-text-006",
+  "type": "summarize-written-text",
+  "difficulty": "medium",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "Public data portals allow residents, researchers, and businesses to inspect information collected by governments. Useful portals need clear definitions, regular updates, and formats that computers can process. Publishing large amounts of data without documentation may create the appearance of transparency while leaving the information difficult to interpret."
+  },
+  "answer": {
+    "illustrative_response": "Public data portals can improve access to government information, but real transparency requires clear definitions, regular updates and usable formats rather than simply publishing large volumes of poorly documented data."
+  }
+}

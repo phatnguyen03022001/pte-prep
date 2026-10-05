@@ -1,0 +1,25 @@
+{
+  "id": "respond-to-a-situation-006",
+  "type": "respond-to-a-situation",
+  "difficulty": "medium",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "prompt": "You are attending a workshop, but the room shown on your confirmation email is locked. Speak to a staff member, explain the problem, and ask where the workshop is being held."
+  },
+  "answer": {
+    "guidance": "Address the correct person directly, cover every requested action, preserve factual constraints, and use an appropriate level of politeness."
+  }
+}

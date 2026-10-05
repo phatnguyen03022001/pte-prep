@@ -1,0 +1,46 @@
+{
+  "id": "reading-fill-in-the-blanks-dropdown-001",
+  "type": "reading-fill-in-the-blanks-dropdown",
+  "difficulty": "medium",
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "Researchers collected data to ___ the effect of sleep on memory. Their findings ___ that regular sleep supports learning.",
+    "gaps": [
+      {
+        "id": "g1",
+        "options": [
+          "assess",
+          "assessment",
+          "accessible",
+          "accessing"
+        ]
+      },
+      {
+        "id": "g2",
+        "options": [
+          "suggest",
+          "suggestion",
+          "suggestive",
+          "suggesting"
+        ]
+      }
+    ]
+  },
+  "answer": {
+    "g1": "assess",
+    "g2": "suggest"
+  },
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  }
+}

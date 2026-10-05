@@ -1,0 +1,46 @@
+{
+  "id": "reading-fill-in-the-blanks-dropdown-008",
+  "type": "reading-fill-in-the-blanks-dropdown",
+  "difficulty": "hard",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "The survey was designed to ___ how often commuters use public ___ .",
+    "gaps": [
+      {
+        "id": "g1",
+        "options": [
+          "measure",
+          "measurement",
+          "measurable",
+          "measured"
+        ]
+      },
+      {
+        "id": "g2",
+        "options": [
+          "transport",
+          "transported",
+          "transporting",
+          "transportation"
+        ]
+      }
+    ]
+  },
+  "answer": {
+    "g1": "measure",
+    "g2": "transport"
+  }
+}

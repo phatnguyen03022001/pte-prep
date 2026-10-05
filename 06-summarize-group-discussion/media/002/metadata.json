@@ -1,0 +1,59 @@
+{
+  "id": "summarize-group-discussion-002",
+  "type": "summarize-group-discussion",
+  "difficulty": "easy",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "pending-human-review"
+  },
+  "source": {
+    "provider": "original-authoring+piper-tts",
+    "url": null,
+    "license": "operator-owned original text; synthetic audio generated locally with Piper",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {
+    "audio": "audio.mp3"
+  },
+  "generation": {
+    "synthetic": true,
+    "method": "Piper TTS",
+    "model": "en_US-libritts-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/libritts/high",
+    "model_repository_license": "MIT",
+    "training_dataset": "LibriTTS train-clean-360",
+    "training_dataset_license": "CC BY 4.0"
+  },
+  "curation": {
+    "status": "pending-listening-review",
+    "note": "Synthetic audio passed machine integrity checks but still requires a human listening check for intelligibility and transcript alignment."
+  },
+  "content": {
+    "speakers": [
+      {
+        "speaker": 1,
+        "text": "I support extending library hours during exams because many students study after work."
+      },
+      {
+        "speaker": 2,
+        "text": "Longer hours would help, but staffing the whole building may be expensive. We could open one floor only."
+      },
+      {
+        "speaker": 3,
+        "text": "A limited opening makes sense, and the university should first check which evenings have the highest demand."
+      }
+    ]
+  },
+  "answer": {
+    "key_points": [
+      "later library access",
+      "staffing cost concern",
+      "one-floor compromise",
+      "check demand before scheduling"
+    ],
+    "guidance": "Summarise the shared topic, attribute each main view correctly, and explain agreement or disagreement where present."
+  }
+}

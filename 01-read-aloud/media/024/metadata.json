@@ -1,0 +1,25 @@
+{
+  "id": "read-aloud-024",
+  "type": "read-aloud",
+  "difficulty": "medium",
+  "split": "mock-b",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "prompt": "Nutrition labels help consumers compare packaged foods, but individual numbers need context. Serving size, total energy, fibre, sugar, salt, and other nutrients all contribute to interpretation. A food should not be judged by one value alone when the overall diet and amount consumed also matter."
+  },
+  "answer": {
+    "guidance": "Read the prompt exactly. Preserve the words and phrasing; pronunciation and oral fluency require an actual learner recording for evaluation."
+  }
+}

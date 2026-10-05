@@ -1,0 +1,46 @@
+{
+  "id": "reading-fill-in-the-blanks-dropdown-018",
+  "type": "reading-fill-in-the-blanks-dropdown",
+  "difficulty": "hard",
+  "split": "training",
+  "review": {
+    "content": "machine-validated",
+    "media": "not-applicable"
+  },
+  "source": {
+    "provider": "original-authoring",
+    "url": null,
+    "license": "operator-owned original authoring",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {},
+  "content": {
+    "passage": "The company must ___ customer data securely and ___ access to authorised staff.",
+    "gaps": [
+      {
+        "id": "g1",
+        "options": [
+          "store",
+          "storage",
+          "stored",
+          "storing"
+        ]
+      },
+      {
+        "id": "g2",
+        "options": [
+          "restrict",
+          "restriction",
+          "restricted",
+          "restrictive"
+        ]
+      }
+    ]
+  },
+  "answer": {
+    "g1": "store",
+    "g2": "restrict"
+  }
+}

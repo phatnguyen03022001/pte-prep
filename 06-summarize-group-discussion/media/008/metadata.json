@@ -1,0 +1,59 @@
+{
+  "id": "summarize-group-discussion-008",
+  "type": "summarize-group-discussion",
+  "difficulty": "hard",
+  "split": "mock-b",
+  "review": {
+    "content": "machine-validated",
+    "media": "pending-human-review"
+  },
+  "source": {
+    "provider": "original-authoring+piper-tts",
+    "url": null,
+    "license": "operator-owned original text; synthetic audio generated locally with Piper",
+    "usage": "reusable",
+    "attribution": null,
+    "retrieved_at": null
+  },
+  "media": {
+    "audio": "audio.mp3"
+  },
+  "generation": {
+    "synthetic": true,
+    "method": "Piper TTS",
+    "model": "en_US-libritts-high",
+    "model_url": "https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/libritts/high",
+    "model_repository_license": "MIT",
+    "training_dataset": "LibriTTS train-clean-360",
+    "training_dataset_license": "CC BY 4.0"
+  },
+  "curation": {
+    "status": "pending-listening-review",
+    "note": "Synthetic audio passed machine integrity checks but still requires a human listening check for intelligibility and transcript alignment."
+  },
+  "content": {
+    "speakers": [
+      {
+        "speaker": 1,
+        "text": "Group projects teach teamwork, but unequal contribution can make assessment feel unfair."
+      },
+      {
+        "speaker": 2,
+        "text": "Peer feedback may help identify contribution differences, although it should not be the only source of evidence."
+      },
+      {
+        "speaker": 3,
+        "text": "A combination of project output, individual reflection, and moderated peer feedback would be more balanced."
+      }
+    ]
+  },
+  "answer": {
+    "key_points": [
+      "teamwork benefit",
+      "unequal contribution problem",
+      "peer feedback has limits",
+      "combine multiple assessment sources"
+    ],
+    "guidance": "Summarise the shared topic, attribute each main view correctly, and explain agreement or disagreement where present."
+  }
+}
