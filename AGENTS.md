@@ -21,6 +21,14 @@ The 22 numbered directories are indexed in README.md in Pearson's published ques
 
 Learning order and learning priority belong in STUDY_PLAN.md; they do not change physical directory order. The unscored Personal Introduction can be covered by the study plan without adding a 23rd directory.
 
+### Root Directory Invariant
+
+At repository root, the only allowed directories are the 22 numbered question-type directories plus `tools/` as the single explicit infrastructure exception. Do not create any other root-level directory.
+
+In particular, `docs/`, `data/`, `assets/`, `scripts/`, `downloads/`, temporary directories, and any personal-material storage directory are forbidden at L1. Shared repository-wide prose/configuration belongs in root-level files when practical; question-type content belongs inside its numbered directory; repository tooling belongs under `tools/`.
+
+Creating any additional L1 directory is a hard contract violation unless the operator explicitly revises this invariant.
+
 ## Directory Contract
 
 Each question-type directory uses:
@@ -76,7 +84,7 @@ For each type, allocate stable IDs deterministically: the lowest IDs are `traini
 
 Maintain variety in speakers, topics, difficulty, and applicable image forms. Repeated attempts on one item are review attempts, not new items. Do not inflate counts to satisfy a target; quality, task fidelity, licensing, provenance, and transcript/answer correctness outrank count completion.
 
-**Never fabricate canonical items to inflate counts.** Do not use LLM-authored questions, synthetic TTS, AI-generated images, placeholder charts, or invented prediction items in tracked `media/`. If no source-backed reviewed item is available, leave the slot empty and use authorized personal-study material under `private-materials/` instead.
+**Never fabricate canonical items to inflate counts.** Do not use LLM-authored questions, synthetic TTS, AI-generated images, placeholder charts, or invented prediction items in tracked `media/`. If no source-backed reviewed item is available, leave the slot empty and use the original provider through authorized access outside this repository.
 
 Do not hardcode volatile current item counts in READMEs; derive current counts from the filesystem or existing tooling when requested. The table above is a target allocation, not a statement of current completion or exam readiness.
 
@@ -158,15 +166,14 @@ Use `source.usage` to distinguish `reusable`, `reference-only`, and `unknown`. O
 
 Do not scrape, mirror, redistribute, or ingest Pearson or commercial preparation assets into the reusable dataset unless their license or explicit permission allows the intended use. Study their format through permitted access. Canonical media must come from the source classes and promotion rules in [SOURCES.md](./SOURCES.md). Public-domain or clearly permissively licensed assets are eligible only after task-fidelity and human media review. Rights belong to the actual asset/version, not merely its provider's reputation.
 
-### Local-only personal study materials
+### Personal third-party study materials
 
-Third-party prediction books, PDFs, images, audio, and similar materials that the learner lawfully obtains for personal study may be stored under `private-materials/`. This area is intentionally excluded from Git except for its policy README and is not part of the canonical reusable dataset.
+Do not store personal-only third-party prediction books, PDFs, images, audio, question banks, or similar protected material anywhere inside this repository. Keep such material outside `pte-prep` or use the provider directly through authorized access.
 
 - Download only through provider-authorized access. Do not bypass paywalls, authentication, DRM, CAPTCHAs, or other access controls.
-- Preserve the original provider/file naming when practical so the learner can identify the source later.
-- Do not copy local-only third-party assets into numbered `media/` items, the application repository, releases, or other distributable locations unless reusable rights are separately documented.
+- Do not copy personal-only third-party assets into numbered `media/` items, the application repository, releases, or other distributable locations unless reusable rights are separately documented.
 - Do not treat prediction frequency, "high-frequency" labels, or sample answers from third-party material as Pearson scoring authority or a score guarantee.
-- A local-only item may be useful for personal practice without being eligible for redistribution. Keep those two decisions separate.
+- A personal-study item may be useful without being eligible for redistribution. Keep those two decisions separate.
 
 ## Quality and Format Defaults
 

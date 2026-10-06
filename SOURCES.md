@@ -34,8 +34,8 @@ These sources may be useful for prediction banks or additional practice variety.
 
 | Provider | Verified entry point | Intended use | Git policy |
 | --- | --- | --- | --- |
-| ApeUni | https://www.apeuni.com/blog/mobile/how_to_download_pte_prediction_en?locale=en | Provider-authorized study-material downloads / prediction material | Store under `private-materials/apeuni/`; never commit downloaded assets without separate reuse permission. |
-| PTE Nepal | https://ptenepal.com/blog/pte-prediction-oct5-11-2026-describe-image/ | Weekly prediction material and Describe Image practice | Store under `private-materials/pte-nepal/`; never mirror assets into canonical `media/` without explicit reusable rights. |
+| ApeUni | https://www.apeuni.com/blog/mobile/how_to_download_pte_prediction_en?locale=en | Provider-authorized study-material downloads / prediction material | Personal study only unless separate reusable rights are documented; do not store protected downloads inside this repository. |
+| PTE Nepal | https://ptenepal.com/blog/pte-prediction-oct5-11-2026-describe-image/ | Weekly prediction material and Describe Image practice | Personal study only unless separate reusable rights are documented; do not store protected downloads inside this repository. |
 
 Prediction, recall, “high-frequency”, or forecast labels are coaching signals only. They are not official Pearson frequency data and do not guarantee exam appearance.
 
@@ -79,20 +79,9 @@ The following are **not allowed** in tracked canonical `media/`:
 
 The baseline dataset table in `AGENTS.md` is an **example allocation**, never permission to fabricate content.
 
-## Local-only personal material layout
+## Personal-study material policy
 
-Downloaded personal-study material belongs here:
-
-```text
-private-materials/
-├── README.md
-├── apeuni/
-│   └── <YYYY-MM>/
-└── pte-nepal/
-    └── <YYYY-MM-DD>/
-```
-
-Everything below `private-materials/` except its README is ignored by Git.
+Personal-only third-party downloads do not belong anywhere inside this repository. Keep them outside `pte-prep` or use the provider directly. Promotion into tracked `NN-question-type/media/` requires the canonical rights and review gates below.
 
 ## Promotion rule
 

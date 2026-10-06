@@ -6,7 +6,7 @@ Kho tài liệu ôn tập và media luyện **PTE Academic** có thể tái sử
 
 1. Đọc [STUDY_PLAN.md](./STUDY_PLAN.md): làm bài đầu vào, xem ưu tiên, rồi theo lịch từng ngày.
 2. Mở README của dạng bài bên dưới: đọc cách làm nhanh, scoring, kiến thức cần có và ví dụ, rồi luyện theo plan.
-3. Xem [SOURCES.md](./SOURCES.md) trước khi dùng hoặc thêm bất kỳ question bank/media nào. Chỉ dùng canonical media đã qua source gate; nếu chưa có thì luyện qua nguồn chính thức hoặc `private-materials/` local-only.
+3. Xem [SOURCES.md](./SOURCES.md) trước khi dùng hoặc thêm bất kỳ question bank/media nào. Chỉ dùng canonical media đã qua source gate; nếu chưa có thì luyện qua nguồn chính thức hoặc nguồn bên thứ ba bằng quyền truy cập hợp lệ bên ngoài repository.
 4. Ghi lỗi, chữa lỗi và làm lại hôm sau. Không cần đợi kho dữ liệu đầy mới bắt đầu.
 
 Hướng dẫn từng dạng và media có vòng kiểm tra riêng. Có README không đồng nghĩa đã có audio/image/item để luyện; dùng nguồn chính thức khi local chưa có asset phù hợp.
@@ -20,11 +20,9 @@ Hướng dẫn từng dạng và media có vòng kiểm tra riêng. Có README k
 | README.md | Điểm bắt đầu và chỉ mục folder |
 | [STUDY_PLAN.md](./STUDY_PLAN.md) | Mục tiêu, ưu tiên 22 dạng, lộ trình học tùy chọn (vd: 7 ngày), tự kiểm tra và điều chỉnh |
 
-## Tài liệu cá nhân tải từ bên thứ ba
+## Tài liệu cá nhân từ bên thứ ba
 
-`private-materials/` là vùng **chỉ dùng local để học cá nhân** cho prediction PDF, question bank, ảnh, audio hoặc tài liệu tương tự được tải hợp lệ từ nhà cung cấp. Nội dung tải xuống trong vùng này bị `.gitignore` và không được push lên GitHub; chỉ file policy `private-materials/README.md` được theo dõi.
-
-Dùng các tài liệu này để tăng độ phong phú của prompt và luyện phản xạ, nhưng không coi nhãn "prediction/high-frequency" hay sample answer của bên thứ ba là scoring authority của Pearson. Không sao chép chúng vào dataset reusable hoặc app nếu chưa có quyền tái sử dụng rõ ràng. Nguồn personal-study được khóa trong [SOURCES.md](./SOURCES.md).
+Không lưu prediction PDF, question bank, ảnh, audio hoặc tài liệu personal-only của bên thứ ba bên trong repository này. Dùng chúng trực tiếp qua quyền truy cập hợp lệ hoặc lưu bên ngoài `pte-prep`. Chỉ đưa asset vào `NN-question-type/media/` khi đáp ứng source, provenance, review và redistribution gate trong [SOURCES.md](./SOURCES.md).
 
 ## Trạng thái canonical dataset
 
