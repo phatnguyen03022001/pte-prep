@@ -149,7 +149,17 @@ Free access does not establish reuse rights. Record provider, provenance, licens
 
 Use `source.usage` to distinguish `reusable`, `reference-only`, and `unknown`. Only items with documented reusable rights belong in the reusable application dataset. Keep reference-only resources as links in documentation without copying their protected assets; unknown rights are not permission to ingest.
 
-Do not scrape, mirror, redistribute, or ingest Pearson or commercial preparation assets unless their license or explicit permission allows the intended use. Study their format through permitted access. Prefer original content, public-domain assets, or clearly permissively licensed sources for the reusable dataset. Rights belong to the actual asset/version, not merely its provider's reputation.
+Do not scrape, mirror, redistribute, or ingest Pearson or commercial preparation assets into the reusable dataset unless their license or explicit permission allows the intended use. Study their format through permitted access. Prefer original content, public-domain assets, or clearly permissively licensed sources for the reusable dataset. Rights belong to the actual asset/version, not merely its provider's reputation.
+
+### Local-only personal study materials
+
+Third-party prediction books, PDFs, images, audio, and similar materials that the learner lawfully obtains for personal study may be stored under `private-materials/`. This area is intentionally excluded from Git except for its policy README and is not part of the canonical reusable dataset.
+
+- Download only through provider-authorized access. Do not bypass paywalls, authentication, DRM, CAPTCHAs, or other access controls.
+- Preserve the original provider/file naming when practical so the learner can identify the source later.
+- Do not copy local-only third-party assets into numbered `media/` items, the application repository, releases, or other distributable locations unless reusable rights are separately documented.
+- Do not treat prediction frequency, "high-frequency" labels, or sample answers from third-party material as Pearson scoring authority or a score guarantee.
+- A local-only item may be useful for personal practice without being eligible for redistribution. Keep those two decisions separate.
 
 ## Quality and Format Defaults
 
@@ -157,7 +167,8 @@ Before accepting an item, check:
 
 - Task behavior matches the intended format: prompt length, speaker count, timing, and response form where applicable.
 - The asset opens; audio is intelligible and not clipped; images/text are readable.
-- Transcript and answer match the actual asset. Generated speech still needs a listening check.
+- Machine checks can prove file integrity, parseability, references, and measurable timing; they do **not** prove that an image is exam-quality or that audio is intelligible/natural enough for practice.
+- Transcript and answer match the actual asset. Generated speech still needs a listening check; generated or downloaded images still need a visual review before `review.media` may become `human-reviewed`.
 - Objective answers are correct and unambiguous; open-response examples are relevant.
 - Provenance and usage rights are documented, with attribution where required.
 - The item is original or transparently adapted and is not a mislabeled duplicate.

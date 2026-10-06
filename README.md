@@ -19,6 +19,12 @@ Hướng dẫn từng dạng và media có vòng kiểm tra riêng. Có README k
 | README.md | Điểm bắt đầu và chỉ mục folder |
 | [STUDY_PLAN.md](./STUDY_PLAN.md) | Mục tiêu, ưu tiên 22 dạng, lịch 7 ngày, tự kiểm tra và điều chỉnh |
 
+## Tài liệu cá nhân tải từ bên thứ ba
+
+`private-materials/` là vùng **chỉ dùng local để học cá nhân** cho prediction PDF, question bank, ảnh, audio hoặc tài liệu tương tự được tải hợp lệ từ nhà cung cấp. Nội dung tải xuống trong vùng này bị `.gitignore` và không được push lên GitHub; chỉ file policy `private-materials/README.md` được theo dõi.
+
+Dùng các tài liệu này để tăng độ phong phú của prompt và luyện phản xạ, nhưng không coi nhãn "prediction/high-frequency" hay sample answer của bên thứ ba là scoring authority của Pearson. Không sao chép chúng vào dataset reusable hoặc app nếu chưa có quyền tái sử dụng rõ ràng.
+
 ## Chỉ mục dạng bài
 
 Folder giữ thứ tự dạng bài Pearson công bố. Mức ưu tiên luyện được ghi riêng trong study plan. Personal Introduction không tính điểm được luyện trong plan, không cần folder riêng.

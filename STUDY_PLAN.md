@@ -32,6 +32,8 @@ Bảy ngày phù hợp để làm quen đề, sửa lỗi thao tác và củng c
 
 ChatGPT hỗ trợ chữa câu, giải thích và nhận xét theo rubric. Nhận xét/điểm luyện do ChatGPT hoặc app tự tạo không được gọi là điểm Pearson. Không đánh giá phát âm chỉ từ transcript.
 
+Có thể dùng prediction PDF/question bank của bên thứ ba làm **nguồn luyện bổ sung cá nhân** khi tải qua quyền truy cập hợp lệ. Lưu các file đó dưới `private-materials/` để chúng không bị commit lên GitHub. Dùng chúng để luyện độ đa dạng của prompt, không coi tần suất dự đoán là dữ liệu chính thức của Pearson, không học thuộc sample response, và không đưa item đã xem vào Mock A/B hoặc bất kỳ lượt kiểm tra "unseen" nào.
+
 ## 3. Ưu tiên đủ 22 dạng
 
 Kỹ năng được chấm theo Score Guide [S1]: **L = Listening, R = Reading, S = Speaking, W = Writing**. Việc đọc hoặc nghe prompt không tự động có nghĩa kỹ năng đó được chấm.

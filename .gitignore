@@ -1,1 +1,6 @@
 .DS_Store
+
+# Personal study materials downloaded from third-party providers.
+# Keep the local policy README tracked, but never publish the downloaded assets.
+private-materials/*
+!private-materials/README.md
