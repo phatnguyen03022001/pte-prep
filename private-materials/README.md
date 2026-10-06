@@ -1,6 +1,6 @@
 # Private Materials
 
-This directory is a **local-only personal study area** for third-party PTE materials that the learner lawfully obtains through provider-authorized access.
+This directory is a **local-only personal study area** for third-party PTE materials that the learner lawfully obtains through provider-authorized access. See [../SOURCES.md](../SOURCES.md) for the canonical provider/source policy.
 
 Examples include:
 
@@ -26,7 +26,7 @@ private-materials/
         └── <downloaded files>
 ```
 
-Keep provider/file names intact when practical so the source is easy to identify later.
+Keep provider/file names intact when practical so the source is easy to identify later. Use only providers/entry points listed in `SOURCES.md` unless that manifest is intentionally updated first.
 
 ## Study use
 

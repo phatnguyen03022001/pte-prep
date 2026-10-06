@@ -4,9 +4,10 @@
 
 `pte-prep` is the canonical local media and study-content workspace for PTE Academic preparation.
 
-Read the three root documents according to their role:
+Read the root documents according to their role:
 
 - [README.md](./README.md): learner entry point, stable directory index, and official resource links.
+- [SOURCES.md](./SOURCES.md): canonical source allowlist, personal-study source list, promotion rules, and forbidden content.
 - [STUDY_PLAN.md](./STUDY_PLAN.md): the current goal, diagnostic, learning priorities, daily schedule, and progress checkpoints.
 - This file: the workspace contract for agents creating or maintaining guidance and reusable assets.
 
@@ -71,7 +72,9 @@ The canonical seven-day dataset target is **297 unique items**: **237 training +
 
 For each type, allocate stable IDs deterministically: the lowest IDs are `training`, the next IDs are `mock-a`, and the final IDs are `mock-b`. Do not reshuffle splits after a learner starts using either mock. Mock items must not appear in training, README worked examples, previews, or other learner-visible rehearsal paths before that mock is taken.
 
-Maintain variety in speakers, topics, difficulty, and applicable image forms. Repeated attempts on one item are review attempts, not new items. Do not inflate counts to satisfy a target; quality, task fidelity, licensing, and transcript/answer correctness outrank count completion.
+Maintain variety in speakers, topics, difficulty, and applicable image forms. Repeated attempts on one item are review attempts, not new items. Do not inflate counts to satisfy a target; quality, task fidelity, licensing, provenance, and transcript/answer correctness outrank count completion.
+
+**Never fabricate canonical items to fill the 297 target.** Do not use LLM-authored questions, synthetic TTS, AI-generated images, placeholder charts, or invented prediction items in tracked `media/`. If no source-backed reviewed item is available, leave the slot empty and use authorized personal-study material under `private-materials/` instead.
 
 Do not hardcode volatile current item counts in READMEs; derive current counts from the filesystem or existing tooling when requested. The table above is a target allocation, not a statement of current completion or exam readiness.
 
@@ -92,40 +95,41 @@ Use one README per type by default. Split a substantial independently used suppl
 
 Use the current Pearson Score Guide for assessed skills and scoring rules, and Pearson format pages for interaction/timing. If official pages conflict, prefer the Score Guide for scoring and disclose the discrepancy rather than combining contradictory claims.
 
-Label coaching choices as recommendations. Do not invent contribution percentages, guaranteed marks, official equivalences, or promises of reaching 40+ in seven days. Do not equate a homemade rubric or ChatGPT feedback with Pearson scores. Use original, relevant content; do not teach unrelated memorized answers or filler as a scoring technique.
+Label coaching choices as recommendations. Do not invent contribution percentages, guaranteed marks, official equivalences, or promises of reaching 40+ in seven days. Do not equate a homemade rubric or ChatGPT feedback with Pearson scores. Canonical dataset items must be source-backed; clearly labeled instructional examples in guides are not dataset items. Do not teach unrelated memorized answers or filler as a scoring technique.
 
 ## Media Item Contract
 
 One `media/<item-id>/` directory represents one unique practice item. Use stable zero-padded local IDs such as `001`, `002`, and `003`; do not renumber existing items. Each item includes `metadata.json`.
 
-Example metadata for an original, self-recorded practice sentence (illustrative; no audio file is supplied by this example):
+Illustrative canonical metadata shape (schema example only, not a practice item):
 
 ```json
 {
-  "id": "rs-001",
-  "type": "repeat-sentence",
+  "id": "example-001",
+  "type": "<question-type-slug>",
   "difficulty": "medium",
   "split": "training",
   "review": {
-    "content": "machine-validated",
-    "media": "pending-human-review"
+    "content": "human-reviewed",
+    "media": "human-reviewed"
   },
   "source": {
-    "provider": "original-authoring",
-    "url": null,
-    "license": "operator-owned",
+    "manifest_id": "<approved-id-from-SOURCES.md>",
+    "provider": "<provider>",
+    "url": "<traceable-asset-url>",
+    "license": "<redistribution-license-or-explicit-permission>",
     "usage": "reusable",
-    "attribution": null,
-    "retrieved_at": null
+    "attribution": "<required-attribution-or-null>",
+    "retrieved_at": "YYYY-MM-DD"
   },
   "media": {
     "audio": "audio.mp3"
   },
   "content": {
-    "transcript": "The university will announce the results tomorrow."
+    "transcript": "<verified-transcript>"
   },
   "answer": {
-    "text": "The university will announce the results tomorrow."
+    "text": "<verified-answer>"
   }
 }
 ```
@@ -134,14 +138,15 @@ Keep metadata simple, explicit, portable, and suitable for later application ing
 
 - `type` matches the directory slug without its numeric prefix; the ID is unique within that type.
 - `split` is exactly `training`, `mock-a`, or `mock-b`; preserve it once assigned.
-- `review.content` and `review.media` state what has actually been checked. Use `not-applicable` for media when the item is text-only; never label synthetic or downloaded media human-reviewed before a real listening/visual check.
+- Canonical items require `review.content: human-reviewed`. Use `review.media: human-reviewed` when media exists and `not-applicable` for text-only items. Machine validation alone never qualifies a canonical item.
 - Canonical prompt, transcript, choices, and answer data live in metadata. Optional TXT sidecars are derived exports and must not be edited independently.
 - Use only needed content/answer fields. Objective tasks require an answer key; open responses require scoring guidance and may have a clearly labeled illustrative response, never a single compulsory wording.
 - Store media paths relative to the item directory. References must resolve to actual files; do not list absent or unused assets.
+- Every canonical item needs `source.manifest_id` matching an approved canonical entry in `SOURCES.md`.
 - External assets need a traceable URL or dataset identifier, license/permission evidence, applicable attribution, and retrieval date.
-- `url: null` is acceptable for original authoring or a documented offline source, not a substitute for missing external provenance.
+- A canonical item requires a traceable `source.url` or documented `source.dataset_id`; missing provenance is a hard failure.
 - Difficulty is a curation judgment unless supported by an actual calibration; do not imply Pearson calibration.
-- Disclose generated or adapted content and the creation method when relevant. Do not label adapted or synthetic assets as authentic Pearson questions.
+- Generated/synthetic practice items are forbidden in canonical `media/`. Clearly labeled instructional examples may exist in README guides, but they are not dataset items.
 
 ## Source and Licensing Policy
 
@@ -149,7 +154,7 @@ Free access does not establish reuse rights. Record provider, provenance, licens
 
 Use `source.usage` to distinguish `reusable`, `reference-only`, and `unknown`. Only items with documented reusable rights belong in the reusable application dataset. Keep reference-only resources as links in documentation without copying their protected assets; unknown rights are not permission to ingest.
 
-Do not scrape, mirror, redistribute, or ingest Pearson or commercial preparation assets into the reusable dataset unless their license or explicit permission allows the intended use. Study their format through permitted access. Prefer original content, public-domain assets, or clearly permissively licensed sources for the reusable dataset. Rights belong to the actual asset/version, not merely its provider's reputation.
+Do not scrape, mirror, redistribute, or ingest Pearson or commercial preparation assets into the reusable dataset unless their license or explicit permission allows the intended use. Study their format through permitted access. Canonical media must come from the source classes and promotion rules in [SOURCES.md](./SOURCES.md). Public-domain or clearly permissively licensed assets are eligible only after task-fidelity and human media review. Rights belong to the actual asset/version, not merely its provider's reputation.
 
 ### Local-only personal study materials
 
@@ -168,10 +173,10 @@ Before accepting an item, check:
 - Task behavior matches the intended format: prompt length, speaker count, timing, and response form where applicable.
 - The asset opens; audio is intelligible and not clipped; images/text are readable.
 - Machine checks can prove file integrity, parseability, references, and measurable timing; they do **not** prove that an image is exam-quality or that audio is intelligible/natural enough for practice.
-- Transcript and answer match the actual asset. Generated speech still needs a listening check; generated or downloaded images still need a visual review before `review.media` may become `human-reviewed`.
+- Transcript and answer match the actual asset. Audio must receive a real listening review and images a real visual review before `review.media` may become `human-reviewed`.
 - Objective answers are correct and unambiguous; open-response examples are relevant.
 - Provenance and usage rights are documented, with attribution where required.
-- The item is original or transparently adapted and is not a mislabeled duplicate.
+- The item is traceable to an approved source, is not a mislabeled duplicate, and satisfies the promotion rules in `SOURCES.md`.
 
 Prefer MP3 audio, WebP images, MP4 video only when needed, UTF-8 text, and JSON metadata. Preserve source quality where conversion would reduce usefulness. Exact format/timing verification belongs in the relevant guide, with a source and verification date.
 
@@ -181,4 +186,4 @@ This workspace owns study guidance, the study plan, reusable assets, metadata, p
 
 The PTE application repository owns runtime code, database schema, UI, scoring implementation, deployment, and product behavior. Keep this workspace data-oriented; do not introduce application infrastructure or modify the application as a side effect.
 
-Preserve unrelated work and existing directories. Update only files needed by the current request. Verify Markdown links, JSON examples, ordering, and consistency after edits. Report what changed and what content remains unavailable. Do not claim populated guides, licensed assets, score improvement, or PASS without evidence.
+Preserve unrelated work and existing directories. Update only files needed by the current request. Verify Markdown links, JSON examples, ordering, and consistency after edits. Run `python3 tools/audit_sources.py` before claiming canonical media is valid. Report what changed and what content remains unavailable. Do not claim populated guides, licensed assets, score improvement, or PASS without evidence.

@@ -6,16 +6,17 @@ Kho tài liệu ôn tập và media luyện **PTE Academic**. Mục tiêu hiện
 
 1. Đọc [STUDY_PLAN.md](./STUDY_PLAN.md): làm bài đầu vào, xem ưu tiên, rồi theo lịch từng ngày.
 2. Mở README của dạng bài bên dưới: đọc cách làm nhanh, scoring, kiến thức cần có và ví dụ, rồi luyện theo plan.
-3. Dùng media đã kiểm tra hoặc luyện trực tiếp qua nguồn chính thức khi chưa có media phù hợp.
+3. Xem [SOURCES.md](./SOURCES.md) trước khi dùng hoặc thêm bất kỳ question bank/media nào. Chỉ dùng canonical media đã qua source gate; nếu chưa có thì luyện qua nguồn chính thức hoặc `private-materials/` local-only.
 4. Ghi lỗi, chữa lỗi và làm lại hôm sau. Không cần đợi kho dữ liệu đầy mới bắt đầu.
 
 Hướng dẫn từng dạng và media có vòng kiểm tra riêng. Có README không đồng nghĩa đã có audio/image/item để luyện; dùng nguồn chính thức khi local chưa có asset phù hợp.
 
-## Ba tài liệu gốc
+## Bốn tài liệu gốc
 
 | File | Chứa gì |
 | --- | --- |
-| [AGENTS.md](./AGENTS.md) | Quy tắc biên soạn, cấu trúc item, chất lượng và nguồn/quyền sử dụng |
+| [AGENTS.md](./AGENTS.md) | Quy tắc biên soạn, cấu trúc item, quality gate và completion gate |
+| [SOURCES.md](./SOURCES.md) | Danh sách nguồn được phép dùng, nguồn personal-only và nội dung bị cấm |
 | README.md | Điểm bắt đầu và chỉ mục folder |
 | [STUDY_PLAN.md](./STUDY_PLAN.md) | Mục tiêu, ưu tiên 22 dạng, lịch 7 ngày, tự kiểm tra và điều chỉnh |
 
@@ -23,7 +24,11 @@ Hướng dẫn từng dạng và media có vòng kiểm tra riêng. Có README k
 
 `private-materials/` là vùng **chỉ dùng local để học cá nhân** cho prediction PDF, question bank, ảnh, audio hoặc tài liệu tương tự được tải hợp lệ từ nhà cung cấp. Nội dung tải xuống trong vùng này bị `.gitignore` và không được push lên GitHub; chỉ file policy `private-materials/README.md` được theo dõi.
 
-Dùng các tài liệu này để tăng độ phong phú của prompt và luyện phản xạ, nhưng không coi nhãn "prediction/high-frequency" hay sample answer của bên thứ ba là scoring authority của Pearson. Không sao chép chúng vào dataset reusable hoặc app nếu chưa có quyền tái sử dụng rõ ràng.
+Dùng các tài liệu này để tăng độ phong phú của prompt và luyện phản xạ, nhưng không coi nhãn "prediction/high-frequency" hay sample answer của bên thứ ba là scoring authority của Pearson. Không sao chép chúng vào dataset reusable hoặc app nếu chưa có quyền tái sử dụng rõ ràng. Nguồn personal-study được khóa trong [SOURCES.md](./SOURCES.md).
+
+## Trạng thái canonical dataset
+
+Canonical `media/` **không được phép chứa item tự bịa để lấp quota**. LLM-generated question, synthetic TTS, AI image, placeholder chart và item chưa human-review đều bị cấm. Nếu chưa có item đạt source gate thì để trống; mục tiêu 297 không phải lý do để tạo dữ liệu giả.
 
 ## Chỉ mục dạng bài
 
@@ -56,7 +61,7 @@ Folder giữ thứ tự dạng bài Pearson công bố. Mức ưu tiên luyện 
 
 ## Cấu trúc nội dung
 
-Mỗi folder dạng bài chứa hướng dẫn `README.md` và `media/<item-id>/metadata.json`, cùng audio/image/text cần thiết. Dạng chỉ dùng văn bản không cần audio. Hợp đồng chi tiết và mục tiêu thu thập nằm trong [AGENTS.md](./AGENTS.md).
+Mỗi folder dạng bài luôn có hướng dẫn `README.md`; chỉ tạo `media/<item-id>/` khi item đạt source/review gate. Dạng chỉ dùng văn bản không cần audio. Hợp đồng chi tiết nằm trong [AGENTS.md](./AGENTS.md), còn source allowlist và promotion rule nằm trong [SOURCES.md](./SOURCES.md).
 
 Tài liệu giải thích bằng tiếng Việt; câu hỏi, đáp án mẫu và tên dạng giữ tiếng Anh. Một item tốt phải sát định dạng, có đáp án/hướng dẫn đánh giá đúng và có nguồn sử dụng rõ ràng.
 
