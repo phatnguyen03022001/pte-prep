@@ -35,6 +35,71 @@ APEUni Score Breakdown V5 (2026-02-24) ước tính Describe Image đóng góp k
 - Quy trình: first, then, finally; phân biệt mô tả thứ tự với nguyên nhân.
 - Ảnh/bản đồ: on the left, in the north, next to; mô tả cái thấy được.
 
+### Taxonomy thực chiến: 3 groups / 7 types
+
+Đây là **taxonomy ôn luyện của workspace**, dùng để chọn chiến thuật và template nhanh; không phải danh mục 3-group/7-type chính thức do Pearson công bố. Bảy loại lưu trữ được gom vào ba family chiến thuật như sau:
+
+```text
+Describe Image (DI)
+│
+├── GROUP 1 — DATA / CHARTS
+│   │
+│   ├── 1. Bar Chart
+│   │   ├── Single Bar
+│   │   ├── Grouped / Clustered Bar
+│   │   ├── Stacked Bar
+│   │   └── Horizontal Bar
+│   │
+│   ├── 2. Line Graph
+│   │   ├── Single Line
+│   │   └── Multiple Lines
+│   │
+│   ├── 3. Pie Chart
+│   │   ├── Single Pie Chart
+│   │   └── Multiple Pie Charts
+│   │
+│   ├── 4. Table
+│   │   ├── Simple Table
+│   │   └── Complex / Matrix Table
+│   │
+│   └── 7.x Mixed Chart
+│       ├── Bar + Line
+│       ├── Pie + Bar
+│       └── Other Combined Charts
+│
+├── GROUP 2 — DIAGRAM / PROCESS / SPATIAL
+│   │
+│   ├── 5. Map
+│   │   ├── Geographic / Distribution Map
+│   │   ├── Layout / Floor Plan
+│   │   └── Before & After / Change Map
+│   │
+│   ├── 6. Process / Flowchart / Cycle
+│   │   ├── Natural / Life Cycle
+│   │   ├── Linear / Manufacturing Process
+│   │   └── Flowchart
+│   │
+│   └── 7.x Diagram
+│       ├── Technical / Scientific Diagram
+│       ├── Anatomy Diagram
+│       ├── Venn Diagram
+│       └── Pyramid / Hierarchy
+│
+└── GROUP 3 — PICTURE / VISUAL
+    │
+    └── 7.x Picture / Visual
+        ├── Photo / Real Image
+        ├── Illustration
+        └── Non-data Infographic
+```
+
+Quy tắc chọn group:
+
+- Có số liệu, trục, tỷ lệ hoặc bảng → **Group 1 — Data / Charts**.
+- Trọng tâm là trình tự, cấu trúc, quan hệ hoặc vị trí → **Group 2 — Diagram / Process / Spatial**.
+- Trọng tâm là cảnh vật, người, đồ vật hoặc hình minh hoạ không thiên về dữ liệu → **Group 3 — Picture / Visual**.
+- `7.x` không phải loại thứ tám: đây là các subtype của loại 7 được ánh xạ sang family chiến thuật phù hợp.
+
 ## 4. Chiến thuật luyện 40+
 
 1. Biểu đồ: chủ đề/đơn vị → cực trị hoặc thay đổi chính → một so sánh.
@@ -42,6 +107,40 @@ APEUni Score Breakdown V5 (2026-02-24) ước tính Describe Image đóng góp k
 3. Ảnh: cảnh chính → vị trí/hoạt động của hai chi tiết. Không ép ảnh vào khung tăng/giảm.
 4. Nếu không đọc được số nhỏ, dùng so sánh định tính có căn cứ; đừng bịa số.
 5. Luyện câu rõ và đủ ý trước, sau đó mở rộng khi còn thời gian.
+
+### Ba template family
+
+Các template dưới đây là **khung tổ chức câu**, không phải đoạn học thuộc để đọc nguyên xi. Mọi slot trong `[ ]` phải được thay bằng thông tin thực sự nhìn thấy trong hình. Bỏ câu nào không có dữ kiện chắc chắn; không bịa số, nguyên nhân hoặc quan hệ.
+
+#### Group 1 — Data / Charts
+
+Dùng cho Bar, Line, Pie, Table và Mixed Chart.
+
+> The image shows [chart/table type] about [topic], covering [time/categories] in [unit if clear]. Overall, [main trend / dominant feature]. [A] records the highest/largest figure at about [value], while [B] is the lowest/smaller at around [value]. In addition, [one clear comparison or change]. Overall, the key feature is [short evidence-based summary].
+
+**Slot ưu tiên:** topic → overall trend/extreme → max/min → một comparison/change. Nếu số quá nhỏ để đọc chắc, dùng `higher/lower`, `the largest/smallest`, `increased/decreased` thay vì đoán số.
+
+#### Group 2 — Diagram / Process / Spatial
+
+Dùng cho Map, Process, Flowchart, Cycle và technical/scientific diagrams.
+
+> The image illustrates [process/map/diagram] of [topic]. Overall, it shows [main purpose / sequence / structure]. [At the beginning / On the left / In the upper section], [detail 1]. [Next / In the centre / Nearby], [detail 2], followed by [detail 3 or relationship]. Finally, [final stage / output / most important spatial or structural feature].
+
+**Cách thay connector theo hình:**
+
+- Process/Cycle/Flowchart: `first`, `next`, `then`, `finally`.
+- Map/Layout: `to the north/south`, `on the left/right`, `next to`, `between`.
+- Technical/Venn/Pyramid: `consists of`, `is connected to`, `overlaps with`, `is divided into`, `at the top/bottom`.
+
+#### Group 3 — Picture / Visual
+
+Dùng cho Photo, Real Image, Illustration và non-data Infographic.
+
+> The image shows [main scene/topic]. Overall, the main focus is [main subject or activity]. In the foreground/centre, [detail 1]. On the left/right or in the background, [detail 2]. Another noticeable feature is [detail 3]. Overall, the scene mainly represents [short factual summary].
+
+**Slot ưu tiên:** main scene → main subject/activity → 2–3 visible details → factual summary. Không suy diễn nghề nghiệp, cảm xúc, địa điểm hoặc nguyên nhân nếu hình không đủ bằng chứng.
+
+**Mục tiêu luyện:** học thuộc cấu trúc câu và connector, **không học thuộc content**. Trong 25 giây chuẩn bị, chọn group trước, sau đó điền 4–6 slot dễ nhìn nhất.
 
 ## 5. Ví dụ có giải thích
 
