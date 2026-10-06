@@ -2,7 +2,7 @@
 
 ## PTE Academic — 7-Day Study Plan for 40+
 
-Đối chiếu nguồn chính thức: **2026-10-06**. Ngày 1 là ngày bắt đầu học; lịch không tự giả định ngày thi. Các phân bổ thời gian, mức ưu tiên và mốc tự kiểm tra dưới đây là **đề xuất luyện tập**. Riêng **mục 3** dùng Average Question Type Weighting do Pearson công bố cho Overall và từng communicative skill; các tỷ lệ này là trọng số tương đối trên một bài thi trung bình, **không phải số điểm trực tiếp trên thang 10–90**.
+Đối chiếu nguồn chính thức: **2026-10-06**. Ngày 1 là ngày bắt đầu học; lịch không tự giả định ngày thi. Các phân bổ thời gian, mức ưu tiên và mốc tự kiểm tra dưới đây là **đề xuất luyện tập**. Riêng **mục 3** dùng Average Question Type Weighting do Pearson công bố cho Overall và từng communicative skill, cộng cấu trúc nominal 65 câu của enhanced PTE Academic. Cột `Planning eq. /90` chỉ là `Overall weighting × 90` để so sánh ROI; **không phải số điểm Overall trực tiếp hoặc bảo đảm trên thang 10–90**.
 
 ## 1. Mục tiêu và điều kiện đầu vào
 
@@ -38,7 +38,9 @@ Có thể dùng prediction PDF/question bank của bên thứ ba làm **nguồn 
 
 Kỹ năng được chấm theo Score Guide [S1]: **L = Listening, R = Reading, S = Speaking, W = Writing**. Việc đọc hoặc nghe prompt không tự động có nghĩa kỹ năng đó được chấm.
 
-Pearson công bố **Average Question Type Weighting for Each Score** trên một bài thi trung bình: Overall, Listening, Reading, Speaking và Writing [S6]. Các phần trăm dưới đây mô tả **mức đóng góp tương đối**, không phải số điểm trực tiếp trên thang 10–90; Overall cũng không phải trung bình đơn giản của bốn skill score [S7].
+Pearson công bố **Average Question Type Weighting for Each Score** trên một bài thi trung bình: Overall, Listening, Reading, Speaking và Writing [S6]. Pearson cũng công bố cấu trúc enhanced PTE Academic với **65 câu nominal** phân bổ cho 22 dạng [S8]. Các phần trăm dưới đây mô tả **mức đóng góp tương đối**; Overall không phải trung bình đơn giản của bốn skill score và còn phụ thuộc question score, difficulty và weighting [S7].
+
+`Planning eq. /90 = Overall weighting × 90` chỉ dùng để hình dung sức nặng tương đối khi lập kế hoạch học. Ví dụ DI `15% → 13.5/90` nghĩa là **13.5 đơn vị quy đổi kế hoạch**, không có nghĩa Pearson bảo đảm cộng 13.5 điểm Overall nếu làm hoàn hảo toàn bộ DI. Với các dòng Pearson ghi `<1%`, giữ nguyên thành `<0.9/90` thay vì tự bịa phần thập phân.
 
 Để giữ plan 7 ngày đơn giản và nhất quán, mức ưu tiên mặc định dùng **cả Overall lẫn skill weighting**:
 
@@ -47,33 +49,33 @@ Pearson công bố **Average Question Type Weighting for Each Score** trên mộ
 - **P3 — ROI thấp:** các dạng còn lại. Vẫn làm quen và xuất hiện trong mock; không bỏ trống cố ý.
 - Nếu bài đầu vào cho thấy một kỹ năng yếu rõ rệt, có thể **nâng ưu tiên cá nhân** bất kể mức mặc định.
 
-| Thứ tự thi | Dạng / folder | Overall | L | R | S | W | Ưu tiên |
-| ---: | --- | ---: | ---: | ---: | ---: | ---: | --- |
-| 01 | [Read Aloud (RA)](./01-read-aloud/) | 4% | — | — | 9% | — | P2 |
-| 02 | [Repeat Sentence (RS)](./02-repeat-sentence/) | 7% | 17% | — | 16% | — | P1 |
-| 03 | [Describe Image (DI)](./03-describe-image/) | 15% | — | — | 31% | — | P1 |
-| 04 | [Retell Lecture (RL)](./04-retell-lecture/) | 6% | 13% | — | 13% | — | P1 |
-| 05 | [Answer Short Question (ASQ)](./05-answer-short-question/) | 2% | 4% | — | — | — | P3 |
-| 06 | [Summarize Group Discussion (SGD)](./06-summarize-group-discussion/) | 9% | 20% | — | 19% | — | P1 |
-| 07 | [Respond to a Situation (RTS)](./07-respond-to-a-situation/) | 6% | — | — | 13% | — | P1 |
-| 08 | [Summarize Written Text (SWT)](./08-summarize-written-text/) | 7% | — | 23% | — | 28% | P1 |
-| 09 | [Write Essay (WE)](./09-write-essay/) | 7% | — | — | — | 31% | P1 |
-| 10 | [Reading FIB — Dropdown](./10-reading-fill-in-the-blanks-dropdown/) | 7% | — | 25% | — | — | P1 |
-| 11 | [Reading MC — Multiple Answers](./11-reading-multiple-choice-multiple-answers/) | 1% | — | 5% | — | — | P3 |
-| 12 | [Reorder Paragraph](./12-reorder-paragraph/) | 3% | — | 9% | — | — | P2 |
-| 13 | [Reading FIB — Drag and Drop](./13-reading-fill-in-the-blanks-drag-and-drop/) | 6% | — | 20% | — | — | P1 |
-| 14 | [Reading MC — Single Answer](./14-reading-multiple-choice-single-answer/) | <1% | — | 3% | — | — | P3 |
-| 15 | [Summarize Spoken Text (SST)](./15-summarize-spoken-text/) | 4% | 10% | — | — | 18% | P1 |
-| 16 | [Listening MC — Multiple Answers](./16-listening-multiple-choice-multiple-answers/) | 1% | 3% | — | — | — | P3 |
-| 17 | [Listening FIB — Type In](./17-listening-fill-in-the-blanks-type-in/) | 3% | 8% | — | — | — | P2 |
-| 18 | [Highlight Correct Summary (HCS)](./18-highlight-correct-summary/) | <1% | 2% | 3% | — | — | P3 |
-| 19 | [Listening MC — Single Answer](./19-listening-multiple-choice-single-answer/) | <1% | 2% | — | — | — | P3 |
-| 20 | [Select Missing Word (SMW)](./20-select-missing-word/) | 1% | 1% | — | — | — | P3 |
-| 21 | [Highlight Incorrect Words (HIW)](./21-highlight-incorrect-words/) | 4% | 8% | 13% | — | — | P2 |
-| 22 | [Write from Dictation (WFD)](./22-write-from-dictation/) | 5% | 13% | — | — | 23% | P1 |
-|  | **Tổng Pearson** | **100%** | **100%** | **100%** | **100%** | **100%** |  |
+| Thứ tự thi | Dạng / folder | Câu nominal | Overall | Planning eq. /90 | L | R | S | W | Ưu tiên |
+| ---: | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| 01 | [Read Aloud (RA)](./01-read-aloud/) | 6 | 4% | ~3.6 | — | — | 9% | — | P2 |
+| 02 | [Repeat Sentence (RS)](./02-repeat-sentence/) | 10 | 7% | ~6.3 | 17% | — | 16% | — | P1 |
+| 03 | [Describe Image (DI)](./03-describe-image/) | 5 | 15% | ~13.5 | — | — | 31% | — | P1 |
+| 04 | [Retell Lecture (RL)](./04-retell-lecture/) | 2 | 6% | ~5.4 | 13% | — | 13% | — | P1 |
+| 05 | [Answer Short Question (ASQ)](./05-answer-short-question/) | 5 | 2% | ~1.8 | 4% | — | — | — | P3 |
+| 06 | [Summarize Group Discussion (SGD)](./06-summarize-group-discussion/) | 2 | 9% | ~8.1 | 20% | — | 19% | — | P1 |
+| 07 | [Respond to a Situation (RTS)](./07-respond-to-a-situation/) | 2 | 6% | ~5.4 | — | — | 13% | — | P1 |
+| 08 | [Summarize Written Text (SWT)](./08-summarize-written-text/) | 2 | 7% | ~6.3 | — | 23% | — | 28% | P1 |
+| 09 | [Write Essay (WE)](./09-write-essay/) | 1 | 7% | ~6.3 | — | — | — | 31% | P1 |
+| 10 | [Reading FIB — Dropdown](./10-reading-fill-in-the-blanks-dropdown/) | 5 | 7% | ~6.3 | — | 25% | — | — | P1 |
+| 11 | [Reading MC — Multiple Answers](./11-reading-multiple-choice-multiple-answers/) | 2 | 1% | ~0.9 | — | 5% | — | — | P3 |
+| 12 | [Reorder Paragraph](./12-reorder-paragraph/) | 2 | 3% | ~2.7 | — | 9% | — | — | P2 |
+| 13 | [Reading FIB — Drag and Drop](./13-reading-fill-in-the-blanks-drag-and-drop/) | 4 | 6% | ~5.4 | — | 20% | — | — | P1 |
+| 14 | [Reading MC — Single Answer](./14-reading-multiple-choice-single-answer/) | 2 | <1% | <0.9 | — | 3% | — | — | P3 |
+| 15 | [Summarize Spoken Text (SST)](./15-summarize-spoken-text/) | 1 | 4% | ~3.6 | 10% | — | — | 18% | P1 |
+| 16 | [Listening MC — Multiple Answers](./16-listening-multiple-choice-multiple-answers/) | 2 | 1% | ~0.9 | 3% | — | — | — | P3 |
+| 17 | [Listening FIB — Type In](./17-listening-fill-in-the-blanks-type-in/) | 2 | 3% | ~2.7 | 8% | — | — | — | P2 |
+| 18 | [Highlight Correct Summary (HCS)](./18-highlight-correct-summary/) | 2 | <1% | <0.9 | 2% | 3% | — | — | P3 |
+| 19 | [Listening MC — Single Answer](./19-listening-multiple-choice-single-answer/) | 2 | <1% | <0.9 | 2% | — | — | — | P3 |
+| 20 | [Select Missing Word (SMW)](./20-select-missing-word/) | 1 | 1% | ~0.9 | 1% | — | — | — | P3 |
+| 21 | [Highlight Incorrect Words (HIW)](./21-highlight-incorrect-words/) | 2 | 4% | ~3.6 | 8% | 13% | — | — | P2 |
+| 22 | [Write from Dictation (WFD)](./22-write-from-dictation/) | 3 | 5% | ~4.5 | 13% | — | — | 23% | P1 |
+|  | **Tổng Pearson / nominal** | **65** | **100%** | **—** | **100%** | **100%** | **100%** | **100%** |  |
 
-Ba dòng Overall `<1%` được giữ nguyên như Pearson công bố; không tự bịa phần thập phân để ép từng dòng. **Không nhân các tỷ lệ này với 90** và không diễn giải chúng thành kiểu “dạng X cho Y điểm”. Chúng chỉ cho biết trọng số tương đối của question type đối với từng score trên một bài thi trung bình [S6].
+Ba dòng Overall `<1%` được giữ nguyên như Pearson công bố; không tự bịa phần thập phân để ép từng dòng. `Planning eq. /90` là **phép quy đổi do plan tự tính**, không phải một field Pearson công bố và không được dùng để dự đoán chính xác điểm Overall khi chỉ làm một dạng. Cột `Câu nominal` lấy từ cấu trúc enhanced PTE Academic 2025 [S8]; số câu của một bài thực tế có thể thay đổi trong phạm vi Pearson áp dụng.
 
 Các điểm dễ bị tài liệu cũ ghi sai: Read Aloud chấm S; Answer Short Question chấm L; Dropdown FIB chấm R; Type In FIB chấm L [S1][S6]. Với mục tiêu 7 ngày, ưu tiên mặc định theo bảng trên nhưng vẫn phải nâng dạng thuộc kỹ năng yếu sau bài đầu vào.
 
@@ -259,5 +261,6 @@ Nếu chỉ có nguồn miễn phí: kiểm tra đủ dạng, form, timer, hiể
 - **[S5]** [Pearson Preparation / Smart Prep](https://www.pearsonpte.com/pte-academic/preparation/) — nguồn miễn phí; Scored Practice Test chính thức dùng cùng format/scoring engine.
 - **[S6]** [Pearson PTE Academic question weighting table](https://www.pearsonpte.com/ctf-assets/yqwtwibiobs4/UK8K7chHjNJhW9paYHxBd/8e89376c8a2a1d2efee4e3c0ec8200ee/pte-scoring-info-for-partners-report.pdf) — Average Question Type Weighting cho Overall và từng communicative skill trên một bài thi trung bình.
 - **[S7]** [How is my PTE overall score calculated?](https://www.pearsonpte.com/articles/how-is-my-pte-overall-score-calculated/) — Overall không phải trung bình đơn giản của bốn skill score; Pearson tính từ performance toàn bài với question scores, difficulty và weighting.
+- **[S8]** [The Enhanced PTE Academic Test Structure](https://www.pearsonpte.com/content/dam/ELL/pte/pearsonpte/research-report-pdfs/2025-07--enhanced-pte-a-report.pdf) — cấu trúc nominal 65 câu và số câu theo từng question type sau thay đổi 2025.
 
 Lịch, số câu, P1/P2/P3, khoảng dự phòng 45 và cách tự kiểm tra là đề xuất của plan. Khi Pearson thay đổi format/scoring, đối chiếu lại trước khi sửa chiến thuật; không nhập asset có bản quyền vào kho chỉ vì trang cho phép luyện miễn phí.
