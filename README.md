@@ -1,6 +1,6 @@
 # PTE Prep
 
-Kho tài liệu ôn tập và media luyện **PTE Academic**. Mục tiêu hiện tại là chuẩn bị trong 7 ngày để hướng tới **overall ≥40**; kế hoạch được điều chỉnh sau bài đầu vào.
+Kho tài liệu ôn tập và media luyện **PTE Academic** có thể tái sử dụng và mở rộng liên tục. Lộ trình học cấp tốc 7 ngày (hướng tới **overall ≥40**) được cung cấp như một chiến lược tùy chọn, nhưng workspace này không giới hạn thời gian học, khối lượng câu hỏi hay quy mô dữ liệu.
 
 ## Bắt đầu
 
@@ -18,7 +18,7 @@ Hướng dẫn từng dạng và media có vòng kiểm tra riêng. Có README k
 | [AGENTS.md](./AGENTS.md) | Quy tắc biên soạn, cấu trúc item, quality gate và completion gate |
 | [SOURCES.md](./SOURCES.md) | Danh sách nguồn được phép dùng, nguồn personal-only và nội dung bị cấm |
 | README.md | Điểm bắt đầu và chỉ mục folder |
-| [STUDY_PLAN.md](./STUDY_PLAN.md) | Mục tiêu, ưu tiên 22 dạng, lịch 7 ngày, tự kiểm tra và điều chỉnh |
+| [STUDY_PLAN.md](./STUDY_PLAN.md) | Mục tiêu, ưu tiên 22 dạng, lộ trình học tùy chọn (vd: 7 ngày), tự kiểm tra và điều chỉnh |
 
 ## Tài liệu cá nhân tải từ bên thứ ba
 

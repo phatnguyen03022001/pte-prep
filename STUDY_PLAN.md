@@ -1,6 +1,6 @@
 # STUDY_PLAN
 
-## PTE Academic — 7-Day Study Plan for 40+
+## PTE Academic — 7-Day Study Plan for 40+ (Optional Strategy)
 
 Đối chiếu nguồn chính thức: **2026-10-06**. Ngày 1 là ngày bắt đầu học; lịch không tự giả định ngày thi. Các phân bổ thời gian, mức ưu tiên và mốc tự kiểm tra dưới đây là **đề xuất luyện tập**. Riêng **mục 3** dùng Average Question Type Weighting do Pearson công bố cho Overall và từng communicative skill, cùng **khoảng số câu hiện hành** trong Score Guide. Cột `Planning eq. /90` chỉ là `Overall weighting × 90` để so sánh ROI; **không phải số điểm Overall trực tiếp hoặc bảo đảm trên thang 10–90**.
 
@@ -10,7 +10,7 @@ Mặc định: **overall ≥40**. Mức luyện thử mong muốn là **≥45** 
 
 Nếu yêu cầu là **mỗi kỹ năng ≥40**, phải theo dõi riêng Listening, Reading, Speaking và Writing; không lấy overall đạt làm bằng chứng đủ cả bốn. Overall không phải trung bình cộng bốn điểm kỹ năng [S1]. Plan này không xác định điều kiện visa.
 
-Bảy ngày phù hợp để làm quen đề, sửa lỗi thao tác và củng cố nền tiếng Anh đã có. Chưa có bài đầu vào thì chưa thể kết luận cá nhân sẽ đạt 40+. Nếu khó hiểu cả câu ngắn hoặc chưa viết được câu cơ bản, chuyển nhiều thời gian sang nền tảng và đánh giá lại thời hạn.
+Lộ trình bảy ngày phù hợp để làm quen đề, sửa lỗi thao tác và củng cố nền tiếng Anh đã có. Chưa có bài đầu vào thì chưa thể kết luận cá nhân sẽ đạt 40+. Nếu khó hiểu cả câu ngắn hoặc chưa viết được câu cơ bản, chuyển nhiều thời gian sang nền tảng và đánh giá lại thời hạn.
 
 - Ngày 1–6: khoảng **6 giờ học tập trung/ngày**, cộng nghỉ giữa các block.
 - Có sức và còn lỗi rõ ràng: thêm tối đa 60–90 phút chữa đúng lỗi đó.
@@ -42,7 +42,7 @@ Pearson công bố **Average Question Type Weighting for Each Score** trên mộ
 
 `Planning eq. /90 = Overall weighting × 90` chỉ dùng để hình dung sức nặng tương đối khi lập kế hoạch học. Ví dụ DI `15% → 13.5/90` nghĩa là **13.5 đơn vị quy đổi kế hoạch**, không có nghĩa Pearson bảo đảm cộng 13.5 điểm Overall nếu làm hoàn hảo toàn bộ DI. Với các dòng Pearson ghi `<1%`, giữ nguyên thành `<0.9/90` thay vì tự bịa phần thập phân.
 
-Để giữ plan 7 ngày đơn giản và nhất quán, mức ưu tiên mặc định dùng **cả Overall lẫn skill weighting**:
+Để giữ lộ trình cấp tốc đơn giản và nhất quán, mức ưu tiên mặc định dùng **cả Overall lẫn skill weighting**:
 
 - **P1 — trọng tâm:** Overall **≥5%** hoặc ít nhất một skill weighting **≥15%**. Dành phần lớn thời gian luyện có sửa lỗi.
 - **P2 — tích lũy:** Overall **3–4%** hoặc ít nhất một skill weighting **8–14%**, nếu chưa thuộc P1.
@@ -77,7 +77,7 @@ Pearson công bố **Average Question Type Weighting for Each Score** trên mộ
 
 Ba dòng Overall `<1%` được giữ nguyên như Pearson công bố; không tự bịa phần thập phân để ép từng dòng. `Planning eq. /90` là **phép quy đổi do plan tự tính**, không phải một field Pearson công bố và không được dùng để dự đoán chính xác điểm Overall khi chỉ làm một dạng. Cột `Số câu / bài` lấy từ **Score Guide hiện hành [S1]**. Các range theo từng dạng không cộng cơ học thành `65–75`: Pearson tạo các phiên bản đề cân bằng, nên không có bài nào đồng thời lấy toàn bộ minimum hoặc toàn bộ maximum của 22 dạng [S1].
 
-Các điểm dễ bị tài liệu cũ ghi sai: Read Aloud chấm S; Answer Short Question chấm L; Dropdown FIB chấm R; Type In FIB chấm L [S1][S6]. Với mục tiêu 7 ngày, ưu tiên mặc định theo bảng trên nhưng vẫn phải nâng dạng thuộc kỹ năng yếu sau bài đầu vào.
+Các điểm dễ bị tài liệu cũ ghi sai: Read Aloud chấm S; Answer Short Question chấm L; Dropdown FIB chấm R; Type In FIB chấm L [S1][S6]. Với các mục tiêu cấp tốc (như 7 ngày), ưu tiên mặc định theo bảng trên nhưng vẫn phải nâng dạng thuộc kỹ năng yếu sau bài đầu vào.
 
 ### Điều chỉnh sau bài đầu vào
 
@@ -88,7 +88,7 @@ Các điểm dễ bị tài liệu cũ ghi sai: Read Aloud chấm S; Answer Shor
 - Khi cần từng kỹ năng ≥40, bảo vệ thời gian cho kỹ năng thấp nhất.
 - Chuyển 30–60 phút từ phần đã ổn sang điểm yếu; giảm số câu mới để giữ thời gian chữa.
 
-## 4. Lịch bảy ngày
+## 4. Lịch bảy ngày (Lộ trình mẫu)
 
 ### Ngày 1 — biết mình đang yếu ở đâu
 

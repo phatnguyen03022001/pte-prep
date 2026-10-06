@@ -75,9 +75,9 @@ The following are **not allowed** in tracked canonical `media/`:
 - unknown-provenance downloads;
 - screenshots or copied commercial/Pearson assets without redistribution rights;
 - items that have only machine validation but no human content/media review;
-- low-quality assets kept only to satisfy the 297-item target.
+- low-quality assets kept only to satisfy an arbitrary item count.
 
-The 297-item table in `AGENTS.md` is a **target allocation**, never permission to fabricate content.
+The baseline dataset table in `AGENTS.md` is an **example allocation**, never permission to fabricate content.
 
 ## Local-only personal material layout
 

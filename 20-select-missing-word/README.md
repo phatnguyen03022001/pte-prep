@@ -1,6 +1,6 @@
 # 20 — Select Missing Word
 
-[Chỉ mục](../README.md) · [Ưu tiên và lịch 7 ngày](../STUDY_PLAN.md)
+[Chỉ mục](../README.md) · [Ưu tiên và lộ trình học](../STUDY_PLAN.md)
 
 Đối chiếu Pearson: **2026-10-05**. Các dòng **[S]/[F]** là thông tin chính thức từ nguồn cuối file; chiến thuật, khối lượng luyện và ví dụ là hướng dẫn tự biên soạn cho mục tiêu 40+. Ví dụ minh hoạ không phải đề Pearson hay dự đoán đề thi.
 

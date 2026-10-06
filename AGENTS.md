@@ -42,7 +42,9 @@ Text-only types may contain text-only items. Do not attach audio, images, or vid
 
 Learning must start without waiting for a complete dataset. Use official practice resources through their authorized interfaces when local items are unavailable.
 
-The canonical seven-day dataset target is **297 unique items**: **237 training + 30 Mock A + 30 Mock B**. Allocation is based on current official item frequency, assessed skills, partial-credit mechanics, and short-horizon training usefulness; it is not a claim about unpublished Pearson contribution percentages.
+The workspace is endlessly extensible and is not constrained by any fixed-duration study plan. While a 7-day plan may exist as an optional strategy, the canonical dataset has no arbitrary limits on size, provided items meet quality, licensing, and provenance requirements.
+
+As a structural baseline, an initial dataset configuration is illustrated below as **297 unique items**: **237 training + 30 Mock A + 30 Mock B**. This allocation is based on official item frequency, assessed skills, and partial-credit mechanics; it is an example starting point, not a strict cap.
 
 | # | Question type | Total | Training | Mock A | Mock B |
 | --- | --- | ---: | ---: | ---: | ---: |
@@ -74,7 +76,7 @@ For each type, allocate stable IDs deterministically: the lowest IDs are `traini
 
 Maintain variety in speakers, topics, difficulty, and applicable image forms. Repeated attempts on one item are review attempts, not new items. Do not inflate counts to satisfy a target; quality, task fidelity, licensing, provenance, and transcript/answer correctness outrank count completion.
 
-**Never fabricate canonical items to fill the 297 target.** Do not use LLM-authored questions, synthetic TTS, AI-generated images, placeholder charts, or invented prediction items in tracked `media/`. If no source-backed reviewed item is available, leave the slot empty and use authorized personal-study material under `private-materials/` instead.
+**Never fabricate canonical items to inflate counts.** Do not use LLM-authored questions, synthetic TTS, AI-generated images, placeholder charts, or invented prediction items in tracked `media/`. If no source-backed reviewed item is available, leave the slot empty and use authorized personal-study material under `private-materials/` instead.
 
 Do not hardcode volatile current item counts in READMEs; derive current counts from the filesystem or existing tooling when requested. The table above is a target allocation, not a statement of current completion or exam readiness.
 
