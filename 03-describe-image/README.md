@@ -2,7 +2,7 @@
 
 [Chỉ mục](../README.md) · [Ưu tiên và lộ trình học](../STUDY_PLAN.md)
 
-Đối chiếu Pearson: **2026-10-05**. Các dòng **[S]/[F]** là thông tin chính thức từ nguồn cuối file; chiến thuật, khối lượng luyện và ví dụ là hướng dẫn tự biên soạn cho mục tiêu 40+. Ví dụ minh hoạ không phải đề Pearson hay dự đoán đề thi.
+Đối chiếu Pearson: **2026-10-06**. Các dòng **[S]/[F]** là thông tin chính thức từ nguồn cuối file. Dữ liệu **[A]** là tham chiếu bên thứ ba từ APEUni Score Breakdown V5 ngày 2026-02-24, không phải scoring authority của Pearson. Chiến thuật, khối lượng luyện và ví dụ là hướng dẫn tự biên soạn cho mục tiêu 40+. Ví dụ minh hoạ không phải đề Pearson hay dự đoán đề thi.
 
 ## 1. Làm bài nhanh
 
@@ -11,6 +11,8 @@
 3. Nói thành các câu liên quan; dùng dữ kiện nhìn thấy.
 
 **Format:** Chuẩn bị 25 giây; trả lời 40 giây [F].
+
+**Số câu tham chiếu:** **5–6 câu** [A]. Đây là khoảng APEUni ghi trong Score Breakdown V5, không phải cam kết rằng mọi bài thi Pearson đều có đúng 5 hoặc 6 câu.
 
 ## 2. Quy tắc và cách chấm
 
@@ -21,6 +23,10 @@
 Câu trả lời phải có nội dung liên quan; Content 0 chặn các trait còn lại [S]. Nội dung DI có human review [S]. Không gán một số câu cố định thành điểm bảo đảm.
 
 Điểm raw/trait trong câu này không quy đổi trực tiếp sang thang 90. Mức 40+ cần xem toàn bài; checklist hoặc nhận xét ChatGPT chỉ hỗ trợ luyện. Cách đọc tên trait được giải thích ở [README gốc](../README.md#cách-đọc-rubric).
+
+### Tham chiếu trọng số APEUni V5
+
+APEUni Score Breakdown V5 (2026-02-24) ước tính Describe Image đóng góp khoảng **15% Overall** và **31% Speaking**; bảng không ghi đóng góp sang Writing, Reading hoặc Listening [A]. Đây là **ước tính của APEUni**, không phải trọng số chính thức Pearson và không được hiểu thành “DI bảo đảm 13.5/90”. Tỷ lệ thực tế có thể thay đổi theo số lượng item và cơ chế scaled scoring.
 
 ## 3. Kiến thức cần có
 
@@ -83,4 +89,5 @@ Khi thêm item, dùng `media/<item-id>/metadata.json` và asset cần thiết th
 
 - **[S]** [Pearson Score Guide](https://www.pearsonpte.com/content/dam/ELL/pte/pearsonpte/pdfs/pte-academic-pdfs/PTE-Academic-Test-Taker-Score-Guide.pdf), trang in 17–19: kỹ năng, trait và điểm raw. Ưu tiên nguồn này khi website còn ghi chú scoring mâu thuẫn.
 - **[F]** [Pearson Speaking & Writing format](https://www.pearsonpte.com/pte-academic/test-format/speaking-writing/): thao tác/timing.
-- Kiểm chứng lần cuối: **2026-10-05**. Các lời giải/ví dụ trong file là nội dung tự biên soạn; không gán điểm chính thức cho response mẫu.
+- **[A]** [APEUni Score Breakdown V5 — 2026-02-24](https://dl26yht2ovo33.cloudfront.net/public/images/APEUni_Score_Breakdown_en_20260224.jpg): tham chiếu bên thứ ba cho khoảng số câu và contribution estimate; không phải scoring authority của Pearson.
+- Kiểm chứng lần cuối: **2026-10-06**. Các lời giải/ví dụ trong file là nội dung tự biên soạn; không gán điểm chính thức cho response mẫu.
