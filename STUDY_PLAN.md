@@ -2,7 +2,7 @@
 
 ## PTE Academic — 7-Day Study Plan for 40+
 
-Đối chiếu nguồn chính thức: **2026-10-05**. Ngày 1 là ngày bắt đầu học; lịch không tự giả định ngày thi. Các phân bổ thời gian, mức ưu tiên và mốc tự kiểm tra dưới đây là **đề xuất luyện tập**, không phải trọng số hay quy đổi điểm Pearson.
+Đối chiếu nguồn chính thức: **2026-10-06**. Ngày 1 là ngày bắt đầu học; lịch không tự giả định ngày thi. Các phân bổ thời gian, mức ưu tiên và mốc tự kiểm tra dưới đây là **đề xuất luyện tập**. Riêng **mục 3** ghi Average Overall Weighting do Pearson công bố; cột `/90` chỉ là phép quy đổi trọng số để dễ so sánh, không phải số điểm Overall được cộng trực tiếp.
 
 ## 1. Mục tiêu và điều kiện đầu vào
 
@@ -36,38 +36,44 @@ ChatGPT hỗ trợ chữa câu, giải thích và nhận xét theo rubric. Nhậ
 
 Kỹ năng được chấm theo Score Guide [S1]: **L = Listening, R = Reading, S = Speaking, W = Writing**. Việc đọc hoặc nghe prompt không tự động có nghĩa kỹ năng đó được chấm.
 
-- **P1:** dành phần lớn thời gian luyện có sửa lỗi; luân phiên, không bắt buộc luyện cả nhóm mỗi ngày.
-- **P2:** có buổi luyện riêng và được tăng ưu tiên nếu là điểm yếu.
-- **P3:** vẫn làm quen, có bài thực hành và xuất hiện trong mock; không bỏ dạng.
+Pearson công bố **Average Question Type Weighting for Overall** trên một bài thi trung bình [S6]. Cột **Quy đổi trọng số /90** được tính bằng `weighting × 90` để dễ so sánh sức nặng tương đối; **không được cộng trực tiếp các số này để suy ra Overall**.
 
-Mức mặc định dưới đây là lựa chọn huấn luyện cho tuần ngắn, **không khẳng định dạng P1 đóng góp nhiều điểm hơn dạng P2/P3**.
+Để giữ plan 7 ngày đơn giản và nhất quán, mức ưu tiên mặc định dùng ngưỡng sau:
 
-| Số | Dạng / folder | Kỹ năng | Ưu tiên | Lý do luyện |
-| --- | --- | --- | --- | --- |
-| 01 | [Read Aloud](./01-read-aloud/) | S | P1 | Sửa phát âm/nhịp bằng văn bản nhìn thấy. |
-| 02 | [Repeat Sentence](./02-repeat-sentence/) | L + S | P1 | Tập nghe và giữ cụm từ; luyện ngắn mỗi ngày. |
-| 03 | [Describe Image](./03-describe-image/) | S | P1 | Tập nói có nội dung từ hình, không phụ thuộc câu thuộc lòng. |
-| 04 | [Retell Lecture](./04-retell-lecture/) | L + S | P2 | Dùng kỹ năng ghi chú và tóm tắt sau khi ổn nhịp nói. |
-| 05 | [Answer Short Question](./05-answer-short-question/) | L | P3 | Luyện ngắn theo lỗi nghe/từ vựng; không dành cả buổi học mẹo. |
-| 06 | [Summarize Group Discussion](./06-summarize-group-discussion/) | L + S | P1 | Làm quen ba người nói; bảo vệ một block luyện riêng. |
-| 07 | [Respond to a Situation](./07-respond-to-a-situation/) | S | P1 | Tập nói trực tiếp đúng người nghe và mục đích. |
-| 08 | [Summarize Written Text](./08-summarize-written-text/) | R + W | P1 | Tập tóm ý và viết đúng form; sửa lỗi câu. |
-| 09 | [Write Essay](./09-write-essay/) | W | P2 | Luyện triển khai ý đơn giản, đúng đề và bấm giờ. |
-| 10 | [Fill in the Blanks (Dropdown)](./10-reading-fill-in-the-blanks-dropdown/) | R | P1 | Tập ngữ pháp, collocation và ngữ cảnh qua lỗi cụ thể. |
-| 11 | [Multiple Choice, Multiple Answers](./11-reading-multiple-choice-multiple-answers/) | R | P3 | Chọn theo bằng chứng; học cách tránh chọn thừa. |
-| 12 | [Reorder Paragraph](./12-reorder-paragraph/) | R | P2 | Luyện liên kết câu và thứ tự ý. |
-| 13 | [Fill in the Blanks (Drag and Drop)](./13-reading-fill-in-the-blanks-drag-and-drop/) | R | P1 | Ôn lựa chọn từ trong ngữ cảnh, kết hợp với Dropdown. |
-| 14 | [Multiple Choice, Single Answer](./14-reading-multiple-choice-single-answer/) | R | P3 | Làm quen cách tìm bằng chứng; giữ thời gian cho cả phần. |
-| 15 | [Summarize Spoken Text](./15-summarize-spoken-text/) | L + W | P2 | Chuyển ghi chú thành đoạn ngắn có ý chính. |
-| 16 | [Multiple Choice, Multiple Answers](./16-listening-multiple-choice-multiple-answers/) | L | P3 | Nghe bằng chứng cho từng lựa chọn; tránh chọn tràn. |
-| 17 | [Fill in the Blanks (Type In)](./17-listening-fill-in-the-blanks-type-in/) | L | P2 | Nghe từ cụ thể và sửa chính tả. |
-| 18 | [Highlight Correct Summary](./18-highlight-correct-summary/) | L + R | P3 | Chọn tóm tắt giữ đúng ý, không chỉ khớp từ. |
-| 19 | [Multiple Choice, Single Answer](./19-listening-multiple-choice-single-answer/) | L | P3 | Tập nghe trọng tâm câu hỏi. |
-| 20 | [Select Missing Word](./20-select-missing-word/) | L | P3 | Luyện dự đoán đoạn kết theo ý. |
-| 21 | [Highlight Incorrect Words](./21-highlight-incorrect-words/) | L + R | P2 | Theo văn bản đồng thời nghe; tập chọn có căn cứ. |
-| 22 | [Write from Dictation](./22-write-from-dictation/) | L + W | P1 | Luyện nghe, giữ câu và kiểm tra chính tả mỗi ngày. |
+- **P1 — trọng tâm:** weighting **≥5%**. Dành phần lớn thời gian luyện có sửa lỗi.
+- **P2 — tích lũy:** weighting **3–4%**. Luyện đều nhưng ít thời gian hơn P1.
+- **P3 — ROI thấp:** weighting **≤2%** hoặc Pearson công bố **<1%**. Vẫn làm quen và xuất hiện trong mock; không bỏ trống cố ý.
+- Nếu bài đầu vào cho thấy một kỹ năng yếu rõ rệt, có thể **nâng ưu tiên cá nhân** bất kể weighting.
 
-Các điểm dễ bị tài liệu cũ ghi sai: Read Aloud chấm S; Answer Short Question chấm L; Dropdown FIB chấm R; Type In FIB chấm L [S1]. Không sử dụng bảng trọng số cũ để phân bổ thời gian.
+| Thứ tự thi | Dạng / folder | Kỹ năng | Overall Weighting | Quy đổi /90 | Ưu tiên |
+| ---: | --- | --- | ---: | ---: | --- |
+| 01 | [Read Aloud (RA)](./01-read-aloud/) | S | 4% | ~3.6 | P2 |
+| 02 | [Repeat Sentence (RS)](./02-repeat-sentence/) | L + S | 7% | ~6.3 | P1 |
+| 03 | [Describe Image (DI)](./03-describe-image/) | S | 15% | ~13.5 | P1 |
+| 04 | [Retell Lecture (RL)](./04-retell-lecture/) | L + S | 6% | ~5.4 | P1 |
+| 05 | [Answer Short Question (ASQ)](./05-answer-short-question/) | L | 2% | ~1.8 | P3 |
+| 06 | [Summarize Group Discussion (SGD)](./06-summarize-group-discussion/) | L + S | 9% | ~8.1 | P1 |
+| 07 | [Respond to a Situation (RTS)](./07-respond-to-a-situation/) | S | 6% | ~5.4 | P1 |
+| 08 | [Summarize Written Text (SWT)](./08-summarize-written-text/) | R + W | 7% | ~6.3 | P1 |
+| 09 | [Write Essay (WE)](./09-write-essay/) | W | 7% | ~6.3 | P1 |
+| 10 | [Reading FIB — Dropdown](./10-reading-fill-in-the-blanks-dropdown/) | R | 7% | ~6.3 | P1 |
+| 11 | [Reading MC — Multiple Answers](./11-reading-multiple-choice-multiple-answers/) | R | 1% | ~0.9 | P3 |
+| 12 | [Reorder Paragraph](./12-reorder-paragraph/) | R | 3% | ~2.7 | P2 |
+| 13 | [Reading FIB — Drag and Drop](./13-reading-fill-in-the-blanks-drag-and-drop/) | R | 6% | ~5.4 | P1 |
+| 14 | [Reading MC — Single Answer](./14-reading-multiple-choice-single-answer/) | R | <1% | <0.9 | P3 |
+| 15 | [Summarize Spoken Text (SST)](./15-summarize-spoken-text/) | L + W | 4% | ~3.6 | P2 |
+| 16 | [Listening MC — Multiple Answers](./16-listening-multiple-choice-multiple-answers/) | L | 1% | ~0.9 | P3 |
+| 17 | [Listening FIB — Type In](./17-listening-fill-in-the-blanks-type-in/) | L | 3% | ~2.7 | P2 |
+| 18 | [Highlight Correct Summary (HCS)](./18-highlight-correct-summary/) | L + R | <1% | <0.9 | P3 |
+| 19 | [Listening MC — Single Answer](./19-listening-multiple-choice-single-answer/) | L | <1% | <0.9 | P3 |
+| 20 | [Select Missing Word (SMW)](./20-select-missing-word/) | L | 1% | ~0.9 | P3 |
+| 21 | [Highlight Incorrect Words (HIW)](./21-highlight-incorrect-words/) | L + R | 4% | ~3.6 | P2 |
+| 22 | [Write from Dictation (WFD)](./22-write-from-dictation/) | L + W | 5% | ~4.5 | P1 |
+|  | **Tổng Pearson** |  | **100%** | **90.0 đơn vị trọng số** |  |
+
+Ba dòng `<1%` được giữ nguyên như Pearson công bố; không tự bịa phần thập phân để ép từng dòng cộng thành 100%. Weighting là dữ liệu để hiểu sức nặng tương đối, **không phải công thức kiểu `10 điểm sàn + điểm từng dạng`**.
+
+Các điểm dễ bị tài liệu cũ ghi sai: Read Aloud chấm S; Answer Short Question chấm L; Dropdown FIB chấm R; Type In FIB chấm L [S1]. Với mục tiêu 7 ngày, ưu tiên mặc định theo bảng trên nhưng vẫn phải nâng dạng thuộc kỹ năng yếu sau bài đầu vào.
 
 ### Điều chỉnh sau bài đầu vào
 
@@ -242,12 +248,13 @@ Nếu chỉ có nguồn miễn phí: kiểm tra đủ dạng, form, timer, hiể
 
 ## 9. Nguồn và cách đọc
 
-Đã đối chiếu ngày **2026-10-05**:
+Đã đối chiếu ngày **2026-10-06**:
 
 - **[S1]** [Pearson PTE Academic Test Taker Score Guide](https://www.pearsonpte.com/content/dam/ELL/pte/pearsonpte/pdfs/pte-academic-pdfs/PTE-Academic-Test-Taker-Score-Guide.pdf) — scoring và kỹ năng; trang in 5, 14–43. Ưu tiên nguồn này khi trang web có câu mô tả cũ/mâu thuẫn.
 - **[S2]** [Speaking & Writing](https://www.pearsonpte.com/pte-academic/test-format/speaking-writing/) — thao tác, timing và form.
 - **[S3]** [Reading](https://www.pearsonpte.com/pte-academic/test-format/reading/) — thao tác và chiến lược định dạng.
 - **[S4]** [Listening](https://www.pearsonpte.com/pte-academic/test-format/listening/) — nghe, thao tác và spelling.
 - **[S5]** [Pearson Preparation / Smart Prep](https://www.pearsonpte.com/pte-academic/preparation/) — nguồn miễn phí; Scored Practice Test chính thức dùng cùng format/scoring engine.
+- **[S6]** [Pearson PTE Academic question weighting table](https://www.pearsonpte.com/ctf-assets/yqwtwibiobs4/UK8K7chHjNJhW9paYHxBd/8e89376c8a2a1d2efee4e3c0ec8200ee/pte-scoring-info-for-partners-report.pdf) — Average Question Type Weighting cho Overall và từng communicative skill trên một bài thi trung bình.
 
 Lịch, số câu, P1/P2/P3, khoảng dự phòng 45 và cách tự kiểm tra là đề xuất của plan. Khi Pearson thay đổi format/scoring, đối chiếu lại trước khi sửa chiến thuật; không nhập asset có bản quyền vào kho chỉ vì trang cho phép luyện miễn phí.
