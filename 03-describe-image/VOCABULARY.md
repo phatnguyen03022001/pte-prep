@@ -8,55 +8,37 @@ Không dùng file này như cam kết điểm. Describe Image vẫn được ch�
 
 ## 1. Nguyên tắc học
 
-Ưu tiên **cụm từ ngắn có thể nói ngay** hơn từ đơn rời rạc.
+Học từ/cụm ngắn theo **hình đang nhìn**, nhưng khi điền vào template phải dùng **đúng kiểu ngữ pháp**: danh từ/cụm danh từ hoặc mệnh đề có chủ ngữ–động từ. Các cụm trong bảng 89 chủ đề ở §8 được viết thành **mệnh đề có thể nói ngay**; không phải kịch bản học thuộc hay dữ liệu đã xác minh cho mọi biến thể ảnh.
 
-Tỷ lệ mặc định:
+Chỉ chọn thông tin thật: chủ đề, 2 chi tiết và 1 quan hệ. Nếu không nhìn rõ nhãn hoặc số, bỏ con số thay vì đoán. Các ô `[A]`, `[B]`, `[X]`, `[Y]` trong ví dụ là chỗ **tiếp tục thay bằng dữ liệu quan sát được**, tuyệt đối không đọc nguyên dấu ngoặc.
 
-- khoảng **30% từ khóa** để nhận diện nội dung;
-- khoảng **70% cụm 2–5 từ** để biến keyword thành câu có quan hệ.
+## 2. Slot map khớp chính xác 3 template trong README
 
-Mỗi topic chỉ nên thêm lượng tối thiểu cần thiết:
+**DATA / CHARTS**
 
-- 3–5 core nouns;
-- 3–5 descriptive / relationship phrases;
-- 1–2 summary phrases.
+- `[chart type]` → cụm danh từ: `bar chart`, `line graph`, `pie chart`, `table`.
+- `[topic]` → cụm danh từ chỉ nội dung: `the percentage of internet users by age`.
+- `[main trend or main feature]` → **mệnh đề đủ chủ ngữ–động từ**: `the percentage is higher among young people`.
+- `[detail 1 with value]`, `[detail 2 with value]`, `[detail 3]` → **mệnh đề**: `category A accounts for [X] percent`. Chỉ dùng số nếu đọc rõ.
+- `[main conclusion]` → **that-clause** sau “the data shows”: `that category A has a larger share than category B`.
+- “In comparison,” chỉ dùng nếu **hai detail thực sự được so sánh**. Nếu không, dùng “In addition,” hoặc bỏ câu đó.
 
-Không nhồi thuật ngữ khó nếu một từ dễ hơn vẫn mô tả đúng hình.
+**DIAGRAM / PROCESS / MAP**
 
-## 2. Slot map chuẩn
+- `[diagram type]` → `diagram`, `map`, `floor plan`, `flowchart`.
+- `[topic]` → cụm danh từ: `the structure of the Earth`.
+- `[main components]` → danh sách bộ phận: `the crust, mantle and core`.
+- `[detail 1]`, `[detail 2]` → **that-clause** sau “One important feature is”: `that the crust is the outermost layer`.
+- `[relationship]` → **cụm danh từ** sau “connected through” CHỈ khi có dòng chảy/quy trình thực: `a series of growth stages`. Với sơ đồ tĩnh, dùng câu thay thế đã có trong README: “Their positions show **[that the core is in the centre]**”.
+- `[main structure or result]` → cụm danh từ hoặc that-clause sau “the diagram shows”: `layers arranged from the outside to the centre`.
 
-### Group 1 — Data / Charts
+**PICTURE / SCENE**
 
-- `[chart/table type]`
-- `[topic]`
-- `[time/categories]`
-- `[unit]`
-- `[main trend / dominant feature]`
-- `[highest]`
-- `[lowest]`
-- `[comparison / change]`
-- `[summary]`
+- `[main scene]`, `[main subject]` → cụm danh từ: `a classroom`, `a group of students`.
+- `[detail 1]`, `[detail 2]`, `[detail 3]` → **mệnh đề**: `students are reading at their desks` (sau “Looking at the details,”).
+- `[main activity or relationship]` → cụm danh từ: `students studying together` (sau “the picture shows”).
 
-### Group 2 — Diagram / Process / Spatial
-
-- `[process/map/diagram]`
-- `[topic]`
-- `[main purpose / sequence / structure]`
-- `[detail 1]`
-- `[detail 2]`
-- `[relationship]`
-- `[final stage / output]`
-- `[summary]`
-
-### Group 3 — Picture / Visual
-
-- `[main scene/topic]`
-- `[main subject/activity]`
-- `[detail 1]`
-- `[detail 2]`
-- `[detail 3]`
-- `[location / relationship]`
-- `[summary]`
+**Quy tắc cực ngắn:** `The image shows [danh từ]`; `Looking at the details, [chủ ngữ + động từ]`; `One important feature is [that + chủ ngữ + động từ]`. Đừng nhét cụm danh từ vào chỗ cần một mệnh đề.
 
 ## 3. Universal phrase bank
 
@@ -313,191 +295,129 @@ Useful phrases:
 - in the background
 - the main activity is
 
-## 5. Topic entry contract
+## 5. Quy cách một hàng trong bộ 89 chủ đề
 
-Mỗi topic trong bộ 89 phải theo đúng format này. Không thêm topic chỉ để đủ số lượng nếu chưa có danh sách nguồn.
+Mỗi hàng ở §8 giữ nguyên **ID, tên và nhóm**, gồm các từ lõi, **ba mệnh đề ngắn có thể dùng cho detail**, và **một câu nêu quan hệ**. Đây là ngân hàng diễn đạt theo chủ đề, không phải 89 đáp án cố định.
 
-```markdown
-## Txx — <Topic name>
+- **DATA:** lấy mệnh đề trực tiếp cho `[detail 1/2/3]`; dùng một ý bao quát làm `[main trend]`, rồi mở đầu bằng `that` khi điền `[main conclusion]`.
+- **DIAGRAM:** các mệnh đề ở cột detail **đã có “that”** nên ghép ngay sau “One important feature is”. Quan hệ trong cột cuối là **câu độc lập** để hiểu ý; khi dùng `[relationship]` cần đổi thành cụm danh từ hoặc dùng câu thay thế cho sơ đồ tĩnh.
+- **PICTURE:** các mệnh đề ở cột detail dùng được sau “Looking at the details,” / “In addition,”. Lấy chủ thể/hành động có thật trong ảnh để điền mở bài và kết bài.
+- **Cột quan hệ** là câu hoàn chỉnh, không được nhét nguyên một câu vào slot đòi **cụm danh từ**. Không đọc tất cả gợi ý nếu thiếu bằng chứng từ ảnh.
 
-**Family:** Data / Diagram / Picture
+## 6. Ví dụ — Earth Structure (DIAGRAM)
 
-### Core nouns
-- <word>
-- <word>
-- <word>
+- `[diagram type]` = `diagram`
+- `[topic]` = `the structure of the Earth`
+- `[main components]` = `the crust, the mantle and the core`
+- `[detail 1]` = `that the crust is the outermost layer`
+- `[detail 2]` = `that the mantle lies below the crust`
+- **Sơ đồ tĩnh:** thay nguyên dòng “These parts are connected through ...” bằng “Their positions show **that the core is at the centre**.”
+- `[main structure or result]` = `layers arranged from the surface to the centre`
 
-### Ready-to-use phrases
-- <2–5 word phrase>
-- <2–5 word phrase>
-- <2–5 word phrase>
+Không ép từ khó như `lithosphere`, `asthenosphere` nếu nhãn hình không đòi hỏi. Chọn từ đơn giản nhưng đúng vị trí và quan hệ.
 
-### Slot mapping
-- [topic] = ...
-- [detail 1] = ...
-- [detail 2] = ...
-- [relationship] = ...
-- [summary] = ...
+## 7. Kiểm tra bộ 89 chủ đề
 
-### Avoid
-- <hard / unnecessary term> → use <simpler term>
-```
+Bảng §8 khớp đủ **89 ID và tiêu đề** trong `media/sources.json`. Phân loại dựa trên nội dung ảnh tham chiếu, **không phải danh mục do Pearson xác nhận**. Đặc biệt: `0131` là chu kỳ tác nhân gây nhiễm da ếch, `0717` là bản đồ sản lượng mật ong, `0333` là biểu đồ đường có nhãn tiếng Pháp.
 
-Rules:
-
-1. Mỗi phrase phải mô tả được thứ thực sự có thể xuất hiện trong hình.
-2. Không chèn `highest`, `lowest`, `numbers`, `increase` hoặc `decrease` nếu hình không hỗ trợ.
-3. Ưu tiên từ dễ phát âm và dễ ghép câu.
-4. Một topic không cần hơn 8–12 learning units nếu không có lý do rõ ràng.
-5. Reuse universal phrases; không copy lại toàn bộ phrase bank vào từng topic.
-6. Topic-specific vocabulary chỉ bổ sung phần mà universal/type-specific bank chưa phủ.
-
-## 6. Example — Earth Structure
-
-**Family:** Diagram / Scientific
-
-### Core nouns
-
-- Earth
-- layer
-- crust
-- mantle
-- core
-- surface
-- centre
-
-### Ready-to-use phrases
-
-- the structure of the Earth
-- different layers of the Earth
-- the outer crust
-- the mantle below the crust
-- the core in the centre
-- from the surface to the centre
-- is divided into layers
-- is located inside
-
-### Slot mapping
-
-- `[topic]` = the structure of the Earth
-- `[main purpose / structure]` = different layers of the Earth
-- `[detail 1]` = the crust is on the outside
-- `[detail 2]` = the mantle is below the crust
-- `[relationship]` = the core is in the centre
-- `[summary]` = the main layers from the surface to the centre
-
-### Avoid
-
-- lithosphere → use `outer layer` when the exact technical term is unnecessary
-- asthenosphere → use `layer below` when supported by the diagram
-- mesosphere → use `middle/lower layer` only when visually accurate
-
-The point is not to erase correct technical vocabulary. The point is to avoid forcing difficult terms when simpler accurate language can describe the visible relationship.
-
-## 7. Kiểm định bộ 89 chủ đề
-
-Mỗi hàng bên dưới có **ID + tiêu đề lấy đúng từ `sources.json`**, nhóm ảnh, ít nhất 3 core words, 3 cụm câu ngắn và 1 gợi ý quan hệ để điền vào **khung 5 ý** trong README. Dùng bank ở §3–4 để thay từ khó bằng từ dễ; không học thêm các danh sách đồng nghĩa dài.
-
-Đã so sánh từng nhóm/cụm với **ảnh xem trước** của cả 89 file và sửa các tiêu đề gây hiểu nhầm, ví dụ `0131` là **chu kỳ tác nhân gây nhiễm da ếch**, không phải trứng → nòng nọc → ếch; `0717` là **bản đồ sản lượng mật ong**, không phải các bước làm mật. Tuy vậy, ảnh thu nhỏ không xác minh được mọi nhãn/số nhỏ; **kiểm tra file ảnh gốc khi tập**, không tự bịa số hoặc suy diễn một quan hệ chưa thấy.
-
-Đây là **bank luyện mô tả**, không phải 89 câu trả lời mẫu, không phải phân loại chính thức Pearson, và chưa kiểm thử Oral Fluency/Pronunciation của người học. Nội dung gợi ý chỉ được phát âm nếu đúng với ảnh đang nhìn.
+Các câu ở §8 chỉ là **gợi ý luyện tập**: phải đối chiếu ảnh gốc, số/nhãn và mũi tên khi nói. Chưa có xác nhận Pearson về bất kỳ ảnh nào trong 89 ảnh.
 
 ## 8. Bộ 89 chủ đề — cụm từ dễ nói
 
 **Phạm vi:** đúng 89 tiêu đề theo `media/sources.json` (thứ tự giữ nguyên của nguồn, ID gốc). Đây là bộ ảnh **bên thứ ba**, không phải 89 **dạng** DI hay xác nhận Pearson đưa vào đề thi. Nguồn ảnh không mặc nhiên có quyền tái phân phối; bảng chỉ gồm cụm từ và ví dụ **do mình tự biên soạn**.
 
-**Cách học:** mỗi ngày lấy 8–12 ảnh; với *mỗi ảnh*, chỉ chọn **3 core words + 2 short phrases + 1 relation**. Trong 25 giây, nhìn ảnh thật rồi chọn câu đúng; một mục không bắt buộc dùng hết cụm. `[A]/[B]/[X]` có nghĩa là thay bằng nhãn cụ thể từ ảnh. `higher/lower`, thì quá khứ, số liệu và quan hệ chỉ đọc nếu ảnh hỗ trợ. Các câu dưới đây là **gợi ý cần đối chiếu với hình**, không phải nội dung đã được xác nhận cho mọi ảnh hay đoạn văn để đọc thuộc lòng.
+**Cách học:** Chọn một ảnh → 3 từ khóa → hai mệnh đề chi tiết và một quan hệ. Cột detail đã được viết theo đúng kiểu câu của nhóm; chỉ đọc nếu khớp ảnh. Số hoặc nhãn trong `[X]`, `[Y]`, `[A]`, `[B]` là biến cần xác nhận trước khi nói, không phải dữ liệu có sẵn. `[topic]` dùng tên chủ đề diễn đạt thành cụm danh từ tự nhiên; không mặc định tên file là câu tiếng Anh hoàn chỉnh.
 
 Chú giải: **DATA** = có số/tỷ lệ/bảng; **DIAGRAM** = vị trí/cấu tạo/quá trình/bản đồ; **PICTURE** = ảnh/cảnh/so sánh ảnh.
 
-| ID + topic | Nhóm | Core words (nói được) | 3 cụm từ ngắn để ghép | Mối liên hệ cần nói (khi ảnh hỗ trợ) |
+| ID + topic | Nhóm | Core words (nói được) | 3 mệnh đề ngắn cho [detail] | Quan hệ — câu hoàn chỉnh (kiểm tra ảnh) |
 | --- | --- | --- | --- | --- |
-| `0008` Earth Structure | DIAGRAM | Earth, crust, mantle, core | the outer crust · the middle mantle · the inner core | the mantle lies between the crust and the core |
-| `0036` Oxbow Lake | DIAGRAM | river, bend, neck, lake | a curved river · a narrow river bend · a separate lake | the river bend forms a lake |
-| `0173` Solar Yard Light | DIAGRAM | sun, panel, battery, light | a small solar panel · a light on a pole · energy from sunlight | the panel provides power for the light |
-| `0178` Apple Life Cycle | DIAGRAM | apple, flower, fruit, seed | an apple seed · a growing tree · flowers and fruit | the seed grows into a tree |
-| `0223` Solar Eclipse 1 | DIAGRAM | sun, moon, Earth, shadow | the Sun and Moon · a dark shadow · the Moon in the middle | the Moon is between the Sun and Earth |
-| `0224` Bird Feeder | PICTURE | bird, bottle, seed, stick | a bottle with seeds · small wooden sticks · a bird feeding | the bird sits next to the bottle |
-| `0234` Food&Oil Price | DATA | food, oil, price, year | two price lines · a peak near 2008 · different vertical scales | the lines rise and fall, but use different axes |
-| `0331` The Eatwell Plate | DATA | fruit, bread, dairy, meat | fruit and vegetables · bread and rice · a smaller food group | the sections show different food groups |
-| `0336` Australian Population Density | DIAGRAM | Australia, people, city, coast | population across Australia · dense areas near the coast · a large inland area | compare the coast with inland areas |
-| `0369` Inbound Visits | DATA | visits, UK, people, year | UK residents going abroad · overseas visitors to the UK · millions of visits | outbound visits are higher than inbound visits |
-| `0386` Solar Eclipse | DIAGRAM | sun, moon, Earth, shadow | the path of the Moon · a dark shadow · the Earth and Sun | the Moon blocks sunlight |
-| `0406` Wind Machine | DIAGRAM | wind, blade, tower, power | large rotating blades · a tall wind tower · wind power equipment | wind turns the blades |
-| `0455` Population Age Groups | DATA | Australia, men, women, age | five age groups · men on the right · women on the left | compare male and female shares in the same age group |
-| `0278` Closed-loop Recycling | DIAGRAM | waste, use, recycle, material | used materials · the recycling stage · new products | materials are used again |
-| `0294` Vehicle Ownership | DATA | car, home, 2001, 2013 | no-car households · one-car households · two-car households | compare ownership groups between 2001 and 2013 |
-| `0421` Germination | DIAGRAM | seed, root, stem, leaf | a small seed · the first root · a growing shoot | the seed starts to grow |
-| `0423` Water Cycle | DIAGRAM | water, cloud, rain, sun | water turning into vapour · clouds in the sky · rain falling down | water returns to the ground |
-| `0529` Wind Power Capacity | DATA | wind, power, year, capacity | wind power capacity · changes over time · the highest point | compare the first and last values |
-| `0539` Women in Labor Force | DATA | men, women, work, group | male and female shares · several work categories · a 100-percent bar | compare women and men within one category |
-| `0549` Internet Users | DATA | UK, mobile, age, percent | mobile internet users · younger age groups · older age groups | the share falls with age |
-| `0668` NZ House Price | DATA | New Zealand, home, price, year | house prices in New Zealand · the highest period · the lowest period | compare prices across time |
-| `0680` Chocolate Consumers | DATA | chocolate, country, person, pounds | chocolate per person · Switzerland at the top · other countries below | Switzerland has a higher figure |
-| `0717` Honey Production | DIAGRAM | Mexico, honey, region, share | honey production by state · central and southern zones · darker map regions | dark areas show a higher share of honey production |
-| `0718` Floor Plan | DIAGRAM | room, kitchen, bedroom, balcony | a bedroom on the left · a kitchen below · a balcony on the right | the kitchen is next to the living room |
-| `0918` Best Food | DATA | fast food, people, week, month | how often people eat fast food · once a week · once or twice a month | compare the same group across years |
-| `1203` Commuting Time | DATA | travel, time, region, minutes | commuting time by region · London at the top · other regions below | London has the longest time |
-| `1233` Number of Vehicles | DATA | vehicle, number, year, group | the number of vehicles · a large group · a smaller group | compare two vehicle groups |
-| `1241` Leisure Center | DATA | pool, gym, court, cafe | leisure centre visitors · the swimming pool · the gym at night | compare the same place at two times |
-| `1243` Technology Products | DATA | phone, TV, computer, radio | the most used technology · telephone users · smaller device groups | telephone has the highest bar |
-| `1247` Sport Participants | DATA | sport, boys, girls, year | high school athletes · boys over time · girls over time | both lines rise over the long period |
-| `0002` Typing Hands | PICTURE | hand, finger, keyboard, wrist | correct typing posture · incorrect hand positions · hands above a keyboard | the picture compares right and wrong hand positions |
-| `0007` Height of Tree | DIAGRAM | tree, height, distance, angle | the height of a tree · the distance from the tree · a measurement angle | the line runs from the observer to the tree top |
-| `0011` Global Warming | DIAGRAM | world, heat, colour, land | a world temperature map · warmer areas in red · cooler areas in yellow | different colours show different increases |
-| `0018` Upper Arms | DIAGRAM | arm, bone, wrist, finger | upper arm bones · lower arm bones · wrist and finger bones | different animals have similar bone parts |
-| `0031` Earth Crust (2) | DIAGRAM | Earth, crust, rock, layer | the outer layer of Earth · several rock layers · the surface above | one layer lies below another |
-| `0045` Apartment Plan | DIAGRAM | flat, bedroom, kitchen, door | rooms in an apartment · the main entrance · a kitchen near other rooms | one room is next to another |
-| `0117` European Population 2 | DATA | Europe, people, country, year | European population figures · the largest country · a smaller country | compare two countries or years |
-| `0222` Parts of Tree | DIAGRAM | tree, root, trunk, leaf | roots below the ground · a strong trunk · branches and leaves | the branches grow from the trunk |
-| `0231` Bird Migration | DIAGRAM | bird, map, north, south | the bird migration route · northern breeding areas · southern winter areas | arrows show travel between regions |
-| `0268` Egypt Trading | DIAGRAM | Egypt, import, export, goods | goods entering Egypt · goods leaving Egypt · trade with nearby areas | imports and exports move in different directions |
-| `0023` World Water | DATA | water, salt, fresh, ice | mostly salt water · a small freshwater share · ice and groundwater | salt water is much greater than fresh water |
-| `0334` Iron Age Hut | DIAGRAM | hut, roof, wall, ground | a sloping roof · walls on both sides · a seat inside | the roof sits above the hut walls |
-| `0033` Australian Population Density 1 | DIAGRAM | Australia, population, coast, inland | a map of Australia · people near the coast · fewer people inland | population is not spread evenly |
-| `0163` Input and Output | DIAGRAM | input, process, output, system | the input stage · a central process · the output stage | input moves through a system |
-| `0546` E-waste | DATA | waste, appliance, computer, share | electronic waste groups · electrical waste groups · labelled percentages | large appliances take the biggest share |
-| `0548` Ship Lock | DIAGRAM | ship, lock, gate, water | a ship inside a lock · gates at each end · different water levels | the water level changes inside the lock |
-| `0558` Plastic Bottle Recycling | DIAGRAM | bottle, collect, recycle, plastic | used plastic bottles · sorting and cleaning · new plastic material | bottles are processed and reused |
-| `1230` Birth Rate | DATA | boy, girl, day, birth | male birth shares · female birth shares · days of the week | compare the same weekday in two pie charts |
-| `0496` Egg Experiment | DIAGRAM | egg, water, cup, test | an egg in water · a container · different test results | compare the two egg positions |
-| `1215` Meeting Room | DIAGRAM | room, entrance, store, exit | two meeting rooms · a store at the top · a fire exit on the right | the rooms are next to each other |
-| `0131` Frog Life Cycle 1 | DIAGRAM | frog, skin, spore, infection | a frog skin infection cycle · spores moving through stages · a return to the first stage | the spores spread through infected frog skin |
-| `0235` Government Expenditure | DATA | education, fund, school, budget | education spending sectors · schools with a large budget · early childhood spending | compare the labelled dollar amounts across levels |
-| `0341` Rainforest Distribution | DIAGRAM | forest, map, region, land | rainforest regions · green forest areas · land outside these areas | forests are found in selected regions |
-| `0391` Library Plan | DIAGRAM | library, door, room, shelf | a library floor plan · shelves and rooms · the main entrance | show where one area is located |
-| `0535` Beijing Weather | DATA | Beijing, rain, temperature, month | Beijing weather by month · warm summer months · colder winter months | compare summer and winter |
-| `0449` Grape Fruits | DIAGRAM | grape, truck, box, shop | grapes on the plant · grapes on a truck · packed grapes in boxes | grapes move from growing to delivery |
-| `0461` Upper Arms (B) | DIAGRAM | arm, bone, wrist, hand | upper arm bones · bones near the wrist · different animal limbs | the same bone groups have different shapes |
-| `0554` Air Composition | DATA | air, nitrogen, oxygen, gas | nitrogen at 79 percent · oxygen at 20 percent · other gases at 1 percent | nitrogen makes up the largest share |
-| `0556` Age Group | DATA | age, male, female, percent | age groups by sex · males on the left · females on the right | compare men and women of the same age group |
-| `0557` Tomato Processing Cycle | DIAGRAM | tomato, fruit, factory, product | tomatoes being processed · a factory stage · the finished product | tomatoes move through several steps |
-| `1191` Pet Ownership | DATA | pet, region, share, people | pet ownership by region · North America at 40 percent · Europe at 25 percent | North America has the largest share |
-| `1242` Renewable Electricity | DATA | power, energy, source, year | renewable electricity · different power sources · changes over time | compare the main sources |
-| `0215` Food Pyramid 1 | DIAGRAM | food, pyramid, decade, level | a food pyramid from the 1970s · a pyramid from the 2010s · different food groups | the two pyramids show a changed arrangement |
-| `0372` Mosquito Life Cycle | DIAGRAM | mosquito, egg, larva, adult | eggs in water · a growing larva · an adult mosquito | the mosquito changes through stages |
-| `1211` Weekly Spending | DATA | money, spending, week, category | weekly spending by group · the largest expense · a smaller expense | compare two expense groups |
-| `1238` City Visits | DATA | Canada, tourist, year, million | tourist arrivals in Canada · 2019 at 22.1 million · a drop in 2020 | arrivals fall in 2020 and later rise |
-| `0329` Gallery Map | DIAGRAM | gallery, room, floor, area | a gallery floor plan · rooms in different colours · several connected areas | the rooms form a layout |
-| `1234` Renewable Energy by Sector | DATA | heat, electricity, transport, percent | electricity at 22.31 percent · heat at 5.64 percent · transport at 4.23 percent | electricity has the highest actual share |
-| `0046` Language Shares | DATA | language, share, speaker, country | language shares · the largest language · a smaller language share | compare two language groups |
-| `0048` Sprouting | DIAGRAM | seed, water, root, leaf | a dry seed · the first root · a young seedling | water uptake comes before root growth |
-| `0324` Music Download | DATA | music, download, year, service | music downloads · the highest figure · a different service | compare two services or years |
-| `0337` Tomato Life Cycle | DIAGRAM | tomato, seed, plant, fruit | a tomato seed · a growing plant · ripe tomatoes | the plant produces new fruit |
-| `0428` Computer Then and Now | PICTURE | computer, screen, old, new | an old computer on the left · a modern computer on the right · two different sizes | the new computer looks smaller |
-| `0444` Formation of Iceberg | DIAGRAM | ice, snow, water, iceberg | snow and ice · ice reaching the sea · a floating iceberg | ice breaks away into the water |
-| `0712` Airline Passengers | DATA | airline, passenger, growth, segment | domestic airline passenger growth · the mining group above zero · leisure below zero | mining grows while leisure is negative |
-| `1240` Rainforest Layer | DIAGRAM | forest, layer, tree, ground | the top forest layer · the middle canopy · the forest floor | the forest has different vertical layers |
-| `0226` Deforestation Reasons | DATA | forest, reason, farming, share | reasons for deforestation · farming activities · other causes | compare the main causes |
-| `0347` Sunshine Hours in France | DIAGRAM | France, sun, hour, region | a map of France · yellow and orange areas · red areas in the south | different colours show yearly sunshine hours |
-| `0401` Acid Rain | DIAGRAM | factory, gas, cloud, rain | gases rising from factories · clouds moving across land · rain falling on land | emissions move through clouds and rain |
-| `1198` River Cross Section | DIAGRAM | river, width, depth, speed | a river cross section · river width and depth · water moving downstream | river flow depends on area and speed |
-| `1217` Largest Banks | DATA | bank, profit, region, year | bank profits by region · two ring charts · 2007 and 2011 totals | compare regional shares across the two years |
-| `1236` Customer Purchasing Reasons | DATA | customer, reason, price, quality | reasons for buying · the main buying reason · a smaller reason | compare two reasons |
-| `1237` Online Purchase Trend | DATA | China, US, world, online | online purchases over time · China rising from 12.4 percent · the US below 10 percent | China is above the US in 2017 |
-| `0181` Internet Population | DATA | internet, people, country, number | internet users by country · total population by country · two bars for each country | compare internet users with population in China |
-| `0398` Doctoral Student | DATA | student, course, year, number | doctoral student numbers · the 2019 to 2020 bars · the 2023 to 2024 bars | compare the same group across years |
-| `0104` World GDP | DATA | world, GDP, country, growth | GDP growth by country · the tallest bars · the lower bars | compare two countries or periods |
-| `1245` Bright Classroom | PICTURE | student, desk, book, laptop | people studying at desks · books on tables · laptops in a classroom | some students use laptops |
-| `1246` Cafeteria | PICTURE | people, table, drink, cafe | four people at a table · drinks on the table · people talking together | people face each other while talking |
-| `0333` Earth Crust | DATA | Earth, layer, radius, speed | a line graph with French labels · radius in kilometres · changes near the outer layers | the line falls in steps across the marked layers |
+| `0008` Earth Structure | DIAGRAM | Earth, crust, mantle, core | that the crust is the outermost layer · that the mantle lies below the crust · that the core is at the centre | The mantle lies between the crust and the core. |
+| `0036` Oxbow Lake | DIAGRAM | river, bend, neck, lake | that the river has a curved bend · that the narrow bend becomes separated · that the separated water forms a lake | A cut-off river bend forms an oxbow lake. |
+| `0173` Solar Yard Light | DIAGRAM | sun, panel, battery, light | that a solar panel receives sunlight · that a battery stores energy · that the light uses the stored energy | The panel and battery provide power for the light. |
+| `0178` Apple Life Cycle | DIAGRAM | apple, flower, fruit, seed | that a seed grows into a tree · that the tree produces flowers · that the flowers develop into fruit | The fruit contains seeds that can begin a new cycle. |
+| `0223` Solar Eclipse 1 | DIAGRAM | sun, moon, Earth, shadow | that the Moon is between the Sun and Earth · that a shadow falls on Earth · that the three bodies are aligned | The Moon blocks part of the sunlight reaching Earth. |
+| `0224` Bird Feeder | PICTURE | bird, bottle, seed, stick | a bird is standing near a feeder · seeds are visible inside the bottle · wooden sticks extend from the bottle | The bird can reach the seeds through the feeder. |
+| `0234` Food&Oil Price | DATA | food, oil, price, year | the chart has two separate price lines · the lines change over time · one line reaches a peak near 2008 | The food and oil price lines rise and fall on different scales. |
+| `0331` The Eatwell Plate | DATA | fruit, bread, dairy, meat | the plate is divided into food groups · fruit and vegetables occupy one section · bread and rice appear in another section | The sections represent different groups of food. |
+| `0336` Australian Population Density | DIAGRAM | Australia, people, city, coast | that population density varies across Australia · that many coastal areas are more densely populated · that much of the interior is less densely populated | Population density differs between coastal and inland regions. |
+| `0369` Inbound Visits | DATA | visits, UK, people, year | the chart compares inbound and outbound visits · the figures are measured in millions · outbound visits exceed inbound visits | More visits are made abroad by UK residents than to the UK from overseas. |
+| `0386` Solar Eclipse | DIAGRAM | sun, moon, Earth, shadow | that the Moon moves between the Sun and Earth · that the Moon casts a shadow · that part of the sunlight is blocked | The Moon blocks sunlight during the eclipse. |
+| `0406` Wind Machine | DIAGRAM | wind, blade, tower, power | that the blades are attached to a tall tower · that wind makes the blades rotate · that the machine uses wind energy | Wind causes the blades to turn. |
+| `0455` Population Age Groups | DATA | Australia, men, women, age | the chart shows several age groups · men and women are shown separately · each age group has two comparable figures | The chart allows male and female shares to be compared within each age group. |
+| `0278` Closed-loop Recycling | DIAGRAM | waste, use, recycle, material | that used materials are collected · that the materials pass through recycling · that new products can be made from recycled materials | The process returns used materials to production. |
+| `0294` Vehicle Ownership | DATA | car, home, 2001, 2013 | the chart includes households with no car · it also includes one-car and two-car households · the chart covers 2001 and 2013 | Car ownership differs across household groups and years. |
+| `0421` Germination | DIAGRAM | seed, root, stem, leaf | that a root grows from the seed · that a shoot develops above the seed · that the shoot becomes a young plant | The seed develops into a seedling. |
+| `0423` Water Cycle | DIAGRAM | water, cloud, rain, sun | that water rises as vapour · that vapour forms clouds · that rain returns water to the ground | Water moves between the surface and the atmosphere. |
+| `0529` Wind Power Capacity | DATA | wind, power, year, capacity | the chart shows wind power capacity over time · the values change from year to year · the first and last values can be compared | The graph displays changes in wind power capacity. |
+| `0539` Women in Labor Force | DATA | men, women, work, group | the chart separates male and female shares · each category has two comparable sections · the bars represent shares of the whole | Male and female proportions vary across work categories. |
+| `0549` Internet Users | DATA | UK, mobile, age, percent | the chart shows mobile internet use by age · younger groups have a higher share · older groups have a lower share | Mobile internet use decreases with age in the chart. |
+| `0668` NZ House Price | DATA | New Zealand, home, price, year | the graph shows house prices in New Zealand · prices differ across the years · the highest and lowest periods can be identified | House prices change over the period shown. |
+| `0680` Chocolate Consumers | DATA | chocolate, country, person, pounds | Switzerland is shown at the top of the chart · other countries have lower figures · consumption is measured per person | Switzerland has the highest figure in the comparison. |
+| `0717` Honey Production | DIAGRAM | Mexico, honey, region, share | that the map shows Mexican regions · that regions are shaded in different colours · that darker areas indicate a larger share | The map compares honey production shares across regions. |
+| `0718` Floor Plan | DIAGRAM | room, kitchen, bedroom, balcony | that the bedroom is on the left · that the balcony is on the right · that the kitchen is next to the living room | The plan shows how the apartment rooms are arranged. |
+| `0918` Best Food | DATA | fast food, people, week, month | the chart shows how often people eat fast food · weekly visits are one category · monthly visits are another category | The frequencies of fast-food visits differ across the years shown. |
+| `1203` Commuting Time | DATA | travel, time, region, minutes | the chart compares commuting times across regions · London has the longest time · other regions have shorter times | Commuting times vary by region. |
+| `1233` Number of Vehicles | DATA | vehicle, number, year, group | the chart displays different vehicle groups · some groups have larger values · other groups have smaller values | The number of vehicles varies across groups. |
+| `1241` Leisure Center | DATA | pool, gym, court, cafe | the chart compares different parts of a leisure centre · the swimming pool is one category · gym use is shown for another time | Visitor numbers differ by area and time. |
+| `1243` Technology Products | DATA | phone, TV, computer, radio | the chart compares several technology products · telephone users form the largest group · other devices have smaller groups | Telephone use has the highest figure in the chart. |
+| `1247` Sport Participants | DATA | sport, boys, girls, year | the graph shows male and female sport participants · both lines cover several years · both groups increase over the period | Participation increases for both boys and girls. |
+| `0002` Typing Hands | PICTURE | hand, finger, keyboard, wrist | the picture shows hands above a keyboard · one position is marked as correct · another position is marked as incorrect | The picture contrasts correct and incorrect hand positions. |
+| `0007` Height of Tree | DIAGRAM | tree, height, distance, angle | that a person stands at a distance from a tree · that a line goes towards the treetop · that the diagram marks a measurement angle | The angle and distance are used to measure tree height. |
+| `0011` Global Warming | DIAGRAM | world, heat, colour, land | that the map shows temperature changes · that some areas are shaded red · that other areas are shown in yellow | Different colours represent different levels of warming. |
+| `0018` Upper Arms | DIAGRAM | arm, bone, wrist, finger | that the picture compares several animal limbs · that the upper and lower arm bones are labelled · that wrist and finger bones are shown | The animals have similar bone groups with different shapes. |
+| `0031` Earth Crust (2) | DIAGRAM | Earth, crust, rock, layer | that the crust is at the outside of the Earth · that several rock layers are shown · that one layer lies below another | The diagram places different layers beneath the surface. |
+| `0045` Apartment Plan | DIAGRAM | flat, bedroom, kitchen, door | that the plan shows several rooms · that the entrance leads into the apartment · that the kitchen is near other rooms | The plan shows the positions of the apartment rooms. |
+| `0117` European Population 2 | DATA | Europe, people, country, year | the chart compares population figures for European countries · some countries have larger populations · other countries have smaller populations | Population figures vary across the countries or years shown. |
+| `0222` Parts of Tree | DIAGRAM | tree, root, trunk, leaf | that the roots are below the ground · that the trunk supports the branches · that leaves grow on the branches | The tree consists of roots, a trunk, branches and leaves. |
+| `0231` Bird Migration | DIAGRAM | bird, map, north, south | that the arrows cross different regions · that birds travel between north and south · that the route connects seasonal areas | The arrows show the direction of bird migration. |
+| `0268` Egypt Trading | DIAGRAM | Egypt, import, export, goods | that the diagram shows goods entering Egypt · that other goods leave Egypt · that trade routes connect different areas | Imports and exports move in opposite directions. |
+| `0023` World Water | DATA | water, salt, fresh, ice | salt water occupies most of the total · freshwater makes up a much smaller share · part of the freshwater is stored in ice | Salt water accounts for most of the world's water. |
+| `0334` Iron Age Hut | DIAGRAM | hut, roof, wall, ground | that the hut has a sloping roof · that the walls support the roof · that an interior area is shown | The roof is positioned above the hut walls. |
+| `0033` Australian Population Density 1 | DIAGRAM | Australia, population, coast, inland | that the map shows Australia · that many people live near the coast · that fewer people live in inland areas | Population is unevenly distributed across Australia. |
+| `0163` Input and Output | DIAGRAM | input, process, output, system | that the system has an input stage · that the input enters a central process · that the output leaves the system | The system transforms an input into an output. |
+| `0546` E-waste | DATA | waste, appliance, computer, share | the chart groups different kinds of electronic waste · large appliances take the biggest share · other devices account for smaller shares | Large appliances represent the largest waste category. |
+| `0548` Ship Lock | DIAGRAM | ship, lock, gate, water | that a ship enters the lock · that the gates control the water · that the water level changes inside the lock | The lock changes the water level to let the ship pass. |
+| `0558` Plastic Bottle Recycling | DIAGRAM | bottle, collect, recycle, plastic | that plastic bottles are collected · that the bottles are sorted and cleaned · that recycled plastic is used again | Used bottles become material for new products. |
+| `1230` Birth Rate | DATA | boy, girl, day, birth | the charts show male and female birth shares · each chart includes days of the week · the same weekday can be found in both charts | The two charts compare births by sex and day. |
+| `0496` Egg Experiment | DIAGRAM | egg, water, cup, test | that the pictures show eggs in water · that the eggs appear in different positions · that the experiment uses containers of water | The experiment compares the positions of eggs in water. |
+| `1215` Meeting Room | DIAGRAM | room, entrance, store, exit | that the plan contains two meeting rooms · that a store is marked at the top · that a fire exit is marked on the right | The meeting rooms lie next to each other. |
+| `0131` Frog Life Cycle 1 | DIAGRAM | frog, skin, spore, infection | that spores move between stages · that frog skin becomes infected · that the process releases more spores | The diagram shows a cycle of infection affecting frog skin. |
+| `0235` Government Expenditure | DATA | education, fund, school, budget | the chart shows education spending categories · schools receive one share of the budget · early childhood education is another category | The chart compares spending across education levels. |
+| `0341` Rainforest Distribution | DIAGRAM | forest, map, region, land | that rainforest areas are marked on a map · that the marked forests cover selected regions · that other regions are not marked as rainforest | Rainforests are found in different parts of the mapped area. |
+| `0391` Library Plan | DIAGRAM | library, door, room, shelf | that the plan has several labelled rooms · that shelves are placed inside the library · that the entrance is marked on the plan | The plan shows where the rooms and shelves are located. |
+| `0535` Beijing Weather | DATA | Beijing, rain, temperature, month | the chart shows monthly weather in Beijing · summer months are warmer · winter months are colder | Weather conditions differ between summer and winter. |
+| `0449` Grape Fruits | DIAGRAM | grape, truck, box, shop | that grapes grow on plants · that the grapes are carried for delivery · that the grapes are packed into boxes | The diagram follows grapes from growing to distribution. |
+| `0461` Upper Arms (B) | DIAGRAM | arm, bone, wrist, hand | that different animal limbs are shown · that upper arm bones appear in each limb · that wrist bones have different shapes | The animal limbs share similar bone groups. |
+| `0554` Air Composition | DATA | air, nitrogen, oxygen, gas | nitrogen accounts for 79 percent of the air · oxygen accounts for 20 percent · other gases account for 1 percent | Nitrogen makes up the largest share of air. |
+| `0556` Age Group | DATA | age, male, female, percent | the chart shows age groups by sex · male figures are on the left · female figures are on the right | The same age group can be compared for men and women. |
+| `0557` Tomato Processing Cycle | DIAGRAM | tomato, fruit, factory, product | that tomatoes enter a processing stage · that the tomatoes pass through a factory · that finished products leave the process | Tomatoes move through several stages before becoming products. |
+| `1191` Pet Ownership | DATA | pet, region, share, people | North America accounts for 40 percent · Europe accounts for 25 percent · the chart compares several regions | North America has the largest share of pet ownership. |
+| `1242` Renewable Electricity | DATA | power, energy, source, year | the chart shows renewable electricity by source · the sources have different values · the figures change across the years | Renewable electricity varies by source and time. |
+| `0215` Food Pyramid 1 | DIAGRAM | food, pyramid, decade, level | that two food pyramids are shown · that the pyramids represent different decades · that the food groups are arranged differently | The food pyramids show a change in the arrangement of food groups. |
+| `0372` Mosquito Life Cycle | DIAGRAM | mosquito, egg, larva, adult | that mosquito eggs are laid in water · that a larva develops from an egg · that the larva grows into an adult mosquito | The stages show the mosquito life cycle. |
+| `1211` Weekly Spending | DATA | money, spending, week, category | the chart shows weekly spending by category · one category has the largest amount · another category has a smaller amount | Weekly spending differs across categories. |
+| `1238` City Visits | DATA | Canada, tourist, year, million | arrivals reached 22.1 million in 2019 · visitor numbers dropped in 2020 · arrivals increased again in later years | The chart shows a fall followed by a recovery in tourism. |
+| `0329` Gallery Map | DIAGRAM | gallery, room, floor, area | that the gallery is divided into rooms · that different rooms are marked in different colours · that the rooms are arranged across the floor | The map shows the layout of the gallery. |
+| `1234` Renewable Energy by Sector | DATA | heat, electricity, transport, percent | electricity accounts for 22.31 percent · heat accounts for 5.64 percent · transport accounts for 4.23 percent | Electricity has the highest actual share among these sectors. |
+| `0046` Language Shares | DATA | language, share, speaker, country | the chart presents several languages · one language has the largest share · other languages have smaller shares | Language shares vary between the groups. |
+| `0048` Sprouting | DIAGRAM | seed, water, root, leaf | that the dry seed absorbs water · that a root begins to grow · that a young seedling develops | Water uptake occurs before root growth. |
+| `0324` Music Download | DATA | music, download, year, service | the chart shows music downloads · different services are compared · the figures are shown across the years | Music download levels differ by service or year. |
+| `0337` Tomato Life Cycle | DIAGRAM | tomato, seed, plant, fruit | that a tomato grows from a seed · that the plant develops leaves and flowers · that the plant produces ripe tomatoes | The tomato plant produces fruit containing new seeds. |
+| `0428` Computer Then and Now | PICTURE | computer, screen, old, new | an older computer is shown on the left · a modern computer is shown on the right · the two computers are different in size | The picture compares older and newer computer designs. |
+| `0444` Formation of Iceberg | DIAGRAM | ice, snow, water, iceberg | that snow and ice build up · that ice reaches the sea · that a piece of ice breaks away | A piece of ice separates and floats in the water. |
+| `0712` Airline Passengers | DATA | airline, passenger, growth, segment | the chart shows growth by passenger segment · the mining segment is above zero · the leisure segment is below zero | The mining segment shows growth while the leisure segment shows a decline. |
+| `1240` Rainforest Layer | DIAGRAM | forest, layer, tree, ground | that the top layer is above the canopy · that the canopy is above the forest floor · that the layers are arranged vertically | The diagram divides the rainforest into different layers. |
+| `0226` Deforestation Reasons | DATA | forest, reason, farming, share | the chart shows reasons for deforestation · farming is listed as a cause · other causes make up the remaining categories | The chart compares different causes of forest loss. |
+| `0347` Sunshine Hours in France | DIAGRAM | France, sun, hour, region | that the map shows sunshine hours in France · that different regions have different colours · that southern regions include red areas | The map shows regional differences in annual sunshine hours. |
+| `0401` Acid Rain | DIAGRAM | factory, gas, cloud, rain | that gases rise from factories · that emissions move into clouds · that rain carries pollutants back to the ground | Emissions contribute to acid rain falling on land and water. |
+| `1198` River Cross Section | DIAGRAM | river, width, depth, speed | that the diagram marks river width · that the river depth is shown · that the water flows downstream | The cross section links river dimensions with flow. |
+| `1217` Largest Banks | DATA | bank, profit, region, year | the first chart shows figures for 2007 · the second chart shows figures for 2011 · each chart breaks the total down by region | The charts compare regional shares between 2007 and 2011. |
+| `1236` Customer Purchasing Reasons | DATA | customer, reason, price, quality | the chart lists reasons for customer purchases · one reason has the largest share · another reason has a smaller share | Customers report different reasons for buying products. |
+| `1237` Online Purchase Trend | DATA | China, US, world, online | China's figure rises from 12.4 percent · the US figure stays below 10 percent · China is above the US in 2017 | The graph shows stronger online purchase growth in China. |
+| `0181` Internet Population | DATA | internet, people, country, number | the chart shows internet users by country · each country has a population bar · another bar shows internet users | The chart compares internet users with the total population. |
+| `0398` Doctoral Student | DATA | student, course, year, number | one group of bars shows 2019 to 2020 · another group shows 2023 to 2024 · doctoral students are divided into labelled groups | The chart compares doctoral student numbers across years. |
+| `0104` World GDP | DATA | world, GDP, country, growth | the chart compares GDP growth across countries · some bars are taller · other bars are shorter | GDP growth differs across the countries or periods shown. |
+| `1245` Bright Classroom | PICTURE | student, desk, book, laptop | students are working at their desks · books are placed on the tables · some students are using laptops | The picture shows students studying in a classroom. |
+| `1246` Cafeteria | PICTURE | people, table, drink, cafe | four people are sitting at a table · drinks are placed on the table · the people are talking together | The picture shows a group sharing a conversation in a cafe. |
+| `0333` Earth Crust | DATA | Earth, layer, radius, speed | the chart has labels in French · the horizontal axis shows radius in kilometres · the line changes near the outer layers | The line graph shows changes across the marked layers of the Earth. |
