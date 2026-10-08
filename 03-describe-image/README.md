@@ -1,39 +1,36 @@
 # 03 — Describe Image
 
-[Chỉ mục](../README.md) · [Ưu tiên và lộ trình học](../STUDY_PLAN.md) · [Vocabulary & phrase bank](./VOCABULARY.md)
+[Chỉ mục](../README.md) · [Ưu tiên và lịch học](../STUDY_PLAN.md) · [89 chủ đề và từ vựng](./VOCABULARY.md)
 
-Đối chiếu Pearson: **2026-10-06**. Các dòng **[S]/[F]** là thông tin chính thức từ nguồn cuối file. Dữ liệu **[A]** là tham chiếu bên thứ ba từ APEUni Score Breakdown V5 ngày 2026-02-24, không phải scoring authority của Pearson. Chiến thuật, khối lượng luyện và ví dụ là hướng dẫn tự biên soạn cho mục tiêu 40+. Ví dụ minh hoạ không phải đề Pearson hay dự đoán đề thi.
+## Làm bài trong 65 giây
 
-## 1. Làm bài nhanh
+- **25 giây chuẩn bị:** nhìn tiêu đề/chủ đề, chọn ý chính và hai chi tiết có liên hệ.
+- **40 giây nói:** mô tả hình bằng tiếng Anh. Bắt đầu ngay sau tiếng báo; chỉ được thu một lần.
+- Có **5–6 câu Describe Image** trong một bài PTE Academic. Dạng này chỉ chấm **Speaking**.
 
-1. Xác định hình là biểu đồ, bản đồ, quy trình hay ảnh.
-2. Chọn chủ đề và 2–3 chi tiết có quan hệ.
-3. Nói thành các câu liên quan; dùng dữ kiện nhìn thấy.
-
-**Format:** Chuẩn bị 25 giây; trả lời 40 giây [F].
-
-**Số câu tham chiếu:** **5–6 câu** [A]. Đây là khoảng APEUni ghi trong Score Breakdown V5, không phải cam kết rằng mọi bài thi Pearson đều có đúng 5 hoặc 6 câu.
+Đừng cố nói hết mọi chữ hoặc mọi con số. Mục tiêu là làm người nghe hình dung được bức ảnh qua thông tin chính xác, có tổ chức và có liên hệ.
 
 ## 2. Quy tắc và cách chấm
 
-**Kỹ năng được chấm:** Speaking [S].
+Describe Image dùng partial credit với ba trait:
 
-**Rubric / điểm raw:** Content 0–6; Pronunciation 0–5; Oral Fluency 0–5 [S].
+| Trait | Raw score | Cần làm |
+| --- | ---: | --- |
+| Content | 0–6 | Nêu đúng ý chính, chi tiết và quan hệ giữa các chi tiết trong hình. |
+| Pronunciation | 0–5 | Phát âm đủ rõ để người nói tiếng Anh thông thường hiểu ngay. |
+| Oral Fluency | 0–5 | Nói với nhịp tự nhiên; tránh ngập ngừng, lặp, hoặc sửa câu liên tục. |
 
-Câu trả lời phải có nội dung liên quan; Content 0 chặn các trait còn lại [S]. Nội dung DI có human review [S]. Không gán một số câu cố định thành điểm bảo đảm.
+Content được xem xét bởi AI và chuyên gia Pearson. Nếu Content bằng 0, Pronunciation và Oral Fluency không được chấm. Trả lời lạc đề, không trả lời, hoặc chủ yếu dùng nội dung học thuộc sẵn có thể không nhận điểm.
 
-Điểm raw/trait trong câu này không quy đổi trực tiếp sang thang 90. Mức 40+ cần xem toàn bài; checklist hoặc nhận xét ChatGPT chỉ hỗ trợ luyện. Cách đọc tên trait được giải thích ở [README gốc](../README.md#cách-đọc-rubric).
+`15% Overall → 13.5/90` trong [STUDY_PLAN.md](../STUDY_PLAN.md#3-ưu-tiên-đủ-22-dạng) chỉ là quy đổi để xếp ưu tiên học. Nó **không** phải 13.5 điểm Overall được bảo đảm, và không thể dùng để đoán điểm thật của một câu DI.
 
-### Tham chiếu trọng số APEUni V5
+## Quy trình 25 giây chuẩn bị
 
-APEUni Score Breakdown V5 (2026-02-24) ước tính Describe Image đóng góp khoảng **15% Overall** và **31% Speaking**; bảng không ghi đóng góp sang Writing, Reading hoặc Listening [A]. Đây là **ước tính của APEUni**, không phải trọng số chính thức Pearson và không được hiểu thành “DI bảo đảm 13.5/90”. Tỷ lệ thực tế có thể thay đổi theo số lượng item và cơ chế scaled scoring.
+1. **0–5 giây — nhận diện:** đây là data chart, diagram/map/process hay picture?
+2. **5–15 giây — lấy ý lớn:** chủ đề, xu hướng/cấu trúc/cảnh chính.
+3. **15–25 giây — chọn hai bằng chứng:** số và đơn vị, vị trí, bước theo mũi tên, hoặc hành động nhìn thấy được.
 
-## 3. Kiến thức cần có
-
-- So sánh: higher/lower than, the highest, roughly twice as much.
-- Xu hướng: rose, fell, remained stable; số và đơn vị.
-- Quy trình: first, then, finally; phân biệt mô tả thứ tự với nguyên nhân.
-- Ảnh/bản đồ: on the left, in the north, next to; mô tả cái thấy được.
+Chỉ ghi từ khóa nếu cần. Không ghi cả câu rồi đọc lại.
 
 ### Taxonomy thực chiến: 3 groups / 7 types
 
@@ -100,60 +97,118 @@ Quy tắc chọn group:
 - Trọng tâm là cảnh vật, người, đồ vật hoặc hình minh hoạ không thiên về dữ liệu → **Group 3 — Picture / Visual**.
 - `7.x` không phải loại thứ tám: đây là các subtype của loại 7 được ánh xạ sang family chiến thuật phù hợp.
 
-## 4. Chiến thuật luyện 40+
 
-1. Biểu đồ: chủ đề/đơn vị → cực trị hoặc thay đổi chính → một so sánh.
-2. Quy trình: đầu vào → vài bước theo mũi tên → đầu ra.
-3. Ảnh: cảnh chính → vị trí/hoạt động của hai chi tiết. Không ép ảnh vào khung tăng/giảm.
-4. Nếu không đọc được số nhỏ, dùng so sánh định tính có căn cứ; đừng bịa số.
-5. Luyện câu rõ và đủ ý trước, sau đó mở rộng khi còn thời gian.
+## Ba template để học cho 89 chủ đề
 
-### Một khung ý chung cho cả 89 chủ đề
+**Chốt đúng 3 khung:** DATA, DIAGRAM và PICTURE. Học những câu nối ý dưới đây, thay các phần **[ ]** bằng chi tiết thật trong hình. Các dòng có thể bỏ hoặc đổi khi không phù hợp; Pearson không bảo đảm điểm cho bất cứ template học thuộc nào. Câu thiếu nội dung hay chỉ thay vài danh từ không thể thay thế mô tả hình thực tế.
 
-**Nhớ thứ tự 5 ý, không đọc nguyên một đoạn học thuộc:**
+### 1. DATA / CHARTS — bar, line, pie, table, mixed
 
-**[Topic] → [Main fact] → [Detail A] → [Detail B] → [Real relationship].**
+> The **[chart type]** shows **[topic]**.
+>
+> Overall, **[main trend or main feature]**.
+>
+> Looking at the details, **[detail 1 with value]**.
+>
+> In comparison, **[detail 2 with value]**.
+>
+> Another important point is **[detail 3]**.
+>
+> Overall, the data shows **[main conclusion]**.
 
-Đây là **dàn ý 25 giây**, không phải một đáp án có thể đọc nguyên xi. Dành phần lớn thời gian nói dữ kiện cụ thể; bỏ ý không quan sát chắc. Dùng khoảng 4–5 mẩu thông tin rõ và liên kết chúng bằng câu đơn. Không bắt buộc nói 5 câu hoặc câu kết nếu ý đã đủ.
+- Đọc chart, graph hoặc table theo hình. Ở các câu [detail], nói thành **mệnh đề đầy đủ** (ví dụ: “the figure was 120 in 2022”).
+- Chỉ nói tăng/giảm khi có trục thời gian; highest/lowest khi có cực trị rõ; không bịa giá trị hay đơn vị.
+- Hai câu Overall phải truyền đạt **hai ý khác nhau** (ví dụ: xu hướng và mức thay đổi); nếu chỉ có một kết luận đáng tin, bỏ câu cuối.
 
-### Ba template nói — chọn theo ảnh
+### 2. DIAGRAM / PROCESS / MAP — cycle, anatomy, structure, layout
 
-**Cách dùng:** Phần **[in đậm]** là chỗ thay bằng thông tin thật từ ảnh; khi nói không đọc dấu ngoặc. Học cấu trúc để nối ý, **không** lặp nguyên một đoạn bất kể nội dung ảnh. Nếu một slot không có bằng chứng, bỏ câu đó hoặc thay bằng một chi tiết nhìn thấy khác. Đây là khung luyện tập, không phải đáp án Pearson hay mẹo bảo đảm điểm.
+> The **[diagram type]** illustrates **[topic]**.
+>
+> The main parts include **[main components]**.
+>
+> One important feature is **[detail 1]**.
+>
+> Another important feature is **[detail 2]**.
+>
+> These parts are connected through **[relationship]**.
+>
+> Overall, the diagram shows **[main structure or result]**.
 
-#### DATA — bar / line / pie / table / mixed
+- Với **process/life cycle**: chọn bước và mối quan hệ theo mũi tên; không tự áp đặt một điểm kết thúc cho vòng lặp.
+- Với **anatomy/map/floor plan**: ưu tiên inside, outside, above, next to, to the right of. Nếu không có sự kết nối thật, thay câu “These parts are connected through...” bằng “Their positions show [actual spatial relationship]”.
+- [diagram type] có thể là diagram, map, floor plan, flowchart hoặc cycle; không gọi bản đồ là quy trình.
 
-> The **[chart or table type]** shows **[topic]** across **[years or categories]**. The main pattern is **[visible trend or largest group]**. **[A]** is **[value + unit]**, while **[B]** is **[value + unit]**. Another detail is **[one verified figure or comparison]**. Overall, **[short summary supported by the data]**.
+### 3. PICTURE / SCENE — photo, people, objects, scenery
 
-Thay tên loại hình cho đúng (chart, graph, table). Nếu ảnh không có thời gian, dùng categories; không nói increased/decreased nếu thiếu chiều thời gian; không tự bịa số hoặc đơn vị.
+> The picture shows **[main scene]**.
+>
+> The main focus is **[main subject]**.
+>
+> Looking at the details, **[detail 1]**.
+>
+> In addition, **[detail 2]**.
+>
+> Another important feature is **[detail 3]**.
+>
+> Overall, the picture shows **[main activity or relationship]**.
 
-#### DIAGRAM — process / cycle / map / anatomy / structure
+- Thay [detail] bằng mệnh đề có chủ ngữ và động từ: “two people are standing near a table”.
+- Dùng từ chỉ vị trí khi quan sát được (on the left, in the centre, behind). Không đoán nghề nghiệp, cảm xúc, nguyên nhân hay vật không có trong ảnh.
+- Câu cuối phải là hoạt động hoặc quan hệ có thể thấy, không phải “the picture is clear/informative”.
 
-> The diagram shows **[topic]**. It includes **[part or stage A]** and **[part or stage B]**. **[A]** is **[visible location or action]**, while **[B]** is **[visible location or action]**. Another detail is **[real relationship or next stage]**. These details show **[supported structure, sequence or outcome]**.
+**Cách ghép trong 25 giây:** nhận diện nhóm → lấy chủ đề → 2–3 chi tiết đúng → ít nhất một so sánh, bước hoặc quan hệ. Tập nói khoảng 30–40 giây; không kéo dài bằng lời sáo rỗng.
 
-Với process/cycle, dùng bước và động từ theo mũi tên (starts, moves, returns). Với map/anatomy, dùng bộ phận và vị trí (above, below, next to, inside). Không dùng «first/then/finally» cho hình tĩnh; cycle không bắt buộc có điểm kết thúc.
+## Ví dụ minh hoạ — áp dụng đúng 3 template
 
-#### PICTURE — real photo / scene / non-data illustration
+Các prompt sau **tự biên soạn để luyện cấu trúc**, không phải đề chính thức của Pearson hoặc bản chép nguyên ảnh trong kho. Các chi tiết chỉ đúng với prompt mô phỏng, không tự động đúng với ảnh khác cùng tên.
 
-> The picture shows **[main scene]**. In the centre, **[subject and visible activity]**. On the left, **[detail 1 and action or position]**. On the right, **[detail 2 and action or position]**. In the background, **[detail 3]**. **[One factual relationship or contrast, if clear]**.
+### DATA — lượng người dùng thư viện
 
-Mỗi slot sau cụm chỉ vị trí nên là một mệnh đề đầy đủ, ví dụ «two students are reading». Chỉ nói left/right/background khi đúng ảnh; không đoán nghề nghiệp, cảm xúc, nguyên nhân hoặc vật không xuất hiện. Nếu thiếu dữ kiện, bỏ câu, không thêm lời khen ảnh.
+**Prompt mô phỏng:** 2022 = 120 người; 2023 = 180 người; 2024 = 240 người.
 
-**Độ dài luyện:** bắt đầu với khoảng 4–5 câu đầy đủ có quan hệ, rồi tự thu âm theo timer 40 giây. Không kéo dài bằng câu rỗng chỉ để dùng hết giờ. Giữ ưu tiên Content trước; luyện thêm Pronunciation và Oral Fluency qua nghe lại bản thu.
+> The chart shows **the number of library users from 2022 to 2024**.
+>
+> Overall, **the number increased steadily**.
+>
+> Looking at the details, **there were 120 users in 2022**.
+>
+> In comparison, **there were 240 users in 2024**.
+>
+> Another important point is **that the figure reached 180 in 2023**.
+>
+> Overall, the data shows **that the number doubled over the period**.
 
-| Ảnh | Cách lấy 5 ý | Mẫu câu ngắn để ghép **theo dữ kiện thực tế**, không học nguyên đoạn |
-| --- | --- | --- |
-| **DATA** — bar, line, pie, table, mixed | topic → nhóm lớn → nhóm nhỏ → một số/đơn vị → so sánh hoặc thay đổi | “The chart shows **[topic]**.” · “**[A]** is **[value + unit]**, while **[B]** is **[value + unit]**.” · “**[A]** is higher than **[B]**.” · “**[X]** increased from **[first value]** to **[last value]**.” |
-| **DIAGRAM** — process, map, anatomy, cross-section | topic → 2 bộ phận/giai đoạn → vị trí/bước → liên hệ → kết quả/đặc điểm | “The diagram shows **[topic]**.” · “**[A]** is inside/above/next to **[B]**.” · “**[A]** leads to **[B]**.” · “Then **[next step]**.” |
-| **PICTURE** — ảnh thật hoặc đối chiếu trước/sau | cảnh → chủ thể → hoạt động → vị trí → đối chiếu | “The picture shows **[scene]**.” · “**[subject]** is **[action-ing]**.” · “On the left, **[detail A]**.” · “On the right, **[detail B]**.” |
+### DIAGRAM — các lớp của Trái Đất
 
-**Luật ghép:**
-- **DATA:** Chỉ dùng `highest/lowest` nếu có thứ hạng rõ; biểu đồ tròn không số có thể nói “a larger section”; `increased/decreased` chỉ khi có trục thời gian. Với bảng nhiều biến, ưu tiên *một* so sánh đúng.
-- **PROCESS:** Dùng `first → then → finally` nếu mũi tên/chuỗi bước cho thấy trình tự. **CYCLE** không cần “final result” vì có thể quay lại điểm đầu.
-- **MAP / ANATOMY / STATIC DIAGRAM:** Dùng `inside, outside, above, below, next to, between`; **không** ép `first/next/finally`.
-- **PICTURE:** Dùng động từ thật (`are studying, are talking, is standing`) và vị trí thật. Ảnh “then vs now” là **so sánh**, không phải sơ đồ quy trình.
-- **Mọi ảnh:** Không dùng các câu “there are many different numbers”, “they are closely connected”, “the picture is informative”, “the diagram is clear” khi câu đó không truyền đạt bằng chứng từ ảnh. Không đoán số hoặc nguyên nhân. Thay `[ ]` bằng *một mệnh đề có nghĩa*, không chỉ rải vài từ khóa.
+**Prompt mô phỏng:** Crust ngoài cùng, mantle bên dưới, core ở trung tâm.
 
-**25 giây chuẩn bị:** 5 giây nhận diện ảnh/tiêu đề; 10 giây chọn hai chi tiết lớn; 10 giây xác định quan hệ và số/đơn vị hoặc hành động. **40 giây nói tối đa**, ưu tiên một bài rõ nội dung, trôi chảy hơn là kéo dài cho đủ giờ. Pearson gợi ý khoảng 30–40 giây. Hãy luyện nhiều cách diễn đạt để tránh trả lời chủ yếu bằng câu đã ghi nhớ.
+> The diagram illustrates **the structure of the Earth**.
+>
+> The main parts include **the crust, the mantle, and the core**.
+>
+> One important feature is **that the crust is the outermost layer**.
+>
+> Another important feature is **that the mantle lies below the crust**.
+>
+> Their positions show **that the core is at the centre**.
+>
+> Overall, the diagram shows **layers arranged from the surface towards the centre**.
+
+### PICTURE — lớp học
+
+**Prompt mô phỏng:** Học sinh đọc tại bàn, giáo viên cạnh bảng, sách trên kệ.
+
+> The picture shows **a classroom with students**.
+>
+> The main focus is **a group of students studying together**.
+>
+> Looking at the details, **several students are reading at their desks**.
+>
+> In addition, **a teacher is standing near a whiteboard**.
+>
+> Another important feature is **a bookshelf at the side of the room**.
+>
+> Overall, the picture shows **students learning in a classroom**.
 
 ### Stress test — những ảnh làm lộ lỗi khung cứng
 
@@ -175,65 +230,43 @@ Mỗi slot sau cụm chỉ vị trí nên là một mệnh đề đầy đủ, v
 
 **Cụm từ tối giản theo đúng 89 tiêu đề trong `media/sources.json`:** [VOCABULARY.md — 89 chủ đề](./VOCABULARY.md#8-bộ-89-chủ-đề--cụm-từ-dễ-nói). Đây là **89 ảnh từ nguồn bên thứ ba**, không phải 89 dạng đề Pearson hay chứng nhận trúng đề. Đây là stress test **cấu trúc và nội dung tham khảo**, không phải chấm âm thanh hoặc dự báo điểm số.
 
-## 5. Ba bài mẫu hoàn chỉnh — 3 nhóm
 
-Ví dụ **tự biên soạn ở dạng văn bản**, không phải hình/đề Pearson hay dự báo câu thi thật. Trong câu trả lời, chữ **[in đậm]** minh họa giá trị thay slot; **không đọc dấu ngoặc khi thi**. Chỉ dùng các chi tiết được mô tả trong prompt mẫu; khi luyện ảnh thật phải đối chiếu lại.
+**Kho tham chiếu 89 chủ đề:** [VOCABULARY.md — bộ 89 chủ đề và cụm từ dễ nói](./VOCABULARY.md#8-bộ-89-chủ-đề--cụm-từ-dễ-nói). Đây là bộ ảnh luyện cá nhân từ nguồn bên thứ ba, **không phải 89 dạng bài chính thức hay 89 đề được Pearson xác nhận**. Các ảnh trong media chưa có quyền phân phối được chứng minh không được push lên GitHub theo [SOURCES.md](../SOURCES.md).
 
-### DATA — bảng người dùng thư viện
+## Lỗi thường gặp
 
-**Prompt mô phỏng:** Bảng số người dùng thư viện: 2022 = 120; 2023 = 180; 2024 = 240.
+- **Chỉ liệt kê từ khóa:** biến hai chi tiết thành câu có quan hệ (`while`, `higher than`, `next to`, `then`).
+- **Bịa số hoặc kết luận:** chỉ nói điều hình hỗ trợ.
+- **Dùng một template cho mọi hình:** chọn chart/process/picture trước khi nói.
+- **Nói quá nhanh hoặc tự sửa liên tục:** ưu tiên câu ngắn, rõ và liền mạch.
+- **Đọc nội dung đã học thuộc:** dùng cấu trúc linh hoạt, còn nội dung phải đến từ hình trước mặt.
 
-> The table shows **[library users]** across **[three years, from 2022 to 2024]**. The main pattern is **[a steady increase]**. **[The figure for 2022]** is **[120 users]**, while **[the figure for 2024]** is **[240 users]**. Another detail is **[180 users in 2023]**. Overall, **[the number doubled over the period]**.
+## Luyện và tự chữa
 
-**Vì sao dùng được:** Nêu chủ đề, xu hướng, số đầu/cuối, một số giữa và quan hệ gấp đôi. Không suy đoán nguyên nhân tăng.
+Mỗi lượt làm 3–4 hình khác loại, thu âm đúng 40 giây.
 
-### DIAGRAM — cấu trúc Trái Đất
+1. Làm lần đầu không dừng và không tra cứu.
+2. Nghe lại, kiểm tra từng chi tiết có đúng hình không.
+3. Chọn **một** lỗi Content và **một** lỗi nói (phát âm hoặc độ trôi chảy) để sửa.
+4. Làm lại sau một khoảng nghỉ, rồi kiểm tra bằng hình chưa thấy.
 
-**Prompt mô phỏng:** Sơ đồ cắt lớp gồm crust ở ngoài cùng, mantle ở dưới crust và core ở trung tâm.
+### Checklist trước khi chuyển câu
 
-> The diagram shows **[the structure of the Earth]**. It includes **[the crust]** and **[the mantle]**. **[The crust]** is **[on the outside]**, while **[the mantle]** is **[below the crust]**. Another detail is **[the core in the centre]**. These details show **[layers arranged from the surface towards the centre]**.
+- [ ] Tôi đã nêu đúng loại hình và chủ đề.
+- [ ] Tôi có ít nhất hai chi tiết thật từ hình.
+- [ ] Tôi có một quan hệ, so sánh, vị trí hoặc trình tự đúng.
+- [ ] Tôi không bịa số, nguyên nhân hoặc kết luận.
+- [ ] Tôi nói rõ, liên tục và không đọc một đoạn học thuộc.
 
-**Vì sao dùng được:** Nói đúng cấu tạo và vị trí tương đối; không bịa quy trình «first/then/finally» cho sơ đồ tĩnh. Nếu là quy trình thật, thay vị trí bằng các bước và quan hệ theo mũi tên.
+## Media local
 
-### PICTURE — lớp học
+Một item local chỉ hợp lệ khi có `media/<item-id>/metadata.json`, asset cần thiết, nguồn có quyền tái sử dụng và human review theo [AGENTS.md](../AGENTS.md#media-item-contract). Nếu chưa có item đạt các điều kiện đó, hãy luyện qua [Pearson Smart Prep](https://www.pearsonpte.com/pte-academic/preparation/).
 
-**Prompt mô phỏng:** Ảnh lớp học: học sinh ngồi đọc ở giữa, giáo viên cạnh bảng bên trái, kệ sách bên phải và cửa sổ lớn phía sau.
+## Nguồn
 
-> The picture shows **[a classroom]**. In the centre, **[students are reading at their desks]**. On the left, **[a teacher is standing beside a whiteboard]**. On the right, **[books are arranged on shelves]**. In the background, **[there are large windows]**. **[The teacher is to the left of the students]**.
+- [Pearson Score Guide](https://www.pearsonpte.com/content/dam/ELL/pte/pearsonpte/pdfs/pte-academic-pdfs/PTE-Academic-Test-Taker-Score-Guide.pdf), trang 7–8 và 17–19: số câu, trait, raw score và quy tắc Content.
+- [Pearson Speaking & Writing format](https://www.pearsonpte.com/pte-academic/test-format/speaking-writing/): thao tác, 25 giây chuẩn bị và 40 giây trả lời.
+- [Pearson Describe Image Test Tips](https://www.pearsonpte.com/ctf-assets/yqwtwibiobs4/3TKCCzzrsBRbP6KGssqsy3/632080ea38ff3e41d759c15883b09113/Describe_Image_Test_Tips.pdf): cách chọn ý chính, chi tiết và tổ chức mô tả.
+- [Pearson question weighting](https://www.pearsonpte.com/ctf-assets/yqwtwibiobs4/UK8K7chHjNJhW9paYHxBd/8e89376c8a2a1d2efee4e3c0ec8200ee/pte-scoring-info-for-partners-report.pdf): trọng số trung bình theo dạng.
 
-**Vì sao dùng được:** Mô tả cảnh, hoạt động và các vị trí cụ thể bằng từ đơn giản; không kết luận học sinh «happy» hoặc «successful» nếu ảnh không chứng minh.
-
-**Tự kiểm:** Mỗi câu có đúng thông tin từ prompt/hình không? Slot có thành câu đúng ngữ pháp không? Có ít nhất một so sánh, trình tự hoặc quan hệ vị trí thật không? Thu âm một lần theo 40 giây và nghe lại cả nội dung, phát âm, tốc độ; không tự quy ra điểm Pearson.
-
-## 6. Lỗi, vòng luyện và checklist
-
-### Lỗi thường gặp
-
-- Liệt kê số mà không nêu quan hệ → thêm một so sánh.
-- Đọc tiêu đề quá dài → diễn đạt chủ đề ngắn.
-- Kết luận bịa nguyên nhân → chỉ kết luận điều hình hỗ trợ.
-
-### Luyện và chữa
-
-Một buổi 3–4 hình, ít nhất hai loại hình khác nhau. Thu âm đúng timer; chữa thông tin sai trước lỗi từ vựng nhỏ.
-
-Lượt mới dùng đúng timer và điều kiện format; lượt chữa được dừng/tra/nghe lại. Ghi nguyên nhân, làm lại sau nghỉ hoặc hôm sau, rồi kiểm tra bằng câu chưa thấy. Khối lượng cụ thể tùy bài đầu vào; xem STUDY_PLAN.md.
-
-### Tự kiểm tra
-
-- [ ] Có nói đúng loại hình và chủ đề?
-- [ ] Số/đơn vị đúng?
-- [ ] Có quan hệ giữa các chi tiết?
-
-## 7. Media local
-
-Item cần image rõ chữ và mô tả dữ kiện chuẩn trong metadata. Biểu đồ tự tạo phải giữ dữ liệu gốc; đáp án là minh hoạ mở.
-
-Khi thêm item, dùng `media/<item-id>/metadata.json` và asset cần thiết theo [AGENTS.md](../AGENTS.md#media-item-contract). Chỉ có README không đồng nghĩa đã có media. Luyện qua [Pearson Smart Prep](https://www.pearsonpte.com/pte-academic/preparation/) khi local chưa có item phù hợp. Giữ prompt/đáp án chuẩn trong metadata; chỉ nhập asset có quyền tái sử dụng rõ ràng.
-
-## 8. Nguồn
-
-- **[S]** [Pearson Score Guide](https://www.pearsonpte.com/content/dam/ELL/pte/pearsonpte/pdfs/pte-academic-pdfs/PTE-Academic-Test-Taker-Score-Guide.pdf), trang in 17–19: kỹ năng, trait và điểm raw. Ưu tiên nguồn này khi website còn ghi chú scoring mâu thuẫn.
-- **[F]** [Pearson Speaking & Writing format](https://www.pearsonpte.com/pte-academic/test-format/speaking-writing/): thao tác/timing.
-- **[A]** [APEUni Score Breakdown V5 — 2026-02-24](https://dl26yht2ovo33.cloudfront.net/public/images/APEUni_Score_Breakdown_en_20260224.jpg): tham chiếu bên thứ ba cho khoảng số câu và contribution estimate; không phải scoring authority của Pearson.
-- Kiểm chứng lần cuối: **2026-10-06**. Các lời giải/ví dụ trong file là nội dung tự biên soạn; không gán điểm chính thức cho response mẫu.
+Đối chiếu lần cuối: **2026-10-08**.
